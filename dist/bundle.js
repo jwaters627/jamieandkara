@@ -12230,7 +12230,17 @@ var WeekendEvents = function (_React$Component) {
         _react2.default.createElement(
           'h1',
           { className: 'names' },
-          'Jamie and Kara!'
+          'Kara and Jamie!'
+        ),
+        _react2.default.createElement(
+          'p',
+          { className: 'descriptionText top' },
+          'The wedding of Kara Anne Dalton and James Stryker Waters'
+        ),
+        _react2.default.createElement(
+          'p',
+          { className: 'descriptionText' },
+          'May 19, 2018'
         )
       );
     }
@@ -29081,7 +29091,7 @@ exports = module.exports = __webpack_require__(70)(undefined);
 
 
 // module
-exports.push([module.i, ".eventsContainer {\n  width: 100; }\n  .eventsContainer .names {\n    text-align: center; }\n", ""]);
+exports.push([module.i, ".eventsContainer {\n  width: 100; }\n  .eventsContainer .names {\n    text-align: center;\n    margin-top: 100px;\n    font-size: 64px; }\n  .eventsContainer .descriptionText {\n    text-align: center;\n    font-size: 24px;\n    color: #fff; }\n    .eventsContainer .descriptionText.top {\n      margin-top: 360px; }\n", ""]);
 
 // exports
 
