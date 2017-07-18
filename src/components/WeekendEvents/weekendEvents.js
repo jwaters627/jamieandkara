@@ -12,8 +12,9 @@ class WeekendEvents extends React.Component {
   render() {
     return(
       <div className="eventsContainer">
-        <h1 className='names'>Jamie and Kara!</h1>
-      
+        <h1 className='names'>Kara and Jamie!</h1>
+        <p className='descriptionText top'>The wedding of Kara Anne Dalton and James Stryker Waters</p>
+        <p className='descriptionText'>May 19, 2018</p>
       </div>
 
       )
