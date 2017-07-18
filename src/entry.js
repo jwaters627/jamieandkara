@@ -5,6 +5,6 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import Routes from './routes';
 
 
-ReactDom.render(Routes, document.getElementById('main'));
+ReactDom.render(<Routes />, document.getElementById('main'));
 
 

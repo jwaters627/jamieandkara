@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from './weekendEvents.scss'
+import styles from './weekendEvents.scss'
 
 class WeekendEvents extends React.Component {
 

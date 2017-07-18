@@ -12,22 +12,11 @@ class Main extends React.Component {
 	this.state = {};    
   }
 
-  content() {
-		if(this.props.children) {
-			return (
-				this.props.children
-				)
-		} else {
-			return (
-				<WeekendEvents />
-			)
-		}
-	}
+  
 	render() {
 		return( 
-			<div style={{'width':'100%', 'height':'auto', 'minHeight':'100vh', 'backgroundImage':"url("+jacksonHole + ")", 'backgroundSize':'cover'}}>
+			<div>
 				<NavBar />
-					{this.content()}
 			</div>	
 		)
 	}
