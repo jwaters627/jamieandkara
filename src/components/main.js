@@ -16,7 +16,7 @@ class Main extends React.Component {
 	render() {
 		return( 
 			<div>
-				<NavBar />
+				<h1>Main</h1>
 			</div>	
 		)
 	}

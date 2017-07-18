@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import NavBar from './components/NavBar/navBar';
 import Main from './components/main';
 import WeekendEvents from './components/WeekendEvents/weekendEvents';
@@ -25,18 +25,18 @@ class Routes extends React.Component {
 
   render() {
     return(
-     <BrowserRouter >
-		<div style={{'width':'100%', 'height':'auto', 'minHeight':'100vh', 'backgroundImage':"url("+ this.state.backgroundImage + ")", 'backgroundSize':'cover'}}>
-			
-			<Route path="/" component={Main} />
-			<Route path="/weekend_events" component={WeekendEvents} />
-			<Route path="/where_to_stay" component={WhereToStay} />
-			<Route path="/things_to_do" component={ThingsToDo} />
-			<Route path="/registry" component={Registry} />
-			<Route path="/wedding_party" component={WeddingParty} />
-			<Route path="/about_us" component={AboutUs} />
-		</div>
-	</BrowserRouter>
+     <HashRouter history={history}>
+  		<div style={{'width':'100%', 'height':'auto', 'minHeight':'100vh', 'backgroundImage':"url("+ this.state.backgroundImage + ")", 'backgroundSize':'cover'}}>
+  			<NavBar />
+        <Route exact path="/" component={Main} />
+  			<Route exact path="/weekend_events" component={WeekendEvents} />
+  			<Route exact path="/where_to_stay" component={WhereToStay} />
+  			<Route exact path="/things_to_do" component={ThingsToDo} />
+  			<Route exact path="/registry" component={Registry} />
+  			<Route exact path="/wedding_party" component={WeddingParty} />
+  			<Route exact path="/about_us" component={AboutUs} />
+  		</div>
+	   </HashRouter>
 
       )
 
