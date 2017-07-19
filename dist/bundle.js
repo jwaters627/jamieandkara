@@ -25251,7 +25251,7 @@ var Routes = function (_React$Component) {
         { history: history },
         _react2.default.createElement(
           'div',
-          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'backgroundImage': "url(http://brightmindsmedia.co.uk/wp-content/uploads/2016/11/n9AQek.jpg)", 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.8)' } },
+          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'backgroundImage': "url(https://image.freepik.com/free-photo/brick-wall_1154-638.jpg)", 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.5)' } },
           _react2.default.createElement(_navBar2.default, null),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/weekend_events', component: _weekendEvents2.default }),
@@ -29406,7 +29406,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica);", ""]);
 
 // module
-exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(98) + ");\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 500;\n  font-family: open-sans, sans-serif; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(99) + ");\n    width: 90%;\n    margin-left: 5%;\n    background-position: 0 0; } }\n", ""]);
+exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(98) + ");\n  opacity: 0.9;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 500;\n  font-family: open-sans, sans-serif; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(99) + ");\n    width: 90%;\n    margin-left: 5%;\n    background-position: 0 0; } }\n", ""]);
 
 // exports
 

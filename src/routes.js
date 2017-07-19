@@ -26,7 +26,7 @@ class Routes extends React.Component {
   render() {
     return(
      <HashRouter history={history}>
-		  <div style={{'width':'100%', 'height':'auto', 'minHeight':'100vh', 'backgroundImage':"url(http://brightmindsmedia.co.uk/wp-content/uploads/2016/11/n9AQek.jpg)", 'backgroundSize':'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.8)'}}>
+		  <div style={{'width':'100%', 'height':'auto', 'minHeight':'100vh', 'backgroundImage':"url(https://image.freepik.com/free-photo/brick-wall_1154-638.jpg)", 'backgroundSize':'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.5)'}}>
   			
         <NavBar />
         <Route exact path="/" component={Main} />
