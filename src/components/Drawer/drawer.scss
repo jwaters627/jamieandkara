@@ -38,68 +38,68 @@
 	.linkTwo{
 		position: relative;
 		margin-left: -120%;
-		transition: all 0.3s;
+		transition: all 0.4s;
 		background-color: #a2daf0;
 
 		&.open{
 			margin-left: 0;
-			transition: all 0.3s;
+			transition: all 0.4s;
 		}
 
 	}
 	.linkThree{
 		position: relative;
 		margin-left: -130%;
-		transition: all 0.4s;
-		background-color: #88d1ef;
-
-		&.open{
-			margin-left: 0;
-			transition: all 0.4s;
-		}
-	}
-	.linkFour{
-		position: relative;
-		margin-left: -140%;
 		transition: all 0.5s;
-		background-color: #6ec9ed;
+		background-color: #88d1ef;
 
 		&.open{
 			margin-left: 0;
 			transition: all 0.5s;
 		}
 	}
-	.linkFive{
+	.linkFour{
 		position: relative;
-		margin-left: -150%;
+		margin-left: -140%;
 		transition: all 0.6s;
-		background-color: #54c0ec;
+		background-color: #6ec9ed;
 
 		&.open{
 			margin-left: 0;
 			transition: all 0.6s;
 		}
 	}
+	.linkFive{
+		position: relative;
+		margin-left: -150%;
+		transition: all 0.8s;
+		background-color: #54c0ec;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.8s;
+		}
+	}
 	.linkSix{
 		position: relative;
 		margin-left: -150%;
-		transition: all 0.7s;
+		transition: all 0.9s;
 		background-color: #3ab8ea;
 
 		&.open{
 			margin-left: 0;
-			transition: all 0.7s;
+			transition: all 0.9s;
 		}
 	}
 	.linkSeven{
 		position: relative;
 		margin-left: -160%;
-		transition: all 0.8s;
+		transition: all 1s;
 		background-color: #20b0e9;
 
 		&.open{
 			margin-left: 0;
-			transition: all 0.8s;
+			transition: all 1s;
 		}
 	}
 
