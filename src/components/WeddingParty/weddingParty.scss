@@ -1,38 +1,49 @@
-.personContainer{
-	width: 95%;
-	margin-left: 2.5%;
-	border: 1px solid #000;
-	height: 140px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.partyContainer{
+	margin-top: 16px;
 
-	.personImage{
-		height: 130px;
-		width: 130px;
-		margin-top: 5px;
-		margin-left: 5px;
+	.personContainer{
+		width: 45.5%;
+		margin-left: 3%;
+		border: 1px solid #000;
+		height: 210px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		display: inline-block;
-		float: left;
-	}
 
-	.nameAndTitleContainer{
-		display: inline-block;
-		margin-left: 12px;
-		height: 130px;
-
-		.personName{
-			font-size: 30px;
+		.personImage{
+			width: 40%;
+			margin-top: 5px;
+			margin-left: 5px;
+			display: inline-block;
+			float: left;
 		}
 
-		.personTitle{
-			font-size: 30px;
-		}
-	}
+		.rightContainer{
+			width: 58%;
+			display: inline-block;
+			float: right;
 
-	.personDescriptionContainer{
-		display: inline-block;
-		overflow: hidden;
-		float: right;
-		width: 70%;
+			.nameAndTitleContainer{
+				display: inline-block;
+				margin-left: 12px;
+				
+				.personName{
+					font-size: 30px;
+					margin-bottom: 0px;
+				}
+
+				.personTitle{
+					font-size: 24px;
+				}
+			}
+
+			.personDescriptionContainer{
+				display: inline-block;
+				overflow: hidden;
+				position: relative;
+				float: right;
+				width: 100%;
+			}
+		}
 	}
 }

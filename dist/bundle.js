@@ -28877,25 +28877,29 @@ var WeddingParty = function (_React$Component) {
         _react2.default.createElement('img', { className: 'personImage', src: person.picture }),
         _react2.default.createElement(
           'div',
-          { className: 'nameAndTitleContainer' },
+          { className: 'rightContainer' },
           _react2.default.createElement(
-            'p',
-            { className: 'personName' },
-            person.name
+            'div',
+            { className: 'nameAndTitleContainer' },
+            _react2.default.createElement(
+              'p',
+              { className: 'personName' },
+              person.name
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'personTitle' },
+              person.title
+            )
           ),
           _react2.default.createElement(
-            'p',
-            { className: 'personTitle' },
-            person.title
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'personDescriptionContainer' },
-          _react2.default.createElement(
-            'p',
-            { className: 'personDescription' },
-            person.description
+            'div',
+            { className: 'personDescriptionContainer' },
+            _react2.default.createElement(
+              'p',
+              { className: 'personDescription' },
+              person.description
+            )
           )
         )
       );
@@ -28907,19 +28911,19 @@ var WeddingParty = function (_React$Component) {
         name: 'Willie Waters',
         title: 'Best Man',
         picture: _willie2.default,
-        description: "Ex duis aliqua cupidatat ut in nostrud mollitiam deserunt aliqua consectetur id elit veniam consequat ut. Veniam aliqua mollit tempor dolor aliquip et ad sint. Ex cillum nisi in non sed ullamco sint ex. Dolore aliquip aliquip commodo non veniam occaecat veniam exercitation duis nisi esse ex sit in minim incididunt cillum tempor. Dolore pariatur sint ad fugiat anim eu cupidatat veniam mollit non culpa commodo nulla anim. Sint dolor eiusmod dolor dolore magna officia cillum fugiat id in ut tempor eiusmod tempor dolor ut excepteur nisi. Lorem ipsum id pariatur nostrud sint ut laboris non consectetur voluptate dolor mollit aliqua qui elit. Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }, {
         key: 1,
         name: 'Will Duryea',
         title: 'Groomsmen',
         picture: _will2.default,
-        description: "Lorem ipsum ut ex voluptate excepteur ad tempor cillum duis aute reprehenderit d nulla eiusmod sed aliquip consequat culpa est aute ea aliqua ut pariatur mollit fugiat consectetur tempor. Nulla id tempor aliqua mollit amet nulla quis occaecat. Culpa duis nulla aliquip dolore sit aliquip nulla cillum veniam in eu cupidatat reprehenderit nulla ut et. Lorem ipsum velit ea excepteur nulla ex duis deserunt ut consequat. Lorem ipsum commodo exercitation id velit sint exercitation aliqua dolore ut quis ullamco anim qui nisi exercitation excepteur. Adipisicing pariatur dolor laboris excepteur magna ullamco sunt ad sint laborum nisi enim nostrud. Exercitation reprehenderit esse aliqua in sint officia aliqua voluptate aute id sit proident veniam sunt do deserunt. Excepteur est dolore nulla aute in pariatur dolor quis dolore exercitation minim consequat commodo in. "
+        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }, {
         key: 2,
         name: 'Ryan Armstrong',
         title: 'Groomsmen',
         picture: _ryan2.default,
-        description: "Lorem ipsum ut ex voluptate excepteur ad tempor cillum duis aute culpa aliquip enim consectetur occaecat occaeca ut pariatur mollit fugiat consectetur tempor. Nulla id tempor aliqua mollit amet nulla quis occaecat. Culpa duis nulla aliquip dolore sit aliquip nulla cillum veniam in eu cupidatat reprehenderit nulla ut et. Lorem ipsum velit ea excepteur nulla ex duis deserunt ut consequat. Lorem ipsum commodo exercitation id velit sint exercitation aliqua dolore ut quis ullamco anim qui nisi exercitation excepteur. Adipisicing pariatur dolor laboris excepteur magna ullamco sunt ad sint laborum nisi enim nostrud. Exercitation reprehenderit esse aliqua in sint officia aliqua voluptate aute id sit proident veniam sunt do deserunt. Excepteur est dolore nulla aute in pariatur dolor quis dolore exercitation minim consequat commodo in. "
+        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }]
     };
     return _this;
@@ -28930,7 +28934,7 @@ var WeddingParty = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'eventsContainer' },
+        { className: 'partyContainer' },
         this.state.party.map(this.renderParty, this)
       );
     }
@@ -28998,7 +29002,7 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, ".personContainer {\n  width: 95%;\n  margin-left: 2.5%;\n  border: 1px solid #000;\n  height: 140px;\n  margin-top: 10px;\n  margin-bottom: 10px; }\n  .personContainer .personImage {\n    height: 130px;\n    width: 130px;\n    margin-top: 5px;\n    margin-left: 5px;\n    display: inline-block;\n    float: left; }\n  .personContainer .nameAndTitleContainer {\n    display: inline-block;\n    margin-left: 12px;\n    height: 130px; }\n    .personContainer .nameAndTitleContainer .personName {\n      font-size: 30px; }\n    .personContainer .nameAndTitleContainer .personTitle {\n      font-size: 30px; }\n  .personContainer .personDescriptionContainer {\n    display: inline-block;\n    overflow: hidden;\n    float: right;\n    width: 70%; }\n", ""]);
+exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    border: 1px solid #000;\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      margin-top: 5px;\n      margin-left: 5px;\n      display: inline-block;\n      float: left; }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 30px;\n          margin-bottom: 0px; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        width: 100%; }\n", ""]);
 
 // exports
 
