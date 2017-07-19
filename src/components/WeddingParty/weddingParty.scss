@@ -47,3 +47,56 @@
 		}
 	}
 }
+
+@media (max-width: 600px) {
+  .partyContainer{
+	margin-top: 16px;
+
+	.personContainer{
+		width: 96%;
+		margin-left: 2%;
+		border: 1px solid #000;
+		height: 210px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+
+		.personImage{
+			width: 40%;
+			margin-top: 5px;
+			margin-left: 5px;
+			display: inline-block;
+			float: left;
+		}
+
+		.rightContainer{
+			width: 58%;
+			display: inline-block;
+			float: right;
+
+			.nameAndTitleContainer{
+				display: inline-block;
+				margin-left: 12px;
+				
+				.personName{
+					font-size: 30px;
+					margin-bottom: 0px;
+				}
+
+				.personTitle{
+					font-size: 24px;
+				}
+			}
+
+			.personDescriptionContainer{
+				display: inline-block;
+				overflow: hidden;
+				position: relative;
+				float: right;
+				width: 100%;
+			}
+		}
+	}
+}
+
+}
