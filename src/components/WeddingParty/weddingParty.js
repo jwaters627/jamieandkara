@@ -16,21 +16,21 @@ class WeddingParty extends React.Component {
           name: 'Willie Waters',
           title: 'Best Man',
           picture: Willie,
-          description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
         },
         {
           key: 1,
           name: 'Will Duryea',
           title: 'Groomsmen',
           picture: Will,
-          description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
         },
         {
           key: 2,
           name: 'Ryan Armstrong',
           title: 'Groomsmen',
           picture: Ryan,
-          description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
         },
 
       ]

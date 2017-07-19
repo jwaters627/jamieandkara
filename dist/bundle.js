@@ -29981,19 +29981,19 @@ var WeddingParty = function (_React$Component) {
         name: 'Willie Waters',
         title: 'Best Man',
         picture: _willie2.default,
-        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }, {
         key: 1,
         name: 'Will Duryea',
         title: 'Groomsmen',
         picture: _will2.default,
-        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }, {
         key: 2,
         name: 'Ryan Armstrong',
         title: 'Groomsmen',
         picture: _ryan2.default,
-        description: "Culpa fugiat nulla ullamco labore esse et do laborum proident enim amet est quis sint qui eiusmod ea dolor. Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }]
     };
     return _this;
