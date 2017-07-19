@@ -17,10 +17,75 @@
 		padding: 0;
 	}
 
-	.navDrawerListItem{
-		width: 100%;
-		height: 10vh;
-		background-color: #fff;	
+	.linkOne{
+		position: relative;
+		margin-left: -110%;
+		transition: all 0.2s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.2s;
+		}
+	}
+	.linkTwo{
+		position: relative;
+		margin-left: -120%;
+		transition: all 0.3s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.3s;
+		}
+	}
+	.linkThree{
+		position: relative;
+		margin-left: -130%;
+		transition: all 0.4s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.4s;
+		}
+	}
+	.linkFour{
+		position: relative;
+		margin-left: -140%;
+		transition: all 0.5s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.5s;
+		}
+	}
+	.linkFive{
+		position: relative;
+		margin-left: -150%;
+		transition: all 0.6s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.6s;
+		}
+	}
+	.linkSix{
+		position: relative;
+		margin-left: -150%;
+		transition: all 0.7s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.7s;
+		}
+	}
+	.linkSeven{
+		position: relative;
+		margin-left: -160%;
+		transition: all 0.8s;
+
+		&.open{
+			margin-left: 0;
+			transition: all 0.8s;
+		}
 	}
 
 	.navLink{
@@ -32,6 +97,7 @@
 			font-weight: 400;
 			padding: 2px;
 			margin-left: 20px;
+			line-height: 72px;
 
 			&:hover{
 				color: #082541;
