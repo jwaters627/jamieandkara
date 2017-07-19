@@ -1,0 +1,38 @@
+.personContainer{
+	width: 95%;
+	margin-left: 2.5%;
+	border: 1px solid #000;
+	height: 140px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	.personImage{
+		height: 130px;
+		width: 130px;
+		margin-top: 5px;
+		margin-left: 5px;
+		display: inline-block;
+		float: left;
+	}
+
+	.nameAndTitleContainer{
+		display: inline-block;
+		margin-left: 12px;
+		height: 130px;
+
+		.personName{
+			font-size: 30px;
+		}
+
+		.personTitle{
+			font-size: 30px;
+		}
+	}
+
+	.personDescriptionContainer{
+		display: inline-block;
+		overflow: hidden;
+		float: right;
+		width: 70%;
+	}
+}

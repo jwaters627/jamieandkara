@@ -1,0 +1,26 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Economica");
+
+.mainContainer{
+
+	.weddingTitle{
+		text-align: center;
+		font-size: 34px;
+		color: #000088;
+		font-weight: 500;
+		font-family: open-sans, sans-serif;
+	}
+
+	p{
+		text-align: center;
+		font-size: 26px;
+		color: #000088;
+		font-weight: 800;
+		font-family: 'economica', sans-serif;
+
+		&.firstLine{
+			margin-top: 20px;
+		}
+	}
+}
