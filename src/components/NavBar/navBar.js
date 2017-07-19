@@ -3,8 +3,27 @@ import React from 'react';
 import styles from './navBar.scss';
 import Drawer from '../Drawer/drawer';
 import {NavLink} from 'react-router-dom';
+import Burger from 'react-material-icons/icons/navigation/menu';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 class NavBar extends React.Component {
+
+
+    static childContextTypes =
+    {
+        muiTheme: React.PropTypes.object
+    }
+
+    getChildContext()
+    {
+        return {
+            muiTheme: getMuiTheme({
+                palette:{
+                   
+                }
+            })
+        }
+    }
 
   constructor(props) {
     super(props);
@@ -29,7 +48,9 @@ class NavBar extends React.Component {
           <li className='navListItem'><NavLink className='navLink' to="/things_to_do">THINGS TO DO</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/registry">REGISTRY</NavLink></li> 
         </ul>
-        <h4 onClick={this.showDrawer} className='menu'>MENU</h4>
+        <div className='menu'>
+          <Burger onClick={this.showDrawer} style={{'width':'40px', 'height': '40px', 'marginLeft':'12px', 'marginTop':'12px'}}/>
+        </div>
         <Drawer showDrawer={this.showDrawer} drawer={this.state.drawer}/>
       </div>
 

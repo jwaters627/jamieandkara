@@ -8,6 +8,7 @@
 	width: 98%;
 	background-color: #fff;
 	z-index: 9999;
+	top: 0;
 
 	&.open{
 		left: 0;
@@ -18,10 +19,16 @@
 		padding: 0;
 	}
 
+	.linkZero{
+		background-color: #d7ebf4;
+		height: 56px;
+	}
+
 	.linkOne{
 		position: relative;
 		margin-left: -110%;
 		transition: all 0.2s;
+		background-color: #bce2f2;
 
 		&.open{
 			margin-left: 0;
@@ -32,16 +39,19 @@
 		position: relative;
 		margin-left: -120%;
 		transition: all 0.3s;
+		background-color: #a2daf0;
 
 		&.open{
 			margin-left: 0;
 			transition: all 0.3s;
 		}
+
 	}
 	.linkThree{
 		position: relative;
 		margin-left: -130%;
 		transition: all 0.4s;
+		background-color: #88d1ef;
 
 		&.open{
 			margin-left: 0;
@@ -52,6 +62,7 @@
 		position: relative;
 		margin-left: -140%;
 		transition: all 0.5s;
+		background-color: #6ec9ed;
 
 		&.open{
 			margin-left: 0;
@@ -62,6 +73,7 @@
 		position: relative;
 		margin-left: -150%;
 		transition: all 0.6s;
+		background-color: #54c0ec;
 
 		&.open{
 			margin-left: 0;
@@ -72,6 +84,7 @@
 		position: relative;
 		margin-left: -150%;
 		transition: all 0.7s;
+		background-color: #3ab8ea;
 
 		&.open{
 			margin-left: 0;
@@ -82,6 +95,7 @@
 		position: relative;
 		margin-left: -160%;
 		transition: all 0.8s;
+		background-color: #20b0e9;
 
 		&.open{
 			margin-left: 0;
