@@ -25251,7 +25251,7 @@ var Routes = function (_React$Component) {
         { history: history },
         _react2.default.createElement(
           'div',
-          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'backgroundImage': "url(http://www.designbolts.com/wp-content/uploads/2013/02/Textured-Stripes-Grey-Seamless-Patterns-For-Website-Background.jpg)", 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.2)' } },
+          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'backgroundImage': "url(http://brightmindsmedia.co.uk/wp-content/uploads/2016/11/n9AQek.jpg)", 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(255,255,255,.8)' } },
           _react2.default.createElement(_navBar2.default, null),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/weekend_events', component: _weekendEvents2.default }),
