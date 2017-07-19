@@ -16,7 +16,7 @@ class Main extends React.Component {
 	render() {
 		return( 
 			<div className='mainContainer'>
-				<div style={{'width':'60%', 'marginLeft':'20%', 'marginTop':'20px', 'height':'auto', 'minHeight':'60vh', 'backgroundImage':"url("+ jacksonHole + ")", 'backgroundSize':'cover', 'border': '6px solid rgba(0,0,0,1)', 'backgroundPosition': '50% 0'}}>
+				<div className='imageDiv'>
 					
 				</div>
 				<h1 className='weddingTitle'>Kara Anne Dalton and James Stryker Waters</h1>

@@ -4,6 +4,17 @@
 
 .mainContainer{
 
+	.imageDiv{
+		width: 60%;
+		margin-left: 20%;
+		margin-top: 20px;
+		min-height: 60vh;
+		background-image: url('../../../img/jacksonHole.png');
+		border: 6px solid rgba(0,0,0,1);
+		background-position: 50% 0;
+		background-size: cover;
+	}
+
 	.weddingTitle{
 		text-align: center;
 		font-size: 34px;
@@ -23,4 +34,17 @@
 			margin-top: 20px;
 		}
 	}
+}
+
+
+@media (max-width: 600px) {
+  .mainContainer{
+
+	  .imageDiv{
+	  	background-image: url('../../../img/longLakeSunset.png');
+	  	width: 90%;
+	  	margin-left: 5%;
+	  	background-position: 0 0;
+	  }
+  }
 }
