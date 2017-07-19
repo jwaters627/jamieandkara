@@ -25251,7 +25251,7 @@ var Routes = function (_React$Component) {
         { history: history },
         _react2.default.createElement(
           'div',
-          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'background': 'linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%),url(https://image.freepik.com/free-photo/brick-wall_1154-638.jpg)', 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(173,216,235,.1)' } },
+          { style: { 'width': '100%', 'height': 'auto', 'minHeight': '100vh', 'background': 'linear-gradient(to top, rgba(255,255,255,0.6), rgba(255,255,255,0.6) 59%, rgba(255,255,255,0.95) 100%),url(https://image.freepik.com/free-photo/brick-wall_1154-638.jpg)', 'backgroundSize': 'cover', 'boxShadow': 'inset 0 0 0 1000px rgba(173,216,235,.1)' } },
           _react2.default.createElement(_navBar2.default, null),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/weekend_events', component: _weekendEvents2.default }),
@@ -28999,7 +28999,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica:400,700i);", ""]);
 
 // module
-exports.push([module.i, ".navContainer {\n  width: 100%;\n  height: 56px; }\n  .navContainer .menu {\n    display: none; }\n  .navContainer .navList {\n    display: flex;\n    justify-content: center; }\n    .navContainer .navList .navListItem {\n      display: block;\n      line-height: 56px;\n      padding-right: 14px;\n      padding-left: 14px;\n      padding-top: 12px; }\n    .navContainer .navList .navLink {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'economica';\n      font-size: 24px;\n      font-weight: 400;\n      padding: 2px; }\n      .navContainer .navList .navLink:hover {\n        color: #082541;\n        font-weight: 700;\n        font-style: italic; }\n\n@media (max-width: 600px) {\n  .navContainer .navList {\n    display: none; }\n  .navContainer .menu {\n    display: block; } }\n", ""]);
+exports.push([module.i, ".navContainer {\n  width: 100%;\n  height: 56px; }\n  .navContainer .menu {\n    display: none; }\n  .navContainer .navList {\n    display: flex;\n    justify-content: center; }\n    .navContainer .navList .navListItem {\n      display: block;\n      line-height: 56px;\n      padding-right: 14px;\n      padding-left: 14px;\n      padding-top: 12px; }\n    .navContainer .navList .navLink {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'economica';\n      font-size: 24px;\n      font-weight: 400;\n      padding: 2px;\n      text-shadow: 1px 1px 3px #fff; }\n      .navContainer .navList .navLink:hover {\n        color: #082541;\n        font-weight: 700;\n        font-style: italic; }\n\n@media (max-width: 600px) {\n  .navContainer .navList {\n    display: none; }\n  .navContainer .menu {\n    display: block; } }\n", ""]);
 
 // exports
 
