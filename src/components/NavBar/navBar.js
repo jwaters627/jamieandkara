@@ -43,7 +43,7 @@ class NavBar extends React.Component {
           <li className='navListItem'><NavLink className='navLink' to="/about_us">ABOUT US</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/wedding_party">WEDDING PARTY</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/weekend_events">WEEKEND EVENTS</NavLink></li>
-          <li className='navListItem'><NavLink className='navLink' to="/">J + K</NavLink></li>
+          <li className='navListItem initials'><NavLink className='initialsItem' to="/">J + K</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/where_to_stay">WHERE TO STAY</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/things_to_do">THINGS TO DO</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/registry">REGISTRY</NavLink></li> 

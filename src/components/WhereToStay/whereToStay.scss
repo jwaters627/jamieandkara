@@ -1,0 +1,27 @@
+.hotelContainer{
+	width: 60%;
+	background-color: #F5F4F0;
+	margin-left: 20%;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
+
+	.hotelInfoContainer{
+		display: inline-block;
+		margin-left: 5%;
+
+		.hotelImage{
+		display: inline-block;
+		float: right;
+		width: 200px;
+		margin-right: 10%;
+		margin-bottom: 10px;
+	}
+	}
+
+	
+
+	.otherInfo{
+		display: inline-block;
+		margin-left: 20px;
+	}
+}

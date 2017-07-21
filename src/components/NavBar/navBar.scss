@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Economica:400,700i");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
 
 .navContainer{
 	width: 100%;
-	height: 56px;
+	height: 76px;
 
 	.menu{
 		display: none;
 	}
 
 	.navList{
-		display: flex;
-		justify-content: center;
+		width: 100%;
+		padding: 0;
+		text-align: center;
 
 		.navListItem{
 			display: block;
@@ -18,6 +20,17 @@
 			padding-right: 14px;
 			padding-left: 14px;
 			padding-top: 12px;
+			margin-top: 6px;
+			display: inline-block;
+
+			&.initials{
+				border-left: 1px solid #022998;
+				border-right: 1px solid #022998;
+				padding-right: 28px;
+				border-radius: 40px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
 		}
 
 		.navLink{
@@ -31,16 +44,33 @@
 			text-shadow: 1px 1px 3px #fff;
 
 			&:hover{
-				color: #082541;
-				font-weight: 700;
 				font-style: italic;
+				text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+			}
+
+			
+		}
+
+		.initialsItem{
+			text-decoration: none;
+			text-align: center;
+			color: #000088;
+			font-family: 'Great Vibes';
+			font-size: 38px;
+			font-weight: 400;
+			padding: 2px;
+			text-shadow: 1px 1px 3px #fff;
+
+			&:hover{
+				
+				text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 			}
 		}
 
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .navContainer{
 	  .navList {
 	    display: none;
