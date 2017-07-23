@@ -5,12 +5,13 @@
 	.personContainer{
 		width: 45.5%;
 		margin-left: 3%;
-		box-shadow: 1px 1px 8px 1px rgba(0,0,100,0.8);
+		box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.8);
 		height: 210px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		display: inline-block;
 		background-color: #fff;
+		border-radius: 4px;
 
 		.personImage{
 			width: 40%;
