@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/jamieandkara/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 251);
@@ -38568,7 +38568,7 @@ var _weddingParty = __webpack_require__(626);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(632);
+var _aboutUs = __webpack_require__(638);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -69149,7 +69149,7 @@ var _willie = __webpack_require__(627);
 
 var _willie2 = _interopRequireDefault(_willie);
 
-var _willD = __webpack_require__(646);
+var _willD = __webpack_require__(628);
 
 var _willD2 = _interopRequireDefault(_willD);
 
@@ -69157,31 +69157,31 @@ var _ryan = __webpack_require__(629);
 
 var _ryan2 = _interopRequireDefault(_ryan);
 
-var _tim = __webpack_require__(647);
+var _tim = __webpack_require__(630);
 
 var _tim2 = _interopRequireDefault(_tim);
 
-var _hirsch = __webpack_require__(648);
+var _hirsch = __webpack_require__(631);
 
 var _hirsch2 = _interopRequireDefault(_hirsch);
 
-var _eric = __webpack_require__(661);
+var _eric = __webpack_require__(632);
 
 var _eric2 = _interopRequireDefault(_eric);
 
-var _willK = __webpack_require__(650);
+var _willK = __webpack_require__(633);
 
 var _willK2 = _interopRequireDefault(_willK);
 
-var _jess = __webpack_require__(651);
+var _jess = __webpack_require__(634);
 
 var _jess2 = _interopRequireDefault(_jess);
 
-var _sam = __webpack_require__(652);
+var _sam = __webpack_require__(635);
 
 var _sam2 = _interopRequireDefault(_sam);
 
-var _weddingParty = __webpack_require__(630);
+var _weddingParty = __webpack_require__(636);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -69325,7 +69325,12 @@ exports.default = WeddingParty;
 module.exports = __webpack_require__.p + "dist/img/willie.png";
 
 /***/ }),
-/* 628 */,
+/* 628 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/willD.png";
+
+/***/ }),
 /* 629 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -69335,10 +69340,46 @@ module.exports = __webpack_require__.p + "dist/img/ryan.png";
 /* 630 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/tim.png";
+
+/***/ }),
+/* 631 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/hirsch.png";
+
+/***/ }),
+/* 632 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/eric.png";
+
+/***/ }),
+/* 633 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/willK.png";
+
+/***/ }),
+/* 634 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/jess.png";
+
+/***/ }),
+/* 635 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/sam.png";
+
+/***/ }),
+/* 636 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(631);
+var content = __webpack_require__(637);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -69363,21 +69404,21 @@ if(false) {
 }
 
 /***/ }),
-/* 631 */
+/* 637 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica:400,700i);", ""]);
 
 // module
-exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      margin-top: 5px;\n      margin-left: 5px;\n      display: inline-block;\n      float: left;\n      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3); }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 30px;\n          margin-bottom: 0px; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        width: 100%; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 210px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        margin-top: 5px;\n        margin-left: 5px;\n        display: inline-block;\n        float: left; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
+exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 8px 1px rgba(0, 0, 100, 0.8);\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      margin-top: 5px;\n      margin-left: 5px;\n      border-radius: 3px;\n      display: inline-block;\n      float: left;\n      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3); }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px;\n        width: 100%;\n        text-align: center; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 36px;\n          line-height: 36px;\n          margin-top: 10px;\n          margin-bottom: 0px;\n          font-family: 'Economica'; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px;\n          margin-top: 8px;\n          line-height: 24px;\n          font-family: 'Economica'; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        width: 100%; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 210px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        margin-top: 5px;\n        margin-left: 5px;\n        display: inline-block;\n        float: left; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 632 */
+/* 638 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69411,63 +69452,63 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _nukaCarousel = __webpack_require__(633);
+var _nukaCarousel = __webpack_require__(639);
 
 var _nukaCarousel2 = _interopRequireDefault(_nukaCarousel);
 
-var _aboutUs = __webpack_require__(639);
+var _aboutUs = __webpack_require__(645);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
-var _flamingos = __webpack_require__(641);
+var _flamingos = __webpack_require__(647);
 
 var _flamingos2 = _interopRequireDefault(_flamingos);
 
-var _xmas = __webpack_require__(642);
+var _xmas = __webpack_require__(648);
 
 var _xmas2 = _interopRequireDefault(_xmas);
 
-var _floridaSunset = __webpack_require__(643);
+var _floridaSunset = __webpack_require__(649);
 
 var _floridaSunset2 = _interopRequireDefault(_floridaSunset);
 
-var _florida = __webpack_require__(644);
+var _florida = __webpack_require__(650);
 
 var _florida2 = _interopRequireDefault(_florida);
 
-var _longLake = __webpack_require__(649);
+var _longLake = __webpack_require__(651);
 
 var _longLake2 = _interopRequireDefault(_longLake);
 
-var _kellysWedding = __webpack_require__(653);
+var _kellysWedding = __webpack_require__(652);
 
 var _kellysWedding2 = _interopRequireDefault(_kellysWedding);
 
-var _kellyWeddingBeach = __webpack_require__(654);
+var _kellyWeddingBeach = __webpack_require__(653);
 
 var _kellyWeddingBeach2 = _interopRequireDefault(_kellyWeddingBeach);
 
-var _samAndMeg = __webpack_require__(655);
+var _samAndMeg = __webpack_require__(654);
 
 var _samAndMeg2 = _interopRequireDefault(_samAndMeg);
 
-var _acoaxet = __webpack_require__(656);
+var _acoaxet = __webpack_require__(655);
 
 var _acoaxet2 = _interopRequireDefault(_acoaxet);
 
-var _beeHive = __webpack_require__(657);
+var _beeHive = __webpack_require__(656);
 
 var _beeHive2 = _interopRequireDefault(_beeHive);
 
-var _boat = __webpack_require__(658);
+var _boat = __webpack_require__(657);
 
 var _boat2 = _interopRequireDefault(_boat);
 
-var _kayak = __webpack_require__(659);
+var _kayak = __webpack_require__(658);
 
 var _kayak2 = _interopRequireDefault(_kayak);
 
-var _longLakeDockWithAinsley = __webpack_require__(660);
+var _longLakeDockWithAinsley = __webpack_require__(659);
 
 var _longLakeDockWithAinsley2 = _interopRequireDefault(_longLakeDockWithAinsley);
 
@@ -69538,19 +69579,19 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 633 */
+/* 639 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Carousel = __webpack_require__(634);
+var Carousel = __webpack_require__(640);
 
 module.exports = Carousel;
 
 
 /***/ }),
-/* 634 */
+/* 640 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69572,19 +69613,19 @@ var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _kwReactTweenState = __webpack_require__(635);
+var _kwReactTweenState = __webpack_require__(641);
 
 var _kwReactTweenState2 = _interopRequireDefault(_kwReactTweenState);
 
-var _decorators = __webpack_require__(636);
+var _decorators = __webpack_require__(642);
 
 var _decorators2 = _interopRequireDefault(_decorators);
 
-var _objectAssign = __webpack_require__(637);
+var _objectAssign = __webpack_require__(643);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
-var _exenv = __webpack_require__(638);
+var _exenv = __webpack_require__(644);
 
 var _exenv2 = _interopRequireDefault(_exenv);
 
@@ -70490,7 +70531,7 @@ exports['default'] = Carousel;
 module.exports = exports['default'];
 
 /***/ }),
-/* 635 */
+/* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -71253,7 +71294,7 @@ return /******/ (function(modules) { // webpackBootstrap
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 636 */
+/* 642 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71405,7 +71446,7 @@ exports['default'] = DefaultDecorators;
 module.exports = exports['default'];
 
 /***/ }),
-/* 637 */
+/* 643 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71502,7 +71543,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 638 */
+/* 644 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -71549,13 +71590,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 639 */
+/* 645 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(640);
+var content = __webpack_require__(646);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -71580,7 +71621,7 @@ if(false) {
 }
 
 /***/ }),
-/* 640 */
+/* 646 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
@@ -71594,125 +71635,82 @@ exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin:
 
 
 /***/ }),
-/* 641 */
+/* 647 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/flamingos.png";
 
 /***/ }),
-/* 642 */
+/* 648 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/xmas.png";
 
 /***/ }),
-/* 643 */
+/* 649 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/floridaSunset.png";
 
 /***/ }),
-/* 644 */
+/* 650 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/florida.png";
 
 /***/ }),
-/* 645 */,
-/* 646 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/willD.png";
-
-/***/ }),
-/* 647 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/tim.png";
-
-/***/ }),
-/* 648 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/hirsch.png";
-
-/***/ }),
-/* 649 */
+/* 651 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLake.png";
 
 /***/ }),
-/* 650 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/willK.png";
-
-/***/ }),
-/* 651 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/jess.png";
-
-/***/ }),
 /* 652 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/sam.png";
-
-/***/ }),
-/* 653 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellysWedding.png";
 
 /***/ }),
-/* 654 */
+/* 653 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellyWeddingBeach.png";
 
 /***/ }),
-/* 655 */
+/* 654 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/samAndMeg.png";
 
 /***/ }),
-/* 656 */
+/* 655 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/acoaxet.png";
 
 /***/ }),
-/* 657 */
+/* 656 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/beeHive.png";
 
 /***/ }),
-/* 658 */
+/* 657 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/boat.png";
 
 /***/ }),
-/* 659 */
+/* 658 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kayak.png";
 
 /***/ }),
-/* 660 */
+/* 659 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLakeDockWithAinsley.png";
-
-/***/ }),
-/* 661 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dist/img/eric.png";
 
 /***/ })
 /******/ ]);
