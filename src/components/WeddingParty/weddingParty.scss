@@ -79,10 +79,13 @@
 
 		.personImage{
 			width: 40%;
-			margin-top: 5px;
-			margin-left: 5px;
+			height: 100%;
+			margin-top: 0px;
+			margin-left: 0px;
 			display: inline-block;
 			float: left;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
 		}
 
 		.rightContainer{

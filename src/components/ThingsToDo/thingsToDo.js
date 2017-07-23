@@ -13,6 +13,8 @@ class ThingsToDo extends React.Component {
     return(
       <div className="eventsContainer">
         <h1 className='names'>Things to do in Portland</h1>
+        <h3>Eat: Try out some of our favorite spots</h3>
+        <p>Eventide Oyster</p>
       </div>
 
       )
