@@ -69523,6 +69523,7 @@ var AboutUs = function (_React$Component) {
     var _this = (0, _possibleConstructorReturn3.default)(this, (AboutUs.__proto__ || (0, _getPrototypeOf2.default)(AboutUs)).call(this, props));
 
     _this.componentWillMount = function () {
+
       if (window.screen.width < 670) {
         _this.setState({ image: [_boat2.default, _xmas2.default, _kayak2.default, _longLakeDockWithAinsley2.default, _florida2.default, _kellyWeddingBeach2.default, _acoaxet2.default, _kellysWedding2.default, _beeHive2.default]
         });
@@ -69533,12 +69534,19 @@ var AboutUs = function (_React$Component) {
       }
     };
 
+    _this.triggerResize = function () {
+      console.log('resize');
+      setTimeout(function () {
+        window.dispatchEvent(new Event('resize'));
+      }, 0);
+    };
+
     _this.renderImages = function (image) {
       return _react2.default.createElement('img', { src: image });
     };
 
     _this.state = {
-      image: []
+      image: [_floridaSunset2.default, _samAndMeg2.default, _kayak2.default, _acoaxet2.default, _longLake2.default, _flamingos2.default, _florida2.default, _beeHive2.default]
     };
     return _this;
   }
@@ -69546,9 +69554,11 @@ var AboutUs = function (_React$Component) {
   (0, _createClass3.default)(AboutUs, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      var _this2 = this;
+
       setTimeout(function () {
-        window.dispatchEvent(new Event('resize'));
-      }, 0);
+        _this2.triggerResize();
+      }, 15);
     }
   }, {
     key: 'render',
@@ -69558,7 +69568,7 @@ var AboutUs = function (_React$Component) {
         { className: 'carousel' },
         _react2.default.createElement(
           _nukaCarousel2.default,
-          { width: '100%', swiping: true, autoplay: true, autoplayInterval: 4000, dragging: true, edgeEasing: 'easeOutCirc', easing: 'easeInOutLinear', wrapAround: true },
+          { width: '100%', swiping: true, autoplay: true, autoplayInterval: 4000, dragging: true, easing: 'easeInOutLinear', wrapAround: true },
           this.state.image.map(this.renderImages, this)
         )
       );
@@ -71620,7 +71630,7 @@ exports = module.exports = __webpack_require__(34)(undefined);
 
 
 // module
-exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    width: 100%;\n    height: 100%;\n    margin-top: -8%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 70vw;\n    border: 4px solid black; } }\n", ""]);
+exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    width: 100%;\n    height: 100%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 70vw;\n    border: 4px solid black; } }\n", ""]);
 
 // exports
 

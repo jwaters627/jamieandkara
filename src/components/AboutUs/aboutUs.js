@@ -20,13 +20,12 @@ class AboutUs extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      image: [
-      
-      ]
+      image: [FloridaSunset, SamAndMeg, Kayak, Acoaxet, LongLake, Flamingos, Florida, BeeHive]
     };
     }
 
     componentWillMount = () =>{
+
       if(window.screen.width < 670){
         this.setState({image: [Boat, Xmas, Kayak, LongLakeDockWithAinsley, Florida, KellyWeddingBeach, Acoaxet,  KellysWedding, BeeHive]
         }
@@ -41,6 +40,13 @@ class AboutUs extends React.Component {
 
   componentDidMount() {
     setTimeout(() => {
+      this.triggerResize()
+    }, 15);
+  }
+
+  triggerResize = () =>{
+    console.log('resize')
+    setTimeout(() => {
       window.dispatchEvent(new Event('resize'));
     }, 0);
   }
@@ -52,7 +58,7 @@ class AboutUs extends React.Component {
   render() {
     return(
       <div className='carousel'>
-        <Carousel width='100%' swiping={true} autoplay={true} autoplayInterval={4000} dragging={true}  edgeEasing="easeOutCirc" easing="easeInOutLinear" wrapAround={true}>
+        <Carousel width='100%' swiping={true} autoplay={true} autoplayInterval={4000} dragging={true} easing="easeInOutLinear" wrapAround={true}>
             {this.state.image.map(this.renderImages, this)}
         </Carousel>
       </div>
