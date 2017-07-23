@@ -41,11 +41,10 @@ class AboutUs extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.triggerResize()
-    }, 15);
+    }, 20);
   }
 
   triggerResize = () =>{
-    console.log('resize')
     setTimeout(() => {
       window.dispatchEvent(new Event('resize'));
     }, 0);
