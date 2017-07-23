@@ -24,7 +24,7 @@ class ThingsToDo extends React.Component {
         image: 'http://multifiles.pressherald.com/uploads/sites/4/2013/12/20131208_576528.xml-20131127_DineOutME__01.jpg',
         address: '575 Congress St, Portland, ME 04101',
         linkToMap: 'https://www.google.com/maps/place/Empire/@43.654899,-70.26252,15z/data=!4m2!3m1!1s0x0:0x457cf83f0ed9af6?sa=X&ved=0ahUKEwjCobnA5J_VAhUBEz4KHdhaBMAQ_BIIgAEwDA',
-        description:'Empire is an amazing Chinese/dim sum restaurant.  This is probably the place that Jamie and Kara eat at most frequently in Portland. Empire is a great place for a casual meal to split a bunch of different dishes. The different buns are all delicious and definitely worth trying.',
+        description:'Empire is an amazing Chinese/dim sum restaurant. This is probably the place that Jamie and Kara eat at most frequently in Portland. It is a great place for a casual meal to split several dishes. The different buns are all delicious and definitely worth trying.',
         website: "http://www.portlandempire.com/kitchen/index.html"
       },
       {
