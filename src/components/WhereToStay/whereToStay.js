@@ -58,7 +58,7 @@ class WhereToStay extends React.Component {
 
   render() {
     return(
-      <div className="eventsContainer">
+      <div className="hotelsContainer">
         {this.state.hotels.map(this.renderHotels, this)}
       </div>
 
