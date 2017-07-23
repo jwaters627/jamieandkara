@@ -13,6 +13,7 @@ import Acoaxet from '../../../img/acoaxet.png';
 import BeeHive from '../../../img/beeHive.png';
 import Boat from '../../../img/boat.png';
 import Kayak from '../../../img/kayak.png';
+import Pool from '../../../img/pool.png';
 import LongLakeDockWithAinsley from '../../../img/longLakeDockWithAinsley.png';
 
 class AboutUs extends React.Component {
@@ -27,13 +28,13 @@ class AboutUs extends React.Component {
     componentWillMount = () =>{
 
       if(window.screen.width < 670){
-        this.setState({image: [Boat, Xmas, Kayak, LongLakeDockWithAinsley, Florida, KellyWeddingBeach, Acoaxet,  KellysWedding, BeeHive]
+        this.setState({image: [Boat, Xmas, Pool, Kayak, LongLakeDockWithAinsley, Florida, KellyWeddingBeach, Acoaxet,  KellysWedding, BeeHive]
         }
           )
       }
       else{
         this.setState({
-          image: [FloridaSunset, SamAndMeg, Kayak, Acoaxet, LongLake, Flamingos, Florida, BeeHive,]
+          image: [FloridaSunset, SamAndMeg, Pool, Kayak, Acoaxet, LongLake, Flamingos, Florida, BeeHive,]
         })
       }
     }

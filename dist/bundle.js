@@ -38568,7 +38568,7 @@ var _weddingParty = __webpack_require__(626);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(638);
+var _aboutUs = __webpack_require__(646);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -69181,7 +69181,39 @@ var _sam = __webpack_require__(635);
 
 var _sam2 = _interopRequireDefault(_sam);
 
-var _weddingParty = __webpack_require__(636);
+var _katie = __webpack_require__(636);
+
+var _katie2 = _interopRequireDefault(_katie);
+
+var _katelyn = __webpack_require__(637);
+
+var _katelyn2 = _interopRequireDefault(_katelyn);
+
+var _mandy = __webpack_require__(638);
+
+var _mandy2 = _interopRequireDefault(_mandy);
+
+var _katieR = __webpack_require__(639);
+
+var _katieR2 = _interopRequireDefault(_katieR);
+
+var _ainsley = __webpack_require__(640);
+
+var _ainsley2 = _interopRequireDefault(_ainsley);
+
+var _nikki = __webpack_require__(641);
+
+var _nikki2 = _interopRequireDefault(_nikki);
+
+var _kunkel = __webpack_require__(642);
+
+var _kunkel2 = _interopRequireDefault(_kunkel);
+
+var _kristen = __webpack_require__(643);
+
+var _kristen2 = _interopRequireDefault(_kristen);
+
+var _weddingParty = __webpack_require__(644);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -69249,53 +69281,131 @@ var WeddingParty = function (_React$Component) {
         name: 'Willie Waters',
         title: 'Best Man',
         picture: _willie2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Willie is Jamie's older brother. "
       }, {
         key: 1,
         name: 'Will Duryea',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _willD2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing."
       }, {
         key: 2,
         name: 'Tim McLoughlin',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _tim2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Tim is Jamie's friend and hockey linemate from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. Be sure to ask Tim about this picture."
       }, {
         key: 3,
         name: 'Ryan Armstrong',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _ryan2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Ryan is Jamie's oldest friend from Pike and Brooks. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid."
       }, {
         key: 4,
         name: 'Eric Amoroso',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _eric2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Eric is Jamie's friend from Brooks and roommate in the South End.  Aside from Jamie and Kara, Eric will probably know the most people at the wedding."
       }, {
         key: 5,
         name: 'Sam Jones',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _sam2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Sam is Jamie's freshman year roommate from Colby."
       }, {
         key: 6,
         name: 'Matt Hirsch',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _hirsch2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby.  Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
       }, {
         key: 7,
         name: 'Will Kinder',
-        title: 'Groomsmen',
+        title: 'Groomsman',
         picture: _willK2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Will is Jamie's friend/roommate/soccer co-captain from Colby. Will and Jamie have road tripped west together twice: once when Will moved to Montana after college and a second time when Jamie moved to San Francisco"
       }, {
         key: 8,
         name: 'Jess Duryea',
         title: 'Bridesmaid',
+        picture: _jess2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 9,
+        name: 'Katie Dalton',
+        title: 'Maid of Honor',
+        picture: _katie2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 10,
+        name: 'Ashley Aubuchon',
+        title: 'Bridesmaid',
+        picture: _jess2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 11,
+        name: 'Katelyn Wallman',
+        title: 'Bridesmaid',
+        picture: _katelyn2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 12,
+        name: 'Mandy Eldridge',
+        title: 'Bridesmaid',
+        picture: _mandy2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 13,
+        name: 'Deana Wojcik',
+        title: 'Bridesmaid',
+        picture: _jess2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 14,
+        name: 'Lizz Chiarelli',
+        title: 'Bridesmaid',
+        picture: _jess2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 15,
+        name: 'Sarah Waterman',
+        title: 'Bridesmaid',
+        picture: _kunkel2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 16,
+        name: "Kristen D'Angelo",
+        title: 'Bridesmaid',
+        picture: _kristen2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 17,
+        name: "Katie Donnelly",
+        title: 'Bridesmaid',
+        picture: _katieR2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 18,
+        name: "Nikki Tyler",
+        title: 'Bridesmaid',
+        picture: _nikki2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 19,
+        name: "Ainsley Waters",
+        title: 'Flower Girlie',
+        picture: _ainsley2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 20,
+        name: "Cal Waters",
+        title: 'Ring Boy',
+        picture: _jess2.default,
+        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+      }, {
+        key: 21,
+        name: "Susanna Waters",
+        title: 'Officiant',
         picture: _jess2.default,
         description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }]
@@ -69376,10 +69486,58 @@ module.exports = __webpack_require__.p + "dist/img/sam.png";
 /* 636 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/katie.png";
+
+/***/ }),
+/* 637 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/katelyn.png";
+
+/***/ }),
+/* 638 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/mandy.png";
+
+/***/ }),
+/* 639 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/katieR.png";
+
+/***/ }),
+/* 640 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/ainsley.png";
+
+/***/ }),
+/* 641 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/nikki.png";
+
+/***/ }),
+/* 642 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+
+/***/ }),
+/* 643 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
+
+/***/ }),
+/* 644 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(637);
+var content = __webpack_require__(645);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -69404,7 +69562,7 @@ if(false) {
 }
 
 /***/ }),
-/* 637 */
+/* 645 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
@@ -69412,13 +69570,13 @@ exports = module.exports = __webpack_require__(34)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica:400,700i);", ""]);
 
 // module
-exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 4px; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      margin-top: 5px;\n      margin-left: 5px;\n      border-radius: 3px;\n      display: inline-block;\n      float: left;\n      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3); }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px;\n        width: 100%;\n        text-align: center; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 36px;\n          line-height: 36px;\n          margin-top: 10px;\n          margin-bottom: 0px;\n          font-family: 'Economica'; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px;\n          margin-top: 8px;\n          line-height: 24px;\n          font-family: 'Economica'; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        width: 100%; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 210px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        margin-top: 5px;\n        margin-left: 5px;\n        display: inline-block;\n        float: left; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
+exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 4px; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      height: 100%;\n      margin-top: 0px;\n      margin-left: 0px;\n      display: inline-block;\n      float: left;\n      border-top-left-radius: 4px;\n      border-bottom-left-radius: 4px; }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px;\n        width: 100%;\n        text-align: center; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 36px;\n          line-height: 36px;\n          margin-top: 10px;\n          margin-bottom: 0px;\n          font-family: 'Economica'; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px;\n          margin-top: 8px;\n          line-height: 24px;\n          font-family: 'Economica'; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        text-align: center;\n        width: 100%; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 210px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        margin-top: 5px;\n        margin-left: 5px;\n        display: inline-block;\n        float: left; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 638 */
+/* 646 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69452,63 +69610,67 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _nukaCarousel = __webpack_require__(639);
+var _nukaCarousel = __webpack_require__(647);
 
 var _nukaCarousel2 = _interopRequireDefault(_nukaCarousel);
 
-var _aboutUs = __webpack_require__(645);
+var _aboutUs = __webpack_require__(653);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
-var _flamingos = __webpack_require__(647);
+var _flamingos = __webpack_require__(655);
 
 var _flamingos2 = _interopRequireDefault(_flamingos);
 
-var _xmas = __webpack_require__(648);
+var _xmas = __webpack_require__(656);
 
 var _xmas2 = _interopRequireDefault(_xmas);
 
-var _floridaSunset = __webpack_require__(649);
+var _floridaSunset = __webpack_require__(657);
 
 var _floridaSunset2 = _interopRequireDefault(_floridaSunset);
 
-var _florida = __webpack_require__(650);
+var _florida = __webpack_require__(658);
 
 var _florida2 = _interopRequireDefault(_florida);
 
-var _longLake = __webpack_require__(651);
+var _longLake = __webpack_require__(659);
 
 var _longLake2 = _interopRequireDefault(_longLake);
 
-var _kellysWedding = __webpack_require__(652);
+var _kellysWedding = __webpack_require__(660);
 
 var _kellysWedding2 = _interopRequireDefault(_kellysWedding);
 
-var _kellyWeddingBeach = __webpack_require__(653);
+var _kellyWeddingBeach = __webpack_require__(661);
 
 var _kellyWeddingBeach2 = _interopRequireDefault(_kellyWeddingBeach);
 
-var _samAndMeg = __webpack_require__(654);
+var _samAndMeg = __webpack_require__(662);
 
 var _samAndMeg2 = _interopRequireDefault(_samAndMeg);
 
-var _acoaxet = __webpack_require__(655);
+var _acoaxet = __webpack_require__(663);
 
 var _acoaxet2 = _interopRequireDefault(_acoaxet);
 
-var _beeHive = __webpack_require__(656);
+var _beeHive = __webpack_require__(664);
 
 var _beeHive2 = _interopRequireDefault(_beeHive);
 
-var _boat = __webpack_require__(657);
+var _boat = __webpack_require__(665);
 
 var _boat2 = _interopRequireDefault(_boat);
 
-var _kayak = __webpack_require__(658);
+var _kayak = __webpack_require__(666);
 
 var _kayak2 = _interopRequireDefault(_kayak);
 
-var _longLakeDockWithAinsley = __webpack_require__(659);
+var _pool = __webpack_require__(667);
+
+var _pool2 = _interopRequireDefault(_pool);
+
+var _longLakeDockWithAinsley = __webpack_require__(668);
 
 var _longLakeDockWithAinsley2 = _interopRequireDefault(_longLakeDockWithAinsley);
 
@@ -69525,11 +69687,11 @@ var AboutUs = function (_React$Component) {
     _this.componentWillMount = function () {
 
       if (window.screen.width < 670) {
-        _this.setState({ image: [_boat2.default, _xmas2.default, _kayak2.default, _longLakeDockWithAinsley2.default, _florida2.default, _kellyWeddingBeach2.default, _acoaxet2.default, _kellysWedding2.default, _beeHive2.default]
+        _this.setState({ image: [_boat2.default, _xmas2.default, _pool2.default, _kayak2.default, _longLakeDockWithAinsley2.default, _florida2.default, _kellyWeddingBeach2.default, _acoaxet2.default, _kellysWedding2.default, _beeHive2.default]
         });
       } else {
         _this.setState({
-          image: [_floridaSunset2.default, _samAndMeg2.default, _kayak2.default, _acoaxet2.default, _longLake2.default, _flamingos2.default, _florida2.default, _beeHive2.default]
+          image: [_floridaSunset2.default, _samAndMeg2.default, _pool2.default, _kayak2.default, _acoaxet2.default, _longLake2.default, _flamingos2.default, _florida2.default, _beeHive2.default]
         });
       }
     };
@@ -69579,19 +69741,19 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 639 */
+/* 647 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Carousel = __webpack_require__(640);
+var Carousel = __webpack_require__(648);
 
 module.exports = Carousel;
 
 
 /***/ }),
-/* 640 */
+/* 648 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69613,19 +69775,19 @@ var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _kwReactTweenState = __webpack_require__(641);
+var _kwReactTweenState = __webpack_require__(649);
 
 var _kwReactTweenState2 = _interopRequireDefault(_kwReactTweenState);
 
-var _decorators = __webpack_require__(642);
+var _decorators = __webpack_require__(650);
 
 var _decorators2 = _interopRequireDefault(_decorators);
 
-var _objectAssign = __webpack_require__(643);
+var _objectAssign = __webpack_require__(651);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
-var _exenv = __webpack_require__(644);
+var _exenv = __webpack_require__(652);
 
 var _exenv2 = _interopRequireDefault(_exenv);
 
@@ -70531,7 +70693,7 @@ exports['default'] = Carousel;
 module.exports = exports['default'];
 
 /***/ }),
-/* 641 */
+/* 649 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -71294,7 +71456,7 @@ return /******/ (function(modules) { // webpackBootstrap
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 642 */
+/* 650 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71446,7 +71608,7 @@ exports['default'] = DefaultDecorators;
 module.exports = exports['default'];
 
 /***/ }),
-/* 643 */
+/* 651 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71543,7 +71705,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 644 */
+/* 652 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -71590,13 +71752,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 645 */
+/* 653 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(646);
+var content = __webpack_require__(654);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -71621,7 +71783,7 @@ if(false) {
 }
 
 /***/ }),
-/* 646 */
+/* 654 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
@@ -71629,85 +71791,91 @@ exports = module.exports = __webpack_require__(34)(undefined);
 
 
 // module
-exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    width: 100%;\n    height: 100%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 70vw;\n    border: 4px solid black; } }\n", ""]);
+exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    width: 100%;\n    height: 100%;\n    margin-top: -100px; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 70vw;\n    border: 4px solid black; }\n    .carousel .img {\n      margin-top: 0px; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 647 */
+/* 655 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/flamingos.png";
 
 /***/ }),
-/* 648 */
+/* 656 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/xmas.png";
 
 /***/ }),
-/* 649 */
+/* 657 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/floridaSunset.png";
 
 /***/ }),
-/* 650 */
+/* 658 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/florida.png";
 
 /***/ }),
-/* 651 */
+/* 659 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLake.png";
 
 /***/ }),
-/* 652 */
+/* 660 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellysWedding.png";
 
 /***/ }),
-/* 653 */
+/* 661 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellyWeddingBeach.png";
 
 /***/ }),
-/* 654 */
+/* 662 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/samAndMeg.png";
 
 /***/ }),
-/* 655 */
+/* 663 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/acoaxet.png";
 
 /***/ }),
-/* 656 */
+/* 664 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/beeHive.png";
 
 /***/ }),
-/* 657 */
+/* 665 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/boat.png";
 
 /***/ }),
-/* 658 */
+/* 666 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kayak.png";
 
 /***/ }),
-/* 659 */
+/* 667 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/pool.png";
+
+/***/ }),
+/* 668 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLakeDockWithAinsley.png";
