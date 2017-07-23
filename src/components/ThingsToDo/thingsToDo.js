@@ -1,5 +1,5 @@
 import React from 'react';
-
+import classNames from 'classnames';
 import styles from './thingsToDo.scss'
 
 class ThingsToDo extends React.Component {
@@ -7,6 +7,7 @@ class ThingsToDo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      section: 'food',
       food: [
       {
         key: 0,
@@ -71,6 +72,101 @@ class ThingsToDo extends React.Component {
         description:'Upscale American food with a beautiful brick oven and open kitchen. Also a great place to stop in for a drink at the bar.',
         website: "http://www.forestreet.biz/",
       },
+      
+      ],
+      bars: [
+        {
+        key: 0,
+        name: "Gritty McDuff's",
+        image: 'http://www.squirrelfarts.com/sfblog/wp-content/uploads/2011/08/grittysint.jpg',
+        address: '396 Fore Street Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/Gritty+McDuff's+Portland+Brew+Pub/@43.656247,-70.25341,15z/data=!4m2!3m1!1s0x0:0xeef4b4cd2ad6d68c?sa=X&ved=0ahUKEwjxlv6q75_VAhWKOD4KHVEdChgQ_BIIgAEwDQ",
+        description:'Great old divey bar',
+        website: "http://grittys.com/",
+      },
+      {
+        key: 1,
+        name: "Bissel Brothers Brewing",
+        image: 'https://cdn.beeradvocate.com/assets/uploads/2016/07/114FromtheSource-820x564.jpg',
+        address: '4 Thompsons Point #108, Portland, ME 04102',
+        linkToMap: "https://www.google.com/maps/place/Bissell+Brothers+Brewing+Company/@43.6514239,-70.290559,15z/data=!4m2!3m1!1s0x0:0x3320e07eae2d3ece?sa=X&ved=0ahUKEwjXm-fM75_VAhWE8j4KHYZ8CAEQ_BIIlgEwDg",
+        description:'Brewery with great beer',
+        website: "http://www.bissellbrothers.com/",
+      },
+      {
+        key: 2,
+        name: "Top of the East",
+        image: 'http://topoftheeast.restaurantengine.com/files/2015/03/photo1-800x500.jpg',
+        address: '157 High St, Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/Top+of+the+East/@43.6548779,-70.263817,15z/data=!4m2!3m1!1s0x0:0xd8d4728ee5319d1f?sa=X&ved=0ahUKEwjWvryj8Z_VAhVCeD4KHQ0_Cf4Q_BIIfjAM",
+        description:'Bar at the top of the Westin with great views of the city.',
+        website: "http://www.thetopoftheeast.com/",
+      },
+      {
+        key: 3,
+        name: "Oxbow Brewing Co.",
+        image: 'http://www.abvchicago.com/wp-content/uploads/2015/07/Oxbow-taproom.jpg',
+        address: '274 Jones Woods Rd, Newcastle, ME 04553',
+        linkToMap: "https://www.google.com/maps/place/Oxbow+Brewing+Company/@44.0828099,-69.5637063,15z/data=!4m2!3m1!1s0x0:0xf9812a15d7183c62?sa=X&ved=0ahUKEwjFmOzQ8Z_VAhWLGD4KHdTTARgQ_BIIfDAN",
+        description:'Brewery specializing in farmhouse beers.',
+        website: "http://oxbowbeer.com/",
+      },
+      {
+        key: 4,
+        name: "Shipyard Brewing Co.",
+        image: 'http://shipyard.com/wp-content/uploads/2016/09/ship_visit_bg_1.jpg',
+        address: '86 Newbury St, Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/Shipyard+Brewing+Company/@43.6612707,-70.2488227,15z/data=!4m2!3m1!1s0x0:0x9e5aea47b177a7b8?sa=X&sqi=2&ved=0ahUKEwjmxpzQ8p_VAhUDPD4KHV2oAGsQ_BIIgAEwDA",
+        description:'Brewery.',
+        website: "https://shipyard.com/",
+      },
+      {
+        key: 5,
+        name: "Sebago Brewing Co.",
+        image: 'http://mainetoday.com/wp-content/uploads/2014/03/sebago2_tables_570.jpg',
+        address: '211 Fore St, Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/Sebago+Brewing+Company/@43.6590856,-70.2507748,15z/data=!4m2!3m1!1s0x0:0xda11e3b9fd74e720?sa=X&ved=0ahUKEwjGkIX98p_VAhXDOj4KHfdxBTMQ_BIIhAEwCg",
+        description:'Brewery located on the first floor of the Hampton Inn.',
+        website: "http://www.sebagobrewing.com/",
+      },
+      {
+        key: 6,
+        name: "Bull Feeny's",
+        image: 'http://americanpublichouse.com/2010.12/bull_feeneys_portland_maine/bar.jpg',
+        address: '375 Fore St, Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/Bull+Feeney's/@43.656668,-70.2530665,15z/data=!4m2!3m1!1s0x0:0x3dab8ff7ef9e1b9?sa=X&ved=0ahUKEwj8gYqy85_VAhVFGj4KHXadAQoQ_BIIdzAK",
+        description:'Divey bar in the middle of old port',
+        website: "https://www.facebook.com/BullFeeneys/",
+      },
+      ],
+      explore: [
+        {
+        key: 0,
+        name: "Peak's Island",
+        image: 'https://photos.smugmug.com/Aerials/Maine/Maine-Islands/Casco-Bay-Islands-ME-aerial/i-T8ZzszL/1/d1f1163a/S/is%202010-06-0911-25-29%C2%A9Dave_Cleaveland%2C%20Maine_Imaging1-S.jpg',
+        address: '',
+        linkToMap: '',
+        description:"Take the ferry out to Peak's Island",
+        website: "",
+      },
+      {
+        key: 1,
+        name: "Crescent Beach state park",
+        image: 'http://multifiles.pressherald.com/uploads/sites/4/2012/09/portland-press-herald_3662550.jpg',
+        address: '',
+        linkToMap: '',
+        description:"Head to the beach to enjoy the nice weather and views.",
+        website: "",
+      },
+      {
+        key: 2,
+        name: "Walk around the Old Port",
+        image: 'http://trekhound.com/wp-content/uploads/2012/06/Old-Port-Festival.jpg',
+        address: '',
+        linkToMap: '',
+        description:"Walk around the Old Port and take in the cobblestoned streets, restaurants, bars and shopping.",
+        website: "",
+      },
       ]
     };
     }
@@ -88,12 +184,88 @@ class ThingsToDo extends React.Component {
         )
     }
 
+    renderDrink = (item) =>{
+      return(
+          <div className='restaurantContainer'>
+            <img className='restaurantImage' src={item.image} />
+            <div className='descriptionContainer'>
+              <a className='siteLink' href={item.website}><h5>{item.name}</h5></a>
+              <p>{item.description}</p>
+              <a href={item.linkToMap}><p>{item.address}</p></a>
+            </div>
+          </div>
+        )
+    }
+
+    renderExplore = (item) =>{
+      return(
+          <div className='restaurantContainer'>
+            <img className='restaurantImage' src={item.image} />
+            <div className='descriptionContainer'>
+              <a className='siteLink' href={item.website}><h5>{item.name}</h5></a>
+              <p>{item.description}</p>
+              <a href={item.linkToMap}><p>{item.address}</p></a>
+            </div>
+          </div>
+        )
+    }
+
+    setSectionEat = () =>{
+      this.setState({section: 'food'})
+    }
+
+    setSectionDrink = () =>{
+      this.setState({section: 'drink'})
+    }
+
+    setSectionExplore = () =>{
+      this.setState({section: 'explore'})
+    }
+
   render() {
+    let toRender = (<div><h3>Eat: Try out some of our favorite spots to eat!</h3>
+        {this.state.food.map(this.renderFood, this)}
+        </div>
+          )
+    if(this.state.section == 'drink'){
+      toRender = (<div><h3>Drink: Try out some of our favorite bars and breweries!</h3>
+        {this.state.bars.map(this.renderDrink, this)}
+        </div>
+          )
+    }
+    if(this.state.section == 'explore'){
+      toRender = (<div><h3>Explore: Try out some of our favorite things to do in Portland!</h3>
+        {this.state.explore.map(this.renderExplore, this)}
+        </div>
+          )
+    }
+    let eatClass = classNames(
+          'eat',
+          {
+            'open': (this.state.section == 'food'),
+          }
+    )
+    let drinkClass = classNames(
+          'drink',
+          {
+            'open': (this.state.section == 'drink'),
+          }
+    )
+    let exploreClass = classNames(
+          'explore',
+          {
+            'open': (this.state.section == 'explore'),
+          }
+    )
     return(
       <div className="eventsContainer">
         <h1 className='names'>Things to do in Portland</h1>
-        <h3>Eat: Try out some of our favorite spots</h3>
-        {this.state.food.map(this.renderFood, this)}
+        <div className='subNav'>
+          <p className={eatClass} onClick={this.setSectionEat}>Eat</p>
+          <p className={drinkClass} onClick={this.setSectionDrink}>Drink</p>
+          <p className={exploreClass} onClick={this.setSectionExplore}>Explore</p>
+        </div>
+        {toRender}
 
       </div>
 
