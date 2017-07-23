@@ -69111,7 +69111,7 @@ var ThingsToDo = function (_React$Component) {
         image: 'http://www.squirrelfarts.com/sfblog/wp-content/uploads/2011/08/grittysint.jpg',
         address: '396 Fore Street Portland, ME 04101',
         linkToMap: "https://www.google.com/maps/place/Gritty+McDuff's+Portland+Brew+Pub/@43.656247,-70.25341,15z/data=!4m2!3m1!1s0x0:0xeef4b4cd2ad6d68c?sa=X&ved=0ahUKEwjxlv6q75_VAhWKOD4KHVEdChgQ_BIIgAEwDQ",
-        description: 'Great old divey bar',
+        description: 'Great old divey bar and brewpub that brews their own beer.',
         website: "http://grittys.com/"
       }, {
         key: 1,
@@ -69127,7 +69127,7 @@ var ThingsToDo = function (_React$Component) {
         image: 'http://topoftheeast.restaurantengine.com/files/2015/03/photo1-800x500.jpg',
         address: '157 High St, Portland, ME 04101',
         linkToMap: "https://www.google.com/maps/place/Top+of+the+East/@43.6548779,-70.263817,15z/data=!4m2!3m1!1s0x0:0xd8d4728ee5319d1f?sa=X&ved=0ahUKEwjWvryj8Z_VAhVCeD4KHQ0_Cf4Q_BIIfjAM",
-        description: 'Bar at the top of the Westin with great views of the city.',
+        description: 'Bar and lounge at the top of the Westin Hotel with great views of the city and .',
         website: "http://www.thetopoftheeast.com/"
       }, {
         key: 3,
@@ -69151,7 +69151,7 @@ var ThingsToDo = function (_React$Component) {
         image: 'http://mainetoday.com/wp-content/uploads/2014/03/sebago2_tables_570.jpg',
         address: '211 Fore St, Portland, ME 04101',
         linkToMap: "https://www.google.com/maps/place/Sebago+Brewing+Company/@43.6590856,-70.2507748,15z/data=!4m2!3m1!1s0x0:0xda11e3b9fd74e720?sa=X&ved=0ahUKEwjGkIX98p_VAhXDOj4KHfdxBTMQ_BIIhAEwCg",
-        description: 'Brewery located on the first floor of the Hampton Inn.',
+        description: 'Brewery and bar located on the first floor of the Hampton Inn in old port.',
         website: "http://www.sebagobrewing.com/"
       }, {
         key: 6,
@@ -69159,8 +69159,16 @@ var ThingsToDo = function (_React$Component) {
         image: 'http://americanpublichouse.com/2010.12/bull_feeneys_portland_maine/bar.jpg',
         address: '375 Fore St, Portland, ME 04101',
         linkToMap: "https://www.google.com/maps/place/Bull+Feeney's/@43.656668,-70.2530665,15z/data=!4m2!3m1!1s0x0:0x3dab8ff7ef9e1b9?sa=X&ved=0ahUKEwj8gYqy85_VAhVFGj4KHXadAQoQ_BIIdzAK",
-        description: 'Divey bar in the middle of old port',
+        description: 'Divey bar in the middle of old port local beers or $1 rolling rocks',
         website: "https://www.facebook.com/BullFeeneys/"
+      }, {
+        key: 7,
+        name: "Portland Hunt and Alpine Club",
+        image: 'https://lh3.ggpht.com/-tcI9_3JuTy4/WU79Km17JrI/AAAAAAAAbtA/RgEa1vP8zpwrLy_3RSWOAHIgYB68QZbOwCLIBGAYYCw/w512-h384-n/',
+        address: '75 Market St, Portland, ME 04101',
+        linkToMap: "https://www.google.com/maps/place/The+Portland+Hunt+%26+Alpine+Club/@43.658114,-70.2543135,15z/data=!4m2!3m1!1s0x0:0x20208ce586299232?sa=X&ved=0ahUKEwj91pvS95_VAhXGcD4KHdNCA-8Q_BIIhwEwDw",
+        description: 'Good spot for some upscale cocktails.',
+        website: "http://huntandalpineclub.com/"
       }],
       explore: [{
         key: 0,
