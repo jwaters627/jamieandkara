@@ -16,10 +16,9 @@ class Main extends React.Component {
 	render() {
 		return( 
 			<div className='mainContainer'>
-				
 				<h1 className='weddingTitle'>Kara Anne Dalton and James Stryker Waters</h1>
-				<p>Ocean Gateway Portland Maine</p>
-				<p>May 19, 2018</p>
+				<h2>Ocean Gateway Portland Maine</h2>
+				<h2>May 19, 2018</h2>
 				<div className='imageDiv'>
 					
 				</div>

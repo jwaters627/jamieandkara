@@ -68452,12 +68452,12 @@ var Main = function (_React$Component) {
 					'Kara Anne Dalton and James Stryker Waters'
 				),
 				_react2.default.createElement(
-					'p',
+					'h2',
 					null,
 					'Ocean Gateway Portland Maine'
 				),
 				_react2.default.createElement(
-					'p',
+					'h2',
 					null,
 					'May 19, 2018'
 				),
@@ -68512,7 +68512,7 @@ exports = module.exports = __webpack_require__(34)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica);", ""]);
 
 // module
-exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; } }\n", ""]);
+exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n\n.mainContainer h2 {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; } }\n", ""]);
 
 // exports
 
