@@ -14,9 +14,9 @@ import Katelyn from '../../../img/katelyn.png';
 import Mandy from '../../../img/mandy.png';
 import KatieR from '../../../img/katieR.png';
 import Ainsley from '../../../img/ainsley.png';
-import Nikki from '../../../img/nikki.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kristen from '../../../img/kristen.png';
+import Cal from '../../../img/cal.png';
 
 import styles from './weddingParty.scss'
 
@@ -31,14 +31,14 @@ class WeddingParty extends React.Component {
           name: 'Willie Waters',
           title: 'Best Man',
           picture: Willie,
-          description: "Willie is Jamie's older brother. "
+          description: "Willie is Jamie's older brother and best man and was always someone Jamie looked up to and continues to impress now that he is an incredible father to two amazing kids(see 'Ring Boy' and 'Flower Girlie'). Willie is the best competitor you will ever meet and has extended a lobster roll eating contest at Eventide to any takers."
         },
         {
           key: 1,
           name: 'Will Duryea',
           title: 'Groomsman',
           picture: WillD,
-          description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing."
+          description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing. Will has very much become a second brother to Jamie since he started dating and then married Jess."
         },
         {
           key: 2,
@@ -59,21 +59,21 @@ class WeddingParty extends React.Component {
           name: 'Eric Amoroso',
           title: 'Groomsman',
           picture: Eric,
-          description: "Eric is Jamie's friend from Brooks and roommate in the South End.  Aside from Jamie and Kara, Eric will probably know the most people at the wedding."
+          description: "Eric is Jamie's friend from Brooks and roommate in the South End. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
         },
         {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
           picture: Sam,
-          description: "Sam is Jamie's freshman year roommate from Colby."
+          description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },
         {
           key: 6,
           name: 'Matt Hirsch',
           title: 'Groomsman',
           picture: Hirsch,
-          description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby.  Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
+          description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby. Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
         },
         {
           key: 7,
@@ -154,31 +154,24 @@ class WeddingParty extends React.Component {
         },
         {
           key: 18,
-          name: "Nikki Tyler",
-          title: 'Bridesmaid',
-          picture: Nikki,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
-        },
-        {
-          key: 19,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
           picture: Ainsley,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Ainsley is Jamie's Niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
+        },
+        {
+          key: 19,
+          name: "Cal Waters",
+          title: 'Ring Boy',
+          picture: Cal,
+          description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see he is an absolute party animal."
         },
         {
           key: 20,
-          name: "Cal Waters",
-          title: 'Ring Boy',
-          picture: Jess,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
-        },
-        {
-          key: 21,
           name: "Susanna Waters",
           title: 'Officiant',
           picture: Jess,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet and Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
         },
       ]
     };

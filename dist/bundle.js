@@ -69318,10 +69318,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica:400,700i);", ""]);
+
 
 // module
-exports.push([module.i, ".eventsContainer {\n  text-align: center; }\n  .eventsContainer h1 {\n    font-family: 'Economica';\n    font-size: 36px;\n    text-decoration: underline; }\n  .eventsContainer .subNav .eat {\n    font-weight: 200; }\n    .eventsContainer .subNav .eat.open {\n      font-weight: 700; }\n  .eventsContainer .subNav .drink {\n    font-weight: 200; }\n    .eventsContainer .subNav .drink.open {\n      font-weight: 700; }\n  .eventsContainer .subNav .explore {\n    font-weight: 200; }\n    .eventsContainer .subNav .explore.open {\n      font-weight: 700; }\n  .eventsContainer .subNav p {\n    display: inline-block;\n    margin-left: 16px;\n    font-size: 16px;\n    font-family: 'Economica'; }\n    .eventsContainer .subNav p:hover {\n      text-decoration: underline;\n      color: #0033aa;\n      cursor: pointer; }\n  .eventsContainer .names {\n    margin-top: 10px; }\n  .eventsContainer h3 {\n    text-align: left;\n    margin-left: 15%;\n    margin-top: 30px;\n    font-family: 'Economica';\n    font-size: 34px; }\n  .eventsContainer .restaurantContainer {\n    width: 70%;\n    margin-left: 15%;\n    height: 240px;\n    background-color: #F5F4F0;\n    margin-top: 10px;\n    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4); }\n    .eventsContainer .restaurantContainer .restaurantImage {\n      height: 100%;\n      width: 40%;\n      float: left;\n      display: inline-block; }\n    .eventsContainer .restaurantContainer .descriptionContainer {\n      display: inline-block;\n      width: 59%; }\n      .eventsContainer .restaurantContainer .descriptionContainer .siteLink {\n        color: #000;\n        text-decoration: underline; }\n        .eventsContainer .restaurantContainer .descriptionContainer .siteLink:hover {\n          color: #0033aa; }\n      .eventsContainer .restaurantContainer .descriptionContainer h5 {\n        padding-top: 14px;\n        font-family: 'Economica';\n        font-size: 28px;\n        font-weight: 700; }\n      .eventsContainer .restaurantContainer .descriptionContainer p {\n        padding-left: 20px;\n        padding-right: 20px; }\n\n@media (max-width: 600px) {\n  .eventsContainer .restaurantContainer {\n    width: 98%;\n    margin-left: 1%; } }\n", ""]);
+exports.push([module.i, ".eventsContainer {\n  text-align: center; }\n  .eventsContainer h1 {\n    font-family: 'Economica';\n    font-size: 36px;\n    text-decoration: underline; }\n  .eventsContainer .subNav .eat {\n    font-weight: 200; }\n    .eventsContainer .subNav .eat.open {\n      font-weight: 700;\n      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); }\n  .eventsContainer .subNav .drink {\n    font-weight: 200; }\n    .eventsContainer .subNav .drink.open {\n      font-weight: 700;\n      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); }\n  .eventsContainer .subNav .explore {\n    font-weight: 200; }\n    .eventsContainer .subNav .explore.open {\n      font-weight: 700;\n      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); }\n  .eventsContainer .subNav p {\n    display: inline-block;\n    margin-left: 16px;\n    font-size: 24px;\n    font-family: 'Economica'; }\n    .eventsContainer .subNav p:hover {\n      color: #0033aa;\n      cursor: pointer; }\n    .eventsContainer .subNav p:active {\n      text-decoration: none; }\n  .eventsContainer .names {\n    margin-top: 10px; }\n  .eventsContainer h3 {\n    text-align: left;\n    margin-left: 15%;\n    margin-top: 30px;\n    font-family: 'Economica';\n    font-size: 34px; }\n  .eventsContainer .restaurantContainer {\n    width: 70%;\n    margin-left: 15%;\n    height: 240px;\n    background-color: #F5F4F0;\n    margin-top: 10px;\n    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4); }\n    .eventsContainer .restaurantContainer .restaurantImage {\n      height: 100%;\n      width: 40%;\n      float: left;\n      display: inline-block; }\n    .eventsContainer .restaurantContainer .descriptionContainer {\n      display: inline-block;\n      width: 59%; }\n      .eventsContainer .restaurantContainer .descriptionContainer .siteLink {\n        color: #000;\n        text-decoration: underline; }\n        .eventsContainer .restaurantContainer .descriptionContainer .siteLink:hover {\n          color: #0033aa; }\n      .eventsContainer .restaurantContainer .descriptionContainer h5 {\n        padding-top: 14px;\n        font-family: 'Economica';\n        font-size: 28px;\n        font-weight: 700; }\n      .eventsContainer .restaurantContainer .descriptionContainer p {\n        padding-left: 20px;\n        padding-right: 20px; }\n\n@media (max-width: 600px) {\n  .eventsContainer .restaurantContainer {\n    width: 98%;\n    margin-left: 1%; } }\n", ""]);
 
 // exports
 
@@ -69534,17 +69534,17 @@ var _ainsley = __webpack_require__(640);
 
 var _ainsley2 = _interopRequireDefault(_ainsley);
 
-var _nikki = __webpack_require__(641);
-
-var _nikki2 = _interopRequireDefault(_nikki);
-
-var _kunkel = __webpack_require__(642);
+var _kunkel = __webpack_require__(641);
 
 var _kunkel2 = _interopRequireDefault(_kunkel);
 
-var _kristen = __webpack_require__(643);
+var _kristen = __webpack_require__(642);
 
 var _kristen2 = _interopRequireDefault(_kristen);
+
+var _cal = __webpack_require__(643);
+
+var _cal2 = _interopRequireDefault(_cal);
 
 var _weddingParty = __webpack_require__(644);
 
@@ -69614,13 +69614,13 @@ var WeddingParty = function (_React$Component) {
         name: 'Willie Waters',
         title: 'Best Man',
         picture: _willie2.default,
-        description: "Willie is Jamie's older brother. "
+        description: "Willie is Jamie's older brother and best man and was always someone Jamie looked up to and continues to impress now that he is an incredible father to two amazing kids(see 'Ring Boy' and 'Flower Girlie'). Willie is the best competitor you will ever meet and has extended a lobster roll eating contest at Eventide to any takers."
       }, {
         key: 1,
         name: 'Will Duryea',
         title: 'Groomsman',
         picture: _willD2.default,
-        description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing."
+        description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing. Will has very much become a second brother to Jamie since he started dating and then married Jess."
       }, {
         key: 2,
         name: 'Tim McLoughlin',
@@ -69638,19 +69638,19 @@ var WeddingParty = function (_React$Component) {
         name: 'Eric Amoroso',
         title: 'Groomsman',
         picture: _eric2.default,
-        description: "Eric is Jamie's friend from Brooks and roommate in the South End.  Aside from Jamie and Kara, Eric will probably know the most people at the wedding."
+        description: "Eric is Jamie's friend from Brooks and roommate in the South End. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
       }, {
         key: 5,
         name: 'Sam Jones',
         title: 'Groomsman',
         picture: _sam2.default,
-        description: "Sam is Jamie's freshman year roommate from Colby."
+        description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
       }, {
         key: 6,
         name: 'Matt Hirsch',
         title: 'Groomsman',
         picture: _hirsch2.default,
-        description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby.  Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
+        description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby. Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
       }, {
         key: 7,
         name: 'Will Kinder',
@@ -69719,28 +69719,22 @@ var WeddingParty = function (_React$Component) {
         description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
       }, {
         key: 18,
-        name: "Nikki Tyler",
-        title: 'Bridesmaid',
-        picture: _nikki2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
-      }, {
-        key: 19,
         name: "Ainsley Waters",
         title: 'Flower Girlie',
         picture: _ainsley2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Ainsley is Jamie's Niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
       }, {
-        key: 20,
+        key: 19,
         name: "Cal Waters",
         title: 'Ring Boy',
-        picture: _jess2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        picture: _cal2.default,
+        description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see he is an absolute party animal."
       }, {
-        key: 21,
+        key: 20,
         name: "Susanna Waters",
         title: 'Officiant',
         picture: _jess2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet and Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
       }]
     };
     return _this;
@@ -69849,19 +69843,19 @@ module.exports = __webpack_require__.p + "dist/img/ainsley.png";
 /* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
 
 /***/ }),
 /* 642 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
 
 /***/ }),
 /* 643 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen.png";
+module.exports = __webpack_require__.p + "dist/img/cal.png";
 
 /***/ }),
 /* 644 */
@@ -69900,10 +69894,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica:400,700i);", ""]);
+
 
 // module
-exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);\n    height: 210px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 4px; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      height: 100%;\n      margin-top: 0px;\n      margin-left: 0px;\n      display: inline-block;\n      float: left;\n      border-top-left-radius: 4px;\n      border-bottom-left-radius: 4px; }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px;\n        width: 100%;\n        text-align: center; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 36px;\n          line-height: 36px;\n          margin-top: 10px;\n          margin-bottom: 0px;\n          font-family: 'Economica'; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px;\n          margin-top: 8px;\n          line-height: 24px;\n          font-family: 'Economica'; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        text-align: center;\n        width: 100%; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 210px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        height: 100%;\n        margin-top: 0px;\n        margin-left: 0px;\n        display: inline-block;\n        float: left;\n        border-top-left-radius: 4px;\n        border-bottom-left-radius: 4px; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
+exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyContainer .personContainer {\n    width: 45.5%;\n    margin-left: 3%;\n    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);\n    height: 240px;\n    margin-top: 10px;\n    margin-bottom: 10px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 4px; }\n    .partyContainer .personContainer .personImage {\n      width: 40%;\n      height: 100%;\n      margin-top: 0px;\n      margin-left: 0px;\n      display: inline-block;\n      float: left;\n      border-top-left-radius: 4px;\n      border-bottom-left-radius: 4px; }\n    .partyContainer .personContainer .rightContainer {\n      width: 58%;\n      display: inline-block;\n      float: right; }\n      .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n        display: inline-block;\n        margin-left: 12px;\n        width: 100%;\n        text-align: center; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n          font-size: 36px;\n          line-height: 36px;\n          margin-top: 10px;\n          margin-bottom: 0px;\n          font-family: 'Economica'; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n          font-size: 24px;\n          margin-top: 8px;\n          line-height: 24px;\n          font-family: 'Economica'; }\n      .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n        display: inline-block;\n        overflow: hidden;\n        position: relative;\n        float: right;\n        text-align: center;\n        width: 100%;\n        margin-top: 4px;\n        padding-right: 4px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer p {\n          font-size: 14px; }\n\n@media (max-width: 600px) {\n  .partyContainer {\n    margin-top: 16px; }\n    .partyContainer .personContainer {\n      width: 96%;\n      margin-left: 2%;\n      border: 1px solid #000;\n      background-color: #fff;\n      height: 240px;\n      margin-top: 10px;\n      margin-bottom: 10px;\n      display: block; }\n      .partyContainer .personContainer .personImage {\n        width: 40%;\n        height: 100%;\n        margin-top: 0px;\n        margin-left: 0px;\n        display: inline-block;\n        float: left;\n        border-top-left-radius: 4px;\n        border-bottom-left-radius: 4px; }\n      .partyContainer .personContainer .rightContainer {\n        width: 58%;\n        display: inline-block;\n        float: right; }\n        .partyContainer .personContainer .rightContainer .nameAndTitleContainer {\n          display: inline-block;\n          margin-left: 12px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personName {\n            font-size: 30px;\n            margin-bottom: 0px; }\n          .partyContainer .personContainer .rightContainer .nameAndTitleContainer .personTitle {\n            font-size: 24px; }\n        .partyContainer .personContainer .rightContainer .personDescriptionContainer {\n          display: inline-block;\n          overflow: hidden;\n          position: relative;\n          float: right;\n          width: 100%; } }\n", ""]);
 
 // exports
 
