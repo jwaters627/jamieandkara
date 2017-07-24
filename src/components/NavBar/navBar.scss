@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Economica:400,700i");
+
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes");
 
 .navContainer{
@@ -72,6 +72,8 @@
 
 @media (max-width: 900px) {
   .navContainer{
+  	height: 50px;
+  	
 	  .navList {
 	    display: none;
 	  }
