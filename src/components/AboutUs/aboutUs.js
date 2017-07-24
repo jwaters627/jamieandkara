@@ -42,7 +42,7 @@ class AboutUs extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.triggerResize()
-    }, 20);
+    }, 30);
   }
 
   triggerResize = () =>{

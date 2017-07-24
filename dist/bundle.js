@@ -69626,19 +69626,19 @@ var WeddingParty = function (_React$Component) {
         name: 'Tim McLoughlin',
         title: 'Groomsman',
         picture: _tim2.default,
-        description: "Tim is Jamie's friend and hockey linemate from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. Be sure to ask Tim about this picture."
+        description: "Tim is Jamie's friend and hockey linemate from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. Be sure to ask Tim about this picture and/or his airplane story."
       }, {
         key: 3,
         name: 'Ryan Armstrong',
         title: 'Groomsman',
         picture: _ryan2.default,
-        description: "Ryan is Jamie's oldest friend from Pike and Brooks. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid."
+        description: "Ryan is Jamie's oldest friend from Pike and Brooks. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid. "
       }, {
         key: 4,
         name: 'Eric Amoroso',
         title: 'Groomsman',
         picture: _eric2.default,
-        description: "Eric is Jamie's friend from Brooks and roommate in the South End. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
+        description: "Eric is Jamie's friend from Brooks and roommate in the South End when Jamie moved back to Boston. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
       }, {
         key: 5,
         name: 'Sam Jones',
@@ -70046,7 +70046,7 @@ var AboutUs = function (_React$Component) {
 
       setTimeout(function () {
         _this2.triggerResize();
-      }, 20);
+      }, 30);
     }
   }, {
     key: 'render',
