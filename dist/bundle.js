@@ -68446,7 +68446,6 @@ var Main = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				{ className: 'mainContainer' },
-				_react2.default.createElement('div', { className: 'imageDiv' }),
 				_react2.default.createElement(
 					'h1',
 					{ className: 'weddingTitle' },
@@ -68461,7 +68460,8 @@ var Main = function (_React$Component) {
 					'p',
 					null,
 					'May 19, 2018'
-				)
+				),
+				_react2.default.createElement('div', { className: 'imageDiv' })
 			);
 		}
 	}]);

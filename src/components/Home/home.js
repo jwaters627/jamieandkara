@@ -16,12 +16,13 @@ class Main extends React.Component {
 	render() {
 		return( 
 			<div className='mainContainer'>
-				<div className='imageDiv'>
-					
-				</div>
+				
 				<h1 className='weddingTitle'>Kara Anne Dalton and James Stryker Waters</h1>
 				<p>Ocean Gateway Portland Maine</p>
 				<p>May 19, 2018</p>
+				<div className='imageDiv'>
+					
+				</div>
 			</div>	
 		)
 	}
