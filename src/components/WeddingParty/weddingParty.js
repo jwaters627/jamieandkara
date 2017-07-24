@@ -52,7 +52,7 @@ class WeddingParty extends React.Component {
           name: 'Ryan Armstrong',
           title: 'Groomsman',
           picture: Ryan,
-          description: "Ryan is Jamie's oldest friend from Pike and Brooks. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid. "
+          description: "Ryan is Jamie's oldest friend from Pike and Brooks and the two of them had many 'snow days' playing Lord of the Rings video games and jamming out to Good Charlotte. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid. "
         },
         {
           key: 4,
