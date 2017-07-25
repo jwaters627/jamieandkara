@@ -17,6 +17,10 @@ import Ainsley from '../../../img/ainsley.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kristen from '../../../img/kristen.png';
 import Cal from '../../../img/cal.png';
+import Sus from '../../../img/sus.png';
+import Lizz from '../../../img/lizz.png';
+import Deana from '../../../img/deana.png';
+import Ashley from '../../../img/ashley.png';
 
 import styles from './weddingParty.scss'
 
@@ -45,7 +49,7 @@ class WeddingParty extends React.Component {
           name: 'Tim McLoughlin',
           title: 'Groomsman',
           picture: Tim,
-          description: "Tim is Jamie's friend and hockey linemate from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. Be sure to ask Tim about this picture and/or his airplane story."
+          description: "Tim is Jamie's friend from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. The first time he stayed over he became trapped in the basement because he was scared of 'Sparky' the ferocious dog upstairs. Be sure to ask Tim about this picture and/or his airplane story."
         },
         {
           key: 3,
@@ -94,63 +98,63 @@ class WeddingParty extends React.Component {
           name: 'Katie Dalton',
           title: 'Maid of Honor',
           picture: Katie,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Katie is Kara's sister and "
         },
         {
           key: 10,
           name: 'Ashley Aubuchon',
           title: 'Bridesmaid',
-          picture: Jess,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          picture: Ashley,
+          description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. Ashley and Kara"
         },
         {
           key: 11,
           name: 'Katelyn Wallman',
           title: 'Bridesmaid',
           picture: Katelyn,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
         },
         {
           key: 12,
           name: 'Mandy Eldridge',
           title: 'Bridesmaid',
           picture: Mandy,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Mandy was Kara’s first friend when she moved to Pepperell in third grade and the two quickly became inseparable, often found in matching outfits and completing each other’s sentences."
         },
         {
           key: 13,
           name: 'Deana Wojcik',
           title: 'Bridesmaid',
-          picture: Jess,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          picture: Deana,
+          description: "Deana is Kara's oldest friend, starting in kindergarten when Kara was too shy to ask the teacher for permission to go to the bathroom so Deana asked for her. Deana and Kara lost touch when Kara moved in third grade but found each other in the same seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
         },
         {
           key: 14,
           name: 'Lizz Chiarelli',
           title: 'Bridesmaid',
-          picture: Jess,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          picture: Lizz,
+          description: "Lizz and Kara met in seventh grade at Parker and spent the next six years became friends in seventh grade and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing the rest of the Parker ladies to join."
         },
         {
           key: 15,
           name: 'Sarah Waterman',
           title: 'Bridesmaid',
           picture: Kunkel,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, where they thought throwing dinner parties with frozen pizza and two buck chuck made them real adults."
         },
         {
           key: 16,
           name: "Kristen D'Angelo",
           title: 'Bridesmaid',
           picture: Kristen,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Kristen and Kara met at Colby sophomore year and lived together senior year. Kristen"
         },
         {
           key: 17,
           name: "Katie Donnelly",
           title: 'Bridesmaid',
           picture: KatieR,
-          description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+          description: "Katie and Kara became friends sophomore year of college when Katie used to visit her now husband CJ at Colby. They spent a semester abroad together in Australia junior year, and Kara lived down the street from Katie during her brief stint in Washington, DC. "
         },
         {
           key: 18,
@@ -164,13 +168,13 @@ class WeddingParty extends React.Component {
           name: "Cal Waters",
           title: 'Ring Boy',
           picture: Cal,
-          description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see he is an absolute party animal."
+          description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see, he is an absolute party animal."
         },
         {
           key: 20,
           name: "Susanna Waters",
           title: 'Officiant',
-          picture: Jess,
+          picture: Sus,
           description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet and Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
         },
       ]

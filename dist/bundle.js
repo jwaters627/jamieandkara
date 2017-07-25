@@ -38623,7 +38623,7 @@ var _weddingParty = __webpack_require__(626);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(646);
+var _aboutUs = __webpack_require__(650);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -42325,7 +42325,7 @@ exports = module.exports = __webpack_require__(34)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Great+Vibes);", ""]);
 
 // module
-exports.push([module.i, ".navContainer {\n  width: 100%;\n  height: 76px; }\n  .navContainer .menu {\n    display: none; }\n  .navContainer .navList {\n    width: 100%;\n    padding: 0;\n    text-align: center; }\n    .navContainer .navList .navListItem {\n      display: block;\n      line-height: 56px;\n      padding-right: 14px;\n      padding-left: 14px;\n      padding-top: 12px;\n      margin-top: 6px;\n      display: inline-block; }\n      .navContainer .navList .navListItem.initials {\n        border-left: 1px solid #022998;\n        border-right: 1px solid #022998;\n        padding-right: 28px;\n        border-radius: 40px;\n        margin-left: 20px;\n        margin-right: 20px; }\n    .navContainer .navList .navLink {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'economica';\n      font-size: 24px;\n      font-weight: 400;\n      padding: 2px;\n      text-shadow: 1px 1px 3px #fff; }\n      .navContainer .navList .navLink:hover {\n        font-style: italic;\n        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }\n    .navContainer .navList .initialsItem {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'Great Vibes';\n      font-size: 38px;\n      font-weight: 400;\n      padding: 2px;\n      text-shadow: 1px 1px 3px #fff; }\n      .navContainer .navList .initialsItem:hover {\n        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }\n\n@media (max-width: 900px) {\n  .navContainer {\n    height: 50px; }\n    .navContainer .navList {\n      display: none; }\n  .navContainer .menu {\n    display: block; } }\n", ""]);
+exports.push([module.i, ".navContainer {\n  width: 100%;\n  height: 76px; }\n  .navContainer .menu {\n    display: none; }\n  .navContainer .navList {\n    width: 100%;\n    padding: 0;\n    text-align: center; }\n    .navContainer .navList .navListItem {\n      display: block;\n      line-height: 56px;\n      padding-right: 14px;\n      padding-left: 14px;\n      padding-top: 12px;\n      width: 12%;\n      margin-top: 6px;\n      display: inline-block; }\n      .navContainer .navList .navListItem.initials {\n        border-left: 1px solid #022998;\n        border-right: 1px solid #022998;\n        padding-right: 28px;\n        border-radius: 40px;\n        width: 12%;\n        margin-left: 20px;\n        margin-right: 20px; }\n    .navContainer .navList .navLink {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'economica';\n      font-size: 1.5vw;\n      font-weight: 400;\n      padding: 2px;\n      text-shadow: 1px 1px 3px #fff; }\n      .navContainer .navList .navLink:hover {\n        font-style: italic;\n        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }\n    .navContainer .navList .initialsItem {\n      text-decoration: none;\n      text-align: center;\n      color: #000088;\n      font-family: 'Great Vibes';\n      font-size: 2.3vw;\n      font-weight: 400;\n      padding: 2px;\n      text-shadow: 1px 1px 3px #fff; }\n      .navContainer .navList .initialsItem:hover {\n        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }\n\n@media (max-width: 900px) {\n  .navContainer {\n    height: 50px; }\n    .navContainer .navList {\n      display: none; }\n  .navContainer .menu {\n    display: block; } }\n", ""]);
 
 // exports
 
@@ -68448,12 +68448,16 @@ var Main = function (_React$Component) {
 				_react2.default.createElement(
 					'h1',
 					{ className: 'weddingTitle' },
-					'Kara Anne Dalton and James Stryker Waters'
+					'Kara Anne Dalton',
+					_react2.default.createElement('br', null),
+					'+',
+					_react2.default.createElement('br', null),
+					' James Stryker Waters'
 				),
 				_react2.default.createElement(
 					'h2',
 					null,
-					'Ocean Gateway Portland Maine'
+					'Ocean Gateway in Portland, Maine'
 				),
 				_react2.default.createElement(
 					'h2',
@@ -68511,7 +68515,7 @@ exports = module.exports = __webpack_require__(34)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica);", ""]);
 
 // module
-exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n\n.mainContainer h2 {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; }\n  .mainContainer .weddingTitle {\n    margin-top: 4px; } }\n", ""]);
+exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  line-height: 26px;\n  margin-bottom: 16px; }\n\n.mainContainer h2 {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; }\n  .mainContainer .weddingTitle {\n    margin-top: 4px; } }\n", ""]);
 
 // exports
 
@@ -69545,7 +69549,23 @@ var _cal = __webpack_require__(643);
 
 var _cal2 = _interopRequireDefault(_cal);
 
-var _weddingParty = __webpack_require__(644);
+var _sus = __webpack_require__(644);
+
+var _sus2 = _interopRequireDefault(_sus);
+
+var _lizz = __webpack_require__(645);
+
+var _lizz2 = _interopRequireDefault(_lizz);
+
+var _deana = __webpack_require__(646);
+
+var _deana2 = _interopRequireDefault(_deana);
+
+var _ashley = __webpack_require__(647);
+
+var _ashley2 = _interopRequireDefault(_ashley);
+
+var _weddingParty = __webpack_require__(648);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -69625,7 +69645,7 @@ var WeddingParty = function (_React$Component) {
         name: 'Tim McLoughlin',
         title: 'Groomsman',
         picture: _tim2.default,
-        description: "Tim is Jamie's friend and hockey linemate from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. Be sure to ask Tim about this picture and/or his airplane story."
+        description: "Tim is Jamie's friend from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. The first time he stayed over he became trapped in the basement because he was scared of 'Sparky' the ferocious dog upstairs. Be sure to ask Tim about this picture and/or his airplane story."
       }, {
         key: 3,
         name: 'Ryan Armstrong',
@@ -69667,55 +69687,55 @@ var WeddingParty = function (_React$Component) {
         name: 'Katie Dalton',
         title: 'Maid of Honor',
         picture: _katie2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Katie is Kara's sister and "
       }, {
         key: 10,
         name: 'Ashley Aubuchon',
         title: 'Bridesmaid',
-        picture: _jess2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        picture: _ashley2.default,
+        description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. Ashley and Kara"
       }, {
         key: 11,
         name: 'Katelyn Wallman',
         title: 'Bridesmaid',
         picture: _katelyn2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
       }, {
         key: 12,
         name: 'Mandy Eldridge',
         title: 'Bridesmaid',
         picture: _mandy2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Mandy was Kara’s first friend when she moved to Pepperell in third grade and the two quickly became inseparable, often found in matching outfits and completing each other’s sentences."
       }, {
         key: 13,
         name: 'Deana Wojcik',
         title: 'Bridesmaid',
-        picture: _jess2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        picture: _deana2.default,
+        description: "Deana is Kara's oldest friend, starting in kindergarten when Kara was too shy to ask the teacher for permission to go to the bathroom so Deana asked for her. Deana and Kara lost touch when Kara moved in third grade but found each other in the same seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
       }, {
         key: 14,
         name: 'Lizz Chiarelli',
         title: 'Bridesmaid',
-        picture: _jess2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        picture: _lizz2.default,
+        description: "Lizz and Kara met in seventh grade at Parker and spent the next six years became friends in seventh grade and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing the rest of the Parker ladies to join."
       }, {
         key: 15,
         name: 'Sarah Waterman',
         title: 'Bridesmaid',
         picture: _kunkel2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, where they thought throwing dinner parties with frozen pizza and two buck chuck made them real adults."
       }, {
         key: 16,
         name: "Kristen D'Angelo",
         title: 'Bridesmaid',
         picture: _kristen2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Kristen and Kara met at Colby sophomore year and lived together senior year. Kristen"
       }, {
         key: 17,
         name: "Katie Donnelly",
         title: 'Bridesmaid',
         picture: _katieR2.default,
-        description: "Quis mollit officia sint est officia culpa excepteur incididunt veniam mollit labore eiusmod dolore nisi sed sint occaecat."
+        description: "Katie and Kara became friends sophomore year of college when Katie used to visit her now husband CJ at Colby. They spent a semester abroad together in Australia junior year, and Kara lived down the street from Katie during her brief stint in Washington, DC. "
       }, {
         key: 18,
         name: "Ainsley Waters",
@@ -69727,12 +69747,12 @@ var WeddingParty = function (_React$Component) {
         name: "Cal Waters",
         title: 'Ring Boy',
         picture: _cal2.default,
-        description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see he is an absolute party animal."
+        description: "Cal is Jamie's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see, he is an absolute party animal."
       }, {
         key: 20,
         name: "Susanna Waters",
         title: 'Officiant',
-        picture: _jess2.default,
+        picture: _sus2.default,
         description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet and Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
       }]
     };
@@ -69860,10 +69880,34 @@ module.exports = __webpack_require__.p + "dist/img/cal.png";
 /* 644 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/sus.png";
+
+/***/ }),
+/* 645 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/lizz.png";
+
+/***/ }),
+/* 646 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/deana.png";
+
+/***/ }),
+/* 647 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/ashley.png";
+
+/***/ }),
+/* 648 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(645);
+var content = __webpack_require__(649);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -69888,7 +69932,7 @@ if(false) {
 }
 
 /***/ }),
-/* 645 */
+/* 649 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
@@ -69902,7 +69946,7 @@ exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyConta
 
 
 /***/ }),
-/* 646 */
+/* 650 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69936,67 +69980,67 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _nukaCarousel = __webpack_require__(647);
+var _nukaCarousel = __webpack_require__(651);
 
 var _nukaCarousel2 = _interopRequireDefault(_nukaCarousel);
 
-var _aboutUs = __webpack_require__(653);
+var _aboutUs = __webpack_require__(657);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
-var _flamingos = __webpack_require__(655);
+var _flamingos = __webpack_require__(659);
 
 var _flamingos2 = _interopRequireDefault(_flamingos);
 
-var _xmas = __webpack_require__(656);
+var _xmas = __webpack_require__(660);
 
 var _xmas2 = _interopRequireDefault(_xmas);
 
-var _floridaSunset = __webpack_require__(657);
+var _floridaSunset = __webpack_require__(661);
 
 var _floridaSunset2 = _interopRequireDefault(_floridaSunset);
 
-var _florida = __webpack_require__(658);
+var _florida = __webpack_require__(662);
 
 var _florida2 = _interopRequireDefault(_florida);
 
-var _longLake = __webpack_require__(659);
+var _longLake = __webpack_require__(663);
 
 var _longLake2 = _interopRequireDefault(_longLake);
 
-var _kellysWedding = __webpack_require__(660);
+var _kellysWedding = __webpack_require__(664);
 
 var _kellysWedding2 = _interopRequireDefault(_kellysWedding);
 
-var _kellyWeddingBeach = __webpack_require__(661);
+var _kellyWeddingBeach = __webpack_require__(665);
 
 var _kellyWeddingBeach2 = _interopRequireDefault(_kellyWeddingBeach);
 
-var _samAndMeg = __webpack_require__(662);
+var _samAndMeg = __webpack_require__(666);
 
 var _samAndMeg2 = _interopRequireDefault(_samAndMeg);
 
-var _acoaxet = __webpack_require__(663);
+var _acoaxet = __webpack_require__(667);
 
 var _acoaxet2 = _interopRequireDefault(_acoaxet);
 
-var _beeHive = __webpack_require__(664);
+var _beeHive = __webpack_require__(668);
 
 var _beeHive2 = _interopRequireDefault(_beeHive);
 
-var _boat = __webpack_require__(665);
+var _boat = __webpack_require__(669);
 
 var _boat2 = _interopRequireDefault(_boat);
 
-var _kayak = __webpack_require__(666);
+var _kayak = __webpack_require__(670);
 
 var _kayak2 = _interopRequireDefault(_kayak);
 
-var _pool = __webpack_require__(667);
+var _pool = __webpack_require__(671);
 
 var _pool2 = _interopRequireDefault(_pool);
 
-var _longLakeDockWithAinsley = __webpack_require__(668);
+var _longLakeDockWithAinsley = __webpack_require__(672);
 
 var _longLakeDockWithAinsley2 = _interopRequireDefault(_longLakeDockWithAinsley);
 
@@ -70067,19 +70111,19 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 647 */
+/* 651 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Carousel = __webpack_require__(648);
+var Carousel = __webpack_require__(652);
 
 module.exports = Carousel;
 
 
 /***/ }),
-/* 648 */
+/* 652 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70101,19 +70145,19 @@ var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _kwReactTweenState = __webpack_require__(649);
+var _kwReactTweenState = __webpack_require__(653);
 
 var _kwReactTweenState2 = _interopRequireDefault(_kwReactTweenState);
 
-var _decorators = __webpack_require__(650);
+var _decorators = __webpack_require__(654);
 
 var _decorators2 = _interopRequireDefault(_decorators);
 
-var _objectAssign = __webpack_require__(651);
+var _objectAssign = __webpack_require__(655);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
-var _exenv = __webpack_require__(652);
+var _exenv = __webpack_require__(656);
 
 var _exenv2 = _interopRequireDefault(_exenv);
 
@@ -71019,7 +71063,7 @@ exports['default'] = Carousel;
 module.exports = exports['default'];
 
 /***/ }),
-/* 649 */
+/* 653 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -71782,7 +71826,7 @@ return /******/ (function(modules) { // webpackBootstrap
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 650 */
+/* 654 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71934,7 +71978,7 @@ exports['default'] = DefaultDecorators;
 module.exports = exports['default'];
 
 /***/ }),
-/* 651 */
+/* 655 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72031,7 +72075,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 652 */
+/* 656 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -72078,13 +72122,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 653 */
+/* 657 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(654);
+var content = __webpack_require__(658);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72109,7 +72153,7 @@ if(false) {
 }
 
 /***/ }),
-/* 654 */
+/* 658 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(34)(undefined);
@@ -72123,85 +72167,85 @@ exports.push([module.i, ".carousel {\n  width: 80vw;\n  height: 40vw;\n  margin:
 
 
 /***/ }),
-/* 655 */
+/* 659 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/flamingos.png";
 
 /***/ }),
-/* 656 */
+/* 660 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/xmas.png";
 
 /***/ }),
-/* 657 */
+/* 661 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/floridaSunset.png";
 
 /***/ }),
-/* 658 */
+/* 662 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/florida.png";
 
 /***/ }),
-/* 659 */
+/* 663 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLake.png";
 
 /***/ }),
-/* 660 */
+/* 664 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellysWedding.png";
 
 /***/ }),
-/* 661 */
+/* 665 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kellyWeddingBeach.png";
 
 /***/ }),
-/* 662 */
+/* 666 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/samAndMeg.png";
 
 /***/ }),
-/* 663 */
+/* 667 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/acoaxet.png";
 
 /***/ }),
-/* 664 */
+/* 668 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/beeHive.png";
 
 /***/ }),
-/* 665 */
+/* 669 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/boat.png";
 
 /***/ }),
-/* 666 */
+/* 670 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/kayak.png";
 
 /***/ }),
-/* 667 */
+/* 671 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/pool.png";
 
 /***/ }),
-/* 668 */
+/* 672 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/img/longLakeDockWithAinsley.png";
