@@ -62,7 +62,6 @@ class AboutUs extends React.Component {
             {this.state.image.map(this.renderImages, this)}
         </Carousel>
       </div>
-
       )
 
   }
