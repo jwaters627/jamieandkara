@@ -69711,19 +69711,19 @@ var WeddingParty = function (_React$Component) {
         name: 'Deana Wojcik',
         title: 'Bridesmaid',
         picture: _deana2.default,
-        description: "Deana is Kara's oldest friend, starting in kindergarten when Kara was too shy to ask the teacher for permission to go to the bathroom so Deana asked for her. Deana and Kara lost touch when Kara moved in third grade but found each other in the same seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
+        description: "Deana is Kara's oldest friend, starting in kindgergarten when she had to ask permission for Kara to go to the bathroom because Kara was too shy to ask for herself. Kara moved in third grade but found Deana again in their seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
       }, {
         key: 14,
         name: 'Lizz Chiarelli',
         title: 'Bridesmaid',
         picture: _lizz2.default,
-        description: "Lizz and Kara met in seventh grade at Parker and spent the next six years became friends in seventh grade and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing the rest of the Parker ladies to join."
+        description: "Lizz and Kara met in seventh grade at Parker and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing the rest of the Parker ladies to join."
       }, {
         key: 15,
         name: 'Sarah Waterman',
         title: 'Bridesmaid',
         picture: _kunkel2.default,
-        description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, where they thought throwing dinner parties with frozen pizza and two buck chuck made them real adults."
+        description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
       }, {
         key: 16,
         name: "Kristen D'Angelo",
