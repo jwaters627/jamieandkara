@@ -42541,8 +42541,8 @@ var Drawer = function (_React$Component) {
             { onClick: this.props.showDrawer, className: linkTwo },
             _react2.default.createElement(
               _reactRouterDom.NavLink,
-              { className: 'navLink', to: '/about_us' },
-              'ABOUT US'
+              { className: 'navLink', to: '/venue' },
+              'VENUE'
             )
           ),
           _react2.default.createElement(
