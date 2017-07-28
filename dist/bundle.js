@@ -69582,19 +69582,16 @@ var DefaultDecorators = [{
       this.props.previousSlide();
     },
     getButtonStyles: function getButtonStyles(disabled) {
-      let size = 24;
-      let padding = 18;
-      if(window.innerWidth < 700){size = 18; padding = 15}
       return {
         border: 0,
         background: 'rgba(255,255,255,0.0)',
         color: 'rgba(255,255,255,0.6)',
         textShadow: '(2px 2px 3px rgba(0,0,0,0.5)',
-        padding: padding,
+        padding: 18,
         borderRadius: 30,
         paddingTop: 8,
         paddingBottom: 8,
-        fontSize: size,
+        fontSize: 24,
         outline: 0,
         opacity: disabled ? 0.3 : 1,
         cursor: 'pointer',
@@ -69622,19 +69619,16 @@ var DefaultDecorators = [{
       this.props.nextSlide();
     },
     getButtonStyles: function getButtonStyles(disabled) {
-      let size = 24;
-      let padding = 18;
-      if(window.innerWidth < 700){size = 18; padding = 15}
       return {
         border: 0,
         background: 'rgba(255,255,255,0.0)',
         color: 'rgba(255,255,255,0.6)',
         textShadow: '(2px 2px 3px rgba(0,0,0,0.5)',
-        padding: padding,
+        padding: 18,
         borderRadius: 30,
         paddingTop: 8,
         paddingBottom: 8,
-        fontSize: size,
+        fontSize: 24,
         outline: 0,
         opacity: disabled ? 0.3 : 1,
         cursor: 'pointer',
@@ -69675,12 +69669,10 @@ var DefaultDecorators = [{
       return arr;
     },
     getListStyles: function getListStyles() {
-      let top = 0;
-      if(window.innerWidth < 700){top = -12}
       return {
         position: 'relative',
         margin: 0,
-        top: top,
+        top: 0,
         padding: 0
       };
     },
@@ -69796,7 +69788,7 @@ exports = module.exports = __webpack_require__(28)(undefined);
 
 
 // module
-exports.push([module.i, ".carousel {\n  width: 50vw;\n  height: 30vw;\n  margin: 0 auto;\n  border-radius: 3px;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel .slider {\n    height: 100% !important; }\n  .carousel button {\n    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    max-height: 100%;\n    max-width: 100%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 37vh;\n    border: 4px solid black; }\n    .carousel button.forwardArrow {\n      font-size: 24px; } }\n", ""]);
+exports.push([module.i, ".carousel {\n  width: 50vw;\n  height: 30vw;\n  margin: 0 auto;\n  border-radius: 3px;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel .slider {\n    height: 100% !important; }\n  .carousel button {\n    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    max-height: 100%;\n    max-width: 100%;\n    min-height: 30vw; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 37vh;\n    border: 4px solid black; }\n    .carousel img {\n      min-height: 37vh; }\n    .carousel button.forwardArrow {\n      font-size: 24px; } }\n", ""]);
 
 // exports
 
