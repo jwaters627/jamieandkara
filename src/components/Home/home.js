@@ -39,13 +39,15 @@ class Main extends React.Component {
 
   
 	render() {
+		let title = (<h1 className='weddingTitle'>Kara Anne Dalton and James Stryker Waters</h1>)
+		if(window.innerWidth < 700){title = (<h1 className='weddingTitle'>Kara Anne Dalton<br/>+<br/> James Stryker Waters</h1>)}
 		return( 
 			<div className='mainContainer'>
-				<h1 className='weddingTitle'>Kara Anne Dalton<br/>+<br/> James Stryker Waters</h1>
+				{title}
 				<h2>Ocean Gateway in Portland, Maine</h2>
 				<h2>May 19, 2018</h2>
 				<SlideShow image={this.state.image}/>
-				<h2>{this.state.days} days until the wedding!</h2>
+				<h2 className='countdown'>{this.state.days} days until the wedding!</h2>
 			</div>	
 		)
 	}

@@ -68600,10 +68600,13 @@ var Main = function (_React$Component) {
 	(0, _createClass3.default)(Main, [{
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement(
-				'div',
-				{ className: 'mainContainer' },
-				_react2.default.createElement(
+			var title = _react2.default.createElement(
+				'h1',
+				{ className: 'weddingTitle' },
+				'Kara Anne Dalton and James Stryker Waters'
+			);
+			if (window.innerWidth < 700) {
+				title = _react2.default.createElement(
 					'h1',
 					{ className: 'weddingTitle' },
 					'Kara Anne Dalton',
@@ -68611,7 +68614,12 @@ var Main = function (_React$Component) {
 					'+',
 					_react2.default.createElement('br', null),
 					' James Stryker Waters'
-				),
+				);
+			}
+			return _react2.default.createElement(
+				'div',
+				{ className: 'mainContainer' },
+				title,
 				_react2.default.createElement(
 					'h2',
 					null,
@@ -68625,7 +68633,7 @@ var Main = function (_React$Component) {
 				_react2.default.createElement(_slideShow2.default, { image: this.state.image }),
 				_react2.default.createElement(
 					'h2',
-					null,
+					{ className: 'countdown' },
 					this.state.days,
 					' days until the wedding!'
 				)
@@ -68679,7 +68687,7 @@ exports = module.exports = __webpack_require__(27)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Economica);", ""]);
 
 // module
-exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  line-height: 26px;\n  margin-bottom: 16px; }\n\n.mainContainer h2 {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; }\n  .mainContainer .weddingTitle {\n    margin-top: 4px; } }\n", ""]);
+exports.push([module.i, ".mainContainer .imageDiv {\n  width: 60%;\n  margin-left: 20%;\n  margin-top: 20px;\n  min-height: 60vh;\n  background-image: url(" + __webpack_require__(151) + ");\n  opacity: 1;\n  border: 6px solid black;\n  background-position: 50% 0;\n  background-size: cover; }\n\n.mainContainer .weddingTitle {\n  text-align: center;\n  font-size: 34px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  line-height: 26px;\n  margin-bottom: 16px; }\n\n.mainContainer h2 {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.mainContainer .countdown {\n  margin-top: 12px; }\n\n.mainContainer p {\n  text-align: center;\n  font-size: 26px;\n  color: #000088;\n  font-weight: 800;\n  font-family: 'economica', sans-serif;\n  text-shadow: 1px 1px 3px #fff; }\n  .mainContainer p.firstLine {\n    margin-top: 20px; }\n\n@media (max-width: 600px) {\n  .mainContainer .imageDiv {\n    background-image: url(" + __webpack_require__(152) + ");\n    width: 90%;\n    margin-left: 5%;\n    margin-top: 10px;\n    background-position: 0 0; }\n  .mainContainer .weddingTitle {\n    margin-top: 4px; } }\n", ""]);
 
 // exports
 
@@ -70745,7 +70753,7 @@ exports = module.exports = __webpack_require__(27)(undefined);
 
 
 // module
-exports.push([module.i, ".carousel {\n  width: 50vw;\n  height: 30vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel .slider {\n    height: 100% !important; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    max-height: 100%;\n    max-width: 100%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 90vw;\n    border: 4px solid black; }\n    .carousel img {\n      margin-top: 0px;\n      height: 100%; }\n    .carousel button.forwardArrow {\n      font-size: 24px; }\n    .carousel .slider .sliderList {\n      height: 272px; } }\n", ""]);
+exports.push([module.i, ".carousel {\n  width: 50vw;\n  height: 30vw;\n  margin: 0 auto;\n  margin-top: 20px;\n  border: 8px solid black;\n  overflow: hidden; }\n  .carousel .slider {\n    height: 100% !important; }\n  .carousel menu {\n    position: absolute;\n    top: 30%;\n    width: 100%; }\n    .carousel menu .prev {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .prev::before {\n        content: \"<\"; }\n      .carousel menu .prev:active {\n        border: none; }\n    .carousel menu .next {\n      width: 50px;\n      height: 50px;\n      border-radius: 50px;\n      position: absolute;\n      right: 20px;\n      background-color: rgba(255, 255, 255, 0.4);\n      border: none; }\n      .carousel menu .next::before {\n        content: \">\"; }\n      .carousel menu .next:active {\n        border: none; }\n  .carousel img {\n    max-height: 100%;\n    max-width: 100%; }\n\n@media (max-width: 600px) {\n  .carousel {\n    width: 96vw;\n    height: 62vw;\n    border: 4px solid black; }\n    .carousel img {\n      margin-top: 0px;\n      height: 100%; }\n    .carousel button.forwardArrow {\n      font-size: 24px; }\n    .carousel .slider .sliderList {\n      height: 272px; } }\n", ""]);
 
 // exports
 
@@ -72265,12 +72273,7 @@ var WeddingParty = function (_React$Component) {
             { className: 'personNameFull' },
             this.props.person.name
           ),
-          _react2.default.createElement(_slideShow2.default, { image: this.props.person.images }),
-          _react2.default.createElement(
-            'p',
-            { className: 'personDescriptionFull' },
-            this.props.person.description
-          )
+          _react2.default.createElement(_slideShow2.default, { image: this.props.person.images })
         )
       );
     }
@@ -72320,7 +72323,7 @@ exports = module.exports = __webpack_require__(27)(undefined);
 
 
 // module
-exports.push([module.i, ".fullContainer {\n  background-color: rgba(0, 0, 0, 0.6);\n  width: 100%;\n  height: 100vw;\n  position: fixed;\n  top: 0; }\n  .fullContainer .personContainerFull {\n    width: 90%;\n    margin-left: 5%;\n    height: 90vh;\n    margin-top: 5vh;\n    background-color: #F5F4F0;\n    position: fixed;\n    z-index: 99999999;\n    top: 0;\n    left: 0; }\n    .fullContainer .personContainerFull .personNameFull {\n      font-family: 'Economica';\n      text-align: center;\n      font-size: 38px; }\n    .fullContainer .personContainerFull .personDescriptionFull {\n      width: 70%;\n      margin-left: 15%;\n      margin-top: 12px;\n      text-align: center; }\n    .fullContainer .personContainerFull .closeButton {\n      position: absolute;\n      top: 8px;\n      right: 8px;\n      cursor: pointer;\n      font-size: 18px;\n      border-radius: 24px;\n      height: 24px;\n      width: 24px;\n      color: #fff;\n      background-color: #000088;\n      text-align: center; }\n", ""]);
+exports.push([module.i, ".fullContainer {\n  background-color: rgba(0, 0, 0, 0.6);\n  width: 100%;\n  height: 100vw;\n  position: fixed;\n  top: 0; }\n  .fullContainer .personContainerFull {\n    width: 96vw;\n    margin-left: 2vw;\n    height: 90vh;\n    margin-top: 5vh;\n    background-color: #F5F4F0;\n    position: fixed;\n    z-index: 99999999;\n    top: 0;\n    left: 0; }\n    .fullContainer .personContainerFull .personNameFull {\n      font-family: 'Economica';\n      text-align: center;\n      font-size: 38px; }\n    .fullContainer .personContainerFull .personDescriptionFull {\n      width: 70%;\n      margin-left: 15%;\n      margin-top: 12px;\n      text-align: center; }\n    .fullContainer .personContainerFull .closeButton {\n      position: absolute;\n      top: 8px;\n      right: 8px;\n      cursor: pointer;\n      font-size: 18px;\n      border-radius: 24px;\n      height: 24px;\n      width: 24px;\n      color: #fff;\n      background-color: #000088;\n      text-align: center; }\n", ""]);
 
 // exports
 
