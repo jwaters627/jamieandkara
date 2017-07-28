@@ -2,15 +2,24 @@ import React from 'react';
 import Person from '../Person/person';
 
 import Willie from '../../../img/willie.png';
+import Willie2 from '../../../img/willie2.png';
+import Willie3 from '../../../img/willie3.png';
+import Willie4 from '../../../img/willie4.png';
+import Willie5 from '../../../img/willie5.png';
 import WillD from '../../../img/willD.png';
 import Ryan from '../../../img/ryan.png';
+import Ryan2 from '../../../img/ryan2.png';
+import Ryan3 from '../../../img/ryan3.png';
 import Tim from '../../../img/tim.png';
 import Tim2 from '../../../img/tim2.png';
 import Tim3 from '../../../img/tim3.png';
 import Hirsch from '../../../img/hirsch.png';
+import Hirsch2 from '../../../img/hirsch2.png';
+import Hirsch3 from '../../../img/hirsch3.png';
 import Eric from '../../../img/eric.png';
 import Eric2 from '../../../img/eric2.png';
 import WillK from '../../../img/willK.png';
+import WillK2 from '../../../img/willK2.png';
 import Jess from '../../../img/jess.png';
 import Sam from '../../../img/sam.png';
 import Sam2 from '../../../img/sam2.png';
@@ -30,6 +39,8 @@ import Kristen from '../../../img/kristen.png';
 import Cal from '../../../img/cal.png';
 import Cal2 from '../../../img/cal2.png';
 import Sus from '../../../img/sus.png';
+import Sus2 from '../../../img/sus2.png';
+import Sus3 from '../../../img/sus3.png';
 import Lizz from '../../../img/lizz.png';
 import Deana from '../../../img/deana.png';
 import Ashley from '../../../img/ashley.png';
@@ -47,7 +58,7 @@ class WeddingParty extends React.Component {
           key: 0,
           name: 'Willie Waters',
           title: 'Best Man',
-          images: [Willie, Sus, Cal, Lizz],
+          images: [Willie, Willie2, Willie3, Willie4, Willie5],
           picture: Willie,
           description: "Willie is Jamie's older brother and best man and was always someone Jamie looked up to and continues to impress now that he is an incredible father to two amazing kids (see 'Ring Boy' and 'Flower Girlie'). Willie is the best competitor you will ever meet and has extended a lobster roll eating contest at Eventide to any takers."
         },
@@ -70,6 +81,7 @@ class WeddingParty extends React.Component {
           key: 3,
           name: 'Ryan Armstrong',
           title: 'Groomsman',
+          images: [Ryan, Ryan2, Ryan3],
           picture: Ryan,
           description: "Ryan is Jamie's oldest friend from Pike and Brooks and the two of them had many 'snow days' playing Lord of the Rings video games and jamming out to Good Charlotte. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid. "
         },
@@ -93,6 +105,7 @@ class WeddingParty extends React.Component {
           key: 6,
           name: 'Matt Hirsch',
           title: 'Groomsman',
+          images: [Hirsch, Hirsch2, Hirsch3],
           picture: Hirsch,
           description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby. Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
         },
@@ -100,6 +113,7 @@ class WeddingParty extends React.Component {
           key: 7,
           name: 'Will Kinder',
           title: 'Groomsman',
+          images: [WillK, WillK2],
           picture: WillK,
           description: "Will is Jamie's friend/roommate/soccer co-captain from Colby. Will and Jamie have road tripped west together twice: once when Will moved to Montana after college and a second time when Jamie moved to San Francisco."
         },
@@ -196,6 +210,7 @@ class WeddingParty extends React.Component {
           key: 20,
           name: "Susanna Waters",
           title: 'Officiant',
+          images: [Sus, Sus2, Sus3],
           picture: Sus,
           description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet. Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
         },
