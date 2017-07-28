@@ -22,6 +22,7 @@ class WeddingParty extends React.Component {
           <p className='closeButton' onClick={this.props.close}>X</p>
           <h2 className='personNameFull'>{this.props.person.name}</h2>
           <SlideShow image={this.props.person.images} />
+          <p className='personDescriptionFull'>{this.props.person.description}</p>
         </div>
       </div>
     )

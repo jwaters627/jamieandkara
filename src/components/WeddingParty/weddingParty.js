@@ -13,6 +13,7 @@ import Eric2 from '../../../img/eric2.png';
 import WillK from '../../../img/willK.png';
 import Jess from '../../../img/jess.png';
 import Sam from '../../../img/sam.png';
+import Sam2 from '../../../img/sam2.png';
 import Katie from '../../../img/katie.png';
 import Katie2 from '../../../img/katie2.png';
 import Katie3 from '../../../img/katie3.png';
@@ -84,6 +85,7 @@ class WeddingParty extends React.Component {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
+          images: [Sam, Sam2],
           picture: Sam,
           description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },

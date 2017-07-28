@@ -38718,7 +38718,7 @@ var _weddingParty = __webpack_require__(647);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(684);
+var _aboutUs = __webpack_require__(685);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -71884,83 +71884,87 @@ var _sam = __webpack_require__(662);
 
 var _sam2 = _interopRequireDefault(_sam);
 
-var _katie = __webpack_require__(663);
+var _sam3 = __webpack_require__(663);
+
+var _sam4 = _interopRequireDefault(_sam3);
+
+var _katie = __webpack_require__(664);
 
 var _katie2 = _interopRequireDefault(_katie);
 
-var _katie3 = __webpack_require__(664);
+var _katie3 = __webpack_require__(665);
 
 var _katie4 = _interopRequireDefault(_katie3);
 
-var _katie5 = __webpack_require__(665);
+var _katie5 = __webpack_require__(666);
 
 var _katie6 = _interopRequireDefault(_katie5);
 
-var _katie7 = __webpack_require__(666);
+var _katie7 = __webpack_require__(667);
 
 var _katie8 = _interopRequireDefault(_katie7);
 
-var _katelyn = __webpack_require__(667);
+var _katelyn = __webpack_require__(668);
 
 var _katelyn2 = _interopRequireDefault(_katelyn);
 
-var _katelyn3 = __webpack_require__(668);
+var _katelyn3 = __webpack_require__(669);
 
 var _katelyn4 = _interopRequireDefault(_katelyn3);
 
-var _mandy = __webpack_require__(669);
+var _mandy = __webpack_require__(670);
 
 var _mandy2 = _interopRequireDefault(_mandy);
 
-var _katieR = __webpack_require__(670);
+var _katieR = __webpack_require__(671);
 
 var _katieR2 = _interopRequireDefault(_katieR);
 
-var _ainsley = __webpack_require__(671);
+var _ainsley = __webpack_require__(672);
 
 var _ainsley2 = _interopRequireDefault(_ainsley);
 
-var _ainsley3 = __webpack_require__(672);
+var _ainsley3 = __webpack_require__(673);
 
 var _ainsley4 = _interopRequireDefault(_ainsley3);
 
-var _kunkel = __webpack_require__(673);
+var _kunkel = __webpack_require__(674);
 
 var _kunkel2 = _interopRequireDefault(_kunkel);
 
-var _kunkel3 = __webpack_require__(674);
+var _kunkel3 = __webpack_require__(675);
 
 var _kunkel4 = _interopRequireDefault(_kunkel3);
 
-var _kristen = __webpack_require__(675);
+var _kristen = __webpack_require__(676);
 
 var _kristen2 = _interopRequireDefault(_kristen);
 
-var _cal = __webpack_require__(676);
+var _cal = __webpack_require__(677);
 
 var _cal2 = _interopRequireDefault(_cal);
 
-var _cal3 = __webpack_require__(677);
+var _cal3 = __webpack_require__(678);
 
 var _cal4 = _interopRequireDefault(_cal3);
 
-var _sus = __webpack_require__(678);
+var _sus = __webpack_require__(679);
 
 var _sus2 = _interopRequireDefault(_sus);
 
-var _lizz = __webpack_require__(679);
+var _lizz = __webpack_require__(680);
 
 var _lizz2 = _interopRequireDefault(_lizz);
 
-var _deana = __webpack_require__(680);
+var _deana = __webpack_require__(681);
 
 var _deana2 = _interopRequireDefault(_deana);
 
-var _ashley = __webpack_require__(681);
+var _ashley = __webpack_require__(682);
 
 var _ashley2 = _interopRequireDefault(_ashley);
 
-var _weddingParty = __webpack_require__(682);
+var _weddingParty = __webpack_require__(683);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -72071,6 +72075,7 @@ var WeddingParty = function (_React$Component) {
         key: 5,
         name: 'Sam Jones',
         title: 'Groomsman',
+        images: [_sam2.default, _sam4.default],
         picture: _sam2.default,
         description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
       }, {
@@ -72273,7 +72278,12 @@ var WeddingParty = function (_React$Component) {
             { className: 'personNameFull' },
             this.props.person.name
           ),
-          _react2.default.createElement(_slideShow2.default, { image: this.props.person.images })
+          _react2.default.createElement(_slideShow2.default, { image: this.props.person.images }),
+          _react2.default.createElement(
+            'p',
+            { className: 'personDescriptionFull' },
+            this.props.person.description
+          )
         )
       );
     }
@@ -72404,124 +72414,130 @@ module.exports = __webpack_require__.p + "dist/img/sam.png";
 /* 663 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie.png";
+module.exports = __webpack_require__.p + "dist/img/sam2.png";
 
 /***/ }),
 /* 664 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie2.png";
+module.exports = __webpack_require__.p + "dist/img/katie.png";
 
 /***/ }),
 /* 665 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie3.png";
+module.exports = __webpack_require__.p + "dist/img/katie2.png";
 
 /***/ }),
 /* 666 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie4.png";
+module.exports = __webpack_require__.p + "dist/img/katie3.png";
 
 /***/ }),
 /* 667 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katelyn.png";
+module.exports = __webpack_require__.p + "dist/img/katie4.png";
 
 /***/ }),
 /* 668 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katelyn2.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn.png";
 
 /***/ }),
 /* 669 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/mandy.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn2.png";
 
 /***/ }),
 /* 670 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR.png";
+module.exports = __webpack_require__.p + "dist/img/mandy.png";
 
 /***/ }),
 /* 671 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley.png";
+module.exports = __webpack_require__.p + "dist/img/katieR.png";
 
 /***/ }),
 /* 672 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley.png";
 
 /***/ }),
 /* 673 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
 
 /***/ }),
 /* 674 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
 
 /***/ }),
 /* 675 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
 
 /***/ }),
 /* 676 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal.png";
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
 
 /***/ }),
 /* 677 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal2.png";
+module.exports = __webpack_require__.p + "dist/img/cal.png";
 
 /***/ }),
 /* 678 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus.png";
+module.exports = __webpack_require__.p + "dist/img/cal2.png";
 
 /***/ }),
 /* 679 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz.png";
+module.exports = __webpack_require__.p + "dist/img/sus.png";
 
 /***/ }),
 /* 680 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana.png";
+module.exports = __webpack_require__.p + "dist/img/lizz.png";
 
 /***/ }),
 /* 681 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley.png";
+module.exports = __webpack_require__.p + "dist/img/deana.png";
 
 /***/ }),
 /* 682 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/ashley.png";
+
+/***/ }),
+/* 683 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(683);
+var content = __webpack_require__(684);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72546,7 +72562,7 @@ if(false) {
 }
 
 /***/ }),
-/* 683 */
+/* 684 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(27)(undefined);
@@ -72560,7 +72576,7 @@ exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyConta
 
 
 /***/ }),
-/* 684 */
+/* 685 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72594,7 +72610,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _aboutUs = __webpack_require__(685);
+var _aboutUs = __webpack_require__(686);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -72694,13 +72710,13 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 685 */
+/* 686 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(686);
+var content = __webpack_require__(687);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72725,7 +72741,7 @@ if(false) {
 }
 
 /***/ }),
-/* 686 */
+/* 687 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(27)(undefined);
