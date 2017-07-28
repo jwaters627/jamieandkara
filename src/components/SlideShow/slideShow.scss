@@ -3,6 +3,7 @@
 	width: 50vw;
 	height: 30vw;
 	margin: 0 auto;
+	border-radius: 3px;
 	margin-top: 20px;
 	border: 8px solid black;
 	overflow: hidden;
@@ -66,13 +67,9 @@
 @media (max-width: 600px) {
   .carousel{
   	width: 96vw;
-  	height: 62vw;
+  	height: 37vh;
   	border: 4px solid black;
 
-  	img{
-  		margin-top: 0px;
-  		height: 100%;
-  	}
 
   	button{
 	  	&.forwardArrow{
@@ -81,9 +78,7 @@
   	}
   	.slider{
 
-	  	.sliderList{
-	  		height: 272px;
-	  	}
+	  	
   	}
   }
 }
