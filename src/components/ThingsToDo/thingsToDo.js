@@ -42,7 +42,7 @@ class ThingsToDo extends React.Component {
         image: 'http://www.georgesmithmaine.com/sites/default/files/imagecache/webpage_large/inside%20looking%20out.JPG',
         address: '703 Congress St, Portland, ME 04102',
         linkToMap: 'https://www.google.com/maps/place/Hot+Suppa/@43.6531597,-70.2684045,15z/data=!4m2!3m1!1s0x0:0x7314215f780218a2?sa=X&ved=0ahUKEwj-0by-5Z_VAhUDrD4KHVcgB2cQ_BIIgQEwCg',
-        description:'Homemade breakfast spot with upscale diner classics. We stopped in for brunch and enjoyed the great nitro cold brew coffee, fried green tomato eggs benedict, and corn beef breakfast sandwich.',
+        description:'Homemade breakfast spot with upscale diner classics. We stopped in for brunch and enjoyed the great nitro cold brew coffee, fried green tomato eggs benedict, and corned beef breakfast sandwich.',
         website: "http://hotsuppa.com/"
       },
       {

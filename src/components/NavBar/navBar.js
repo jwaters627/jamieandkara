@@ -40,7 +40,7 @@ class NavBar extends React.Component {
     return(
       <div className="navContainer">
         <ul className='navList'>
-          <li className='navListItem'><NavLink className='navLink' to="/about_us">ABOUT US</NavLink></li>
+          <li className='navListItem'><NavLink className='navLink' to="/venue">VENUE</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/wedding_party">WEDDING PARTY</NavLink></li>
           <li className='navListItem'><NavLink className='navLink' to="/weekend_events">WEEKEND EVENTS</NavLink></li>
           <li className='navListItem initials'><NavLink className='initialsItem' to="/">J + K</NavLink></li>

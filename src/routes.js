@@ -35,7 +35,7 @@ class Routes extends React.Component {
   			<Route exact path="/things_to_do" component={ThingsToDo} />
   			<Route exact path="/registry" component={Registry} />
   			<Route exact path="/wedding_party" component={WeddingParty} />
-  			<Route exact path="/about_us" component={AboutUs} />
+  			<Route exact path="/venue" component={AboutUs} />
   		</div>
 	   </HashRouter>
 

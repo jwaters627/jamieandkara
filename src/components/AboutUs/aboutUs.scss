@@ -1,0 +1,58 @@
+.aboutUsContainer{
+	text-align: center;
+	font-family: 'Economica';
+
+	h1{
+			font-size: 42px;
+		}
+
+	.mainContainer{
+		width: 84%;
+		margin-top: 16px;
+		background-color: #F5F4F0;
+		display: inline-block;
+		position: relative;
+
+		img{
+			border-radius: 2px;
+			border: 4px solid black;
+			float: left;
+			display: inline-block;
+			width: 49%;
+			position: absolute;
+			top: 0;
+			left: 0.5%;
+			bottom: 0;
+			margin: auto;
+		}
+
+		.infoContainer{
+			width: 49%;
+			float: right;
+			display: inline-block;
+			text-align: center;
+			background-color: #F5F4F0;
+
+			h4{
+				font-size: 30px;
+				text-decoration: underline;
+			}
+
+			p{
+				color: #000;
+				font-size: 20px;
+				font-weight: 100;
+				width: 90%;
+				margin-left: 5%;
+			}
+
+			a{
+				p{
+					color: #0055aa;
+				}
+			}
+		}
+
+		
+	}
+}
