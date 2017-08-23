@@ -33,6 +33,7 @@ import Mandy from '../../../img/mandy.png';
 import KatieR from '../../../img/katieR.png';
 import Ainsley from '../../../img/ainsley.png';
 import Ainsley2 from '../../../img/ainsley2.png';
+import Ainsley3 from '../../../img/ainsley3.jpg';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kristen from '../../../img/kristen.png';
@@ -194,7 +195,7 @@ class WeddingParty extends React.Component {
           key: 18,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
-          images: [Ainsley, Ainsley2],
+          images: [Ainsley, Ainsley2, Ainsley3],
           picture: Ainsley,
           description: "Ainsley is Jamie's and Kara's niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
         },
