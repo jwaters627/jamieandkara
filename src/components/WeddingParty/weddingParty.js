@@ -27,6 +27,7 @@ import Eric2 from '../../../img/eric2.png';
 import Eric3 from '../../../img/eric3.png';
 import WillK from '../../../img/willK.png';
 import WillK2 from '../../../img/willK2.png';
+import WillK3 from '../../../img/willK3.png';
 import Jess from '../../../img/jess.png';
 import Jess2 from '../../../img/jess2.png';
 import Jess3 from '../../../img/jess3.png';
@@ -138,7 +139,7 @@ class WeddingParty extends React.Component {
           key: 7,
           name: 'Will Kinder',
           title: 'Groomsman',
-          images: [WillK, WillK2],
+          images: [WillK, WillK2, WillK3],
           picture: WillK,
           description: "Will is Jamie's friend/roommate/soccer co-captain from Colby. Will and Jamie have road tripped west together twice: once when Will moved to Montana after college and a second time when Jamie moved to San Francisco."
         },

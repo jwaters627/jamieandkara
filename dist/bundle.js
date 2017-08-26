@@ -38445,7 +38445,7 @@ var _weddingParty = __webpack_require__(639);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(713);
+var _aboutUs = __webpack_require__(714);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -70986,171 +70986,175 @@ var _willK3 = __webpack_require__(669);
 
 var _willK4 = _interopRequireDefault(_willK3);
 
-var _jess = __webpack_require__(670);
+var _willK5 = __webpack_require__(670);
+
+var _willK6 = _interopRequireDefault(_willK5);
+
+var _jess = __webpack_require__(671);
 
 var _jess2 = _interopRequireDefault(_jess);
 
-var _jess3 = __webpack_require__(671);
+var _jess3 = __webpack_require__(672);
 
 var _jess4 = _interopRequireDefault(_jess3);
 
-var _jess5 = __webpack_require__(672);
+var _jess5 = __webpack_require__(673);
 
 var _jess6 = _interopRequireDefault(_jess5);
 
-var _jess7 = __webpack_require__(673);
+var _jess7 = __webpack_require__(674);
 
 var _jess8 = _interopRequireDefault(_jess7);
 
-var _jess9 = __webpack_require__(674);
+var _jess9 = __webpack_require__(675);
 
 var _jess10 = _interopRequireDefault(_jess9);
 
-var _jess11 = __webpack_require__(675);
+var _jess11 = __webpack_require__(676);
 
 var _jess12 = _interopRequireDefault(_jess11);
 
-var _jess13 = __webpack_require__(676);
+var _jess13 = __webpack_require__(677);
 
 var _jess14 = _interopRequireDefault(_jess13);
 
-var _jess15 = __webpack_require__(677);
+var _jess15 = __webpack_require__(678);
 
 var _jess16 = _interopRequireDefault(_jess15);
 
-var _sam = __webpack_require__(678);
+var _sam = __webpack_require__(679);
 
 var _sam2 = _interopRequireDefault(_sam);
 
-var _sam3 = __webpack_require__(679);
+var _sam3 = __webpack_require__(680);
 
 var _sam4 = _interopRequireDefault(_sam3);
 
-var _katie = __webpack_require__(680);
+var _katie = __webpack_require__(681);
 
 var _katie2 = _interopRequireDefault(_katie);
 
-var _katie3 = __webpack_require__(681);
+var _katie3 = __webpack_require__(682);
 
 var _katie4 = _interopRequireDefault(_katie3);
 
-var _katie5 = __webpack_require__(682);
+var _katie5 = __webpack_require__(683);
 
 var _katie6 = _interopRequireDefault(_katie5);
 
-var _katie7 = __webpack_require__(683);
+var _katie7 = __webpack_require__(684);
 
 var _katie8 = _interopRequireDefault(_katie7);
 
-var _katelyn = __webpack_require__(684);
+var _katelyn = __webpack_require__(685);
 
 var _katelyn2 = _interopRequireDefault(_katelyn);
 
-var _katelyn3 = __webpack_require__(685);
+var _katelyn3 = __webpack_require__(686);
 
 var _katelyn4 = _interopRequireDefault(_katelyn3);
 
-var _katelyn5 = __webpack_require__(686);
+var _katelyn5 = __webpack_require__(687);
 
 var _katelyn6 = _interopRequireDefault(_katelyn5);
 
-var _mandy = __webpack_require__(687);
+var _mandy = __webpack_require__(688);
 
 var _mandy2 = _interopRequireDefault(_mandy);
 
-var _katieR = __webpack_require__(688);
+var _katieR = __webpack_require__(689);
 
 var _katieR2 = _interopRequireDefault(_katieR);
 
-var _katieR3 = __webpack_require__(689);
+var _katieR3 = __webpack_require__(690);
 
 var _katieR4 = _interopRequireDefault(_katieR3);
 
-var _ainsley = __webpack_require__(690);
+var _ainsley = __webpack_require__(691);
 
 var _ainsley2 = _interopRequireDefault(_ainsley);
 
-var _ainsley3 = __webpack_require__(691);
+var _ainsley3 = __webpack_require__(692);
 
 var _ainsley4 = _interopRequireDefault(_ainsley3);
 
-var _ainsley5 = __webpack_require__(692);
+var _ainsley5 = __webpack_require__(693);
 
 var _ainsley6 = _interopRequireDefault(_ainsley5);
 
-var _ainsley7 = __webpack_require__(693);
+var _ainsley7 = __webpack_require__(694);
 
 var _ainsley8 = _interopRequireDefault(_ainsley7);
 
-var _kunkel = __webpack_require__(694);
+var _kunkel = __webpack_require__(695);
 
 var _kunkel2 = _interopRequireDefault(_kunkel);
 
-var _kunkel3 = __webpack_require__(695);
+var _kunkel3 = __webpack_require__(696);
 
 var _kunkel4 = _interopRequireDefault(_kunkel3);
 
-var _kristen = __webpack_require__(696);
+var _kristen = __webpack_require__(697);
 
 var _kristen2 = _interopRequireDefault(_kristen);
 
-var _kristen3 = __webpack_require__(697);
+var _kristen3 = __webpack_require__(698);
 
 var _kristen4 = _interopRequireDefault(_kristen3);
 
-var _kristen5 = __webpack_require__(698);
+var _kristen5 = __webpack_require__(699);
 
 var _kristen6 = _interopRequireDefault(_kristen5);
 
-var _cal = __webpack_require__(699);
+var _cal = __webpack_require__(700);
 
 var _cal2 = _interopRequireDefault(_cal);
 
-var _cal3 = __webpack_require__(700);
+var _cal3 = __webpack_require__(701);
 
 var _cal4 = _interopRequireDefault(_cal3);
 
-var _sus = __webpack_require__(701);
+var _sus = __webpack_require__(702);
 
 var _sus2 = _interopRequireDefault(_sus);
 
-var _sus3 = __webpack_require__(702);
+var _sus3 = __webpack_require__(703);
 
 var _sus4 = _interopRequireDefault(_sus3);
 
-var _sus5 = __webpack_require__(703);
+var _sus5 = __webpack_require__(704);
 
 var _sus6 = _interopRequireDefault(_sus5);
 
-var _sus7 = __webpack_require__(704);
+var _sus7 = __webpack_require__(705);
 
 var _sus8 = _interopRequireDefault(_sus7);
 
-var _lizz = __webpack_require__(705);
+var _lizz = __webpack_require__(706);
 
 var _lizz2 = _interopRequireDefault(_lizz);
 
-var _deana = __webpack_require__(706);
+var _deana = __webpack_require__(707);
 
 var _deana2 = _interopRequireDefault(_deana);
 
-var _ashley = __webpack_require__(707);
+var _ashley = __webpack_require__(708);
 
 var _ashley2 = _interopRequireDefault(_ashley);
 
-var _ashley3 = __webpack_require__(708);
+var _ashley3 = __webpack_require__(709);
 
 var _ashley4 = _interopRequireDefault(_ashley3);
 
-var _nikki = __webpack_require__(709);
+var _nikki = __webpack_require__(710);
 
 var _nikki2 = _interopRequireDefault(_nikki);
 
-var _nikki3 = __webpack_require__(710);
+var _nikki3 = __webpack_require__(711);
 
 var _nikki4 = _interopRequireDefault(_nikki3);
 
-var _weddingParty = __webpack_require__(711);
+var _weddingParty = __webpack_require__(712);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -71277,7 +71281,7 @@ var WeddingParty = function (_React$Component) {
         key: 7,
         name: 'Will Kinder',
         title: 'Groomsman',
-        images: [_willK2.default, _willK4.default],
+        images: [_willK2.default, _willK4.default, _willK6.default],
         picture: _willK2.default,
         description: "Will is Jamie's friend/roommate/soccer co-captain from Colby. Will and Jamie have road tripped west together twice: once when Will moved to Montana after college and a second time when Jamie moved to San Francisco."
       }, {
@@ -71746,256 +71750,262 @@ module.exports = __webpack_require__.p + "dist/img/willK2.png";
 /* 670 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess.png";
+module.exports = __webpack_require__.p + "dist/img/willK3.png";
 
 /***/ }),
 /* 671 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess2.png";
+module.exports = __webpack_require__.p + "dist/img/jess.png";
 
 /***/ }),
 /* 672 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess3.png";
+module.exports = __webpack_require__.p + "dist/img/jess2.png";
 
 /***/ }),
 /* 673 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess4.png";
+module.exports = __webpack_require__.p + "dist/img/jess3.png";
 
 /***/ }),
 /* 674 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess5.png";
+module.exports = __webpack_require__.p + "dist/img/jess4.png";
 
 /***/ }),
 /* 675 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess6.png";
+module.exports = __webpack_require__.p + "dist/img/jess5.png";
 
 /***/ }),
 /* 676 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess7.png";
+module.exports = __webpack_require__.p + "dist/img/jess6.png";
 
 /***/ }),
 /* 677 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/jess8.png";
+module.exports = __webpack_require__.p + "dist/img/jess7.png";
 
 /***/ }),
 /* 678 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sam.png";
+module.exports = __webpack_require__.p + "dist/img/jess8.png";
 
 /***/ }),
 /* 679 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sam2.png";
+module.exports = __webpack_require__.p + "dist/img/sam.png";
 
 /***/ }),
 /* 680 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie.png";
+module.exports = __webpack_require__.p + "dist/img/sam2.png";
 
 /***/ }),
 /* 681 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie2.png";
+module.exports = __webpack_require__.p + "dist/img/katie.png";
 
 /***/ }),
 /* 682 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie3.png";
+module.exports = __webpack_require__.p + "dist/img/katie2.png";
 
 /***/ }),
 /* 683 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katie4.png";
+module.exports = __webpack_require__.p + "dist/img/katie3.png";
 
 /***/ }),
 /* 684 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katelyn.png";
+module.exports = __webpack_require__.p + "dist/img/katie4.png";
 
 /***/ }),
 /* 685 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katelyn2.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn.png";
 
 /***/ }),
 /* 686 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katelyn3.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn2.png";
 
 /***/ }),
 /* 687 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/mandy.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn3.png";
 
 /***/ }),
 /* 688 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR.png";
+module.exports = __webpack_require__.p + "dist/img/mandy.png";
 
 /***/ }),
 /* 689 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR2.png";
+module.exports = __webpack_require__.p + "dist/img/katieR.png";
 
 /***/ }),
 /* 690 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley.png";
+module.exports = __webpack_require__.p + "dist/img/katieR2.png";
 
 /***/ }),
 /* 691 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley.png";
 
 /***/ }),
 /* 692 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
+module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
 
 /***/ }),
 /* 693 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
 
 /***/ }),
 /* 694 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
 
 /***/ }),
 /* 695 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
 
 /***/ }),
 /* 696 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
 
 /***/ }),
 /* 697 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen2.png";
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
 
 /***/ }),
 /* 698 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen3.png";
+module.exports = __webpack_require__.p + "dist/img/kristen2.png";
 
 /***/ }),
 /* 699 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal.png";
+module.exports = __webpack_require__.p + "dist/img/kristen3.png";
 
 /***/ }),
 /* 700 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal2.png";
+module.exports = __webpack_require__.p + "dist/img/cal.png";
 
 /***/ }),
 /* 701 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus.png";
+module.exports = __webpack_require__.p + "dist/img/cal2.png";
 
 /***/ }),
 /* 702 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus2.png";
+module.exports = __webpack_require__.p + "dist/img/sus.png";
 
 /***/ }),
 /* 703 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus3.png";
+module.exports = __webpack_require__.p + "dist/img/sus2.png";
 
 /***/ }),
 /* 704 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus4.png";
+module.exports = __webpack_require__.p + "dist/img/sus3.png";
 
 /***/ }),
 /* 705 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz.png";
+module.exports = __webpack_require__.p + "dist/img/sus4.png";
 
 /***/ }),
 /* 706 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana.png";
+module.exports = __webpack_require__.p + "dist/img/lizz.png";
 
 /***/ }),
 /* 707 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley.png";
+module.exports = __webpack_require__.p + "dist/img/deana.png";
 
 /***/ }),
 /* 708 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley2.png";
+module.exports = __webpack_require__.p + "dist/img/ashley.png";
 
 /***/ }),
 /* 709 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki.png";
+module.exports = __webpack_require__.p + "dist/img/ashley2.png";
 
 /***/ }),
 /* 710 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+module.exports = __webpack_require__.p + "dist/img/nikki.png";
 
 /***/ }),
 /* 711 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+
+/***/ }),
+/* 712 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(712);
+var content = __webpack_require__(713);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72020,7 +72030,7 @@ if(false) {
 }
 
 /***/ }),
-/* 712 */
+/* 713 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);
@@ -72034,7 +72044,7 @@ exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyConta
 
 
 /***/ }),
-/* 713 */
+/* 714 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72068,7 +72078,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _aboutUs = __webpack_require__(714);
+var _aboutUs = __webpack_require__(715);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -72168,13 +72178,13 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 714 */
+/* 715 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(715);
+var content = __webpack_require__(716);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72199,7 +72209,7 @@ if(false) {
 }
 
 /***/ }),
-/* 715 */
+/* 716 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);
