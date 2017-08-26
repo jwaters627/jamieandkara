@@ -6,21 +6,35 @@ import Willie2 from '../../../img/willie2.png';
 import Willie3 from '../../../img/willie3.png';
 import Willie4 from '../../../img/willie4.png';
 import Willie5 from '../../../img/willie5.png';
+import Willie6 from '../../../img/willie6.png';
+import Willie7 from '../../../img/willie7.png';
 import WillD from '../../../img/willD.png';
+import WillD2 from '../../../img/willD2.png';
+import WillD3 from '../../../img/willD3.png';
+import WillD4 from '../../../img/willD4.png';
 import Ryan from '../../../img/ryan.png';
 import Ryan2 from '../../../img/ryan2.png';
 import Ryan3 from '../../../img/ryan3.png';
 import Tim from '../../../img/tim.png';
 import Tim2 from '../../../img/tim2.png';
 import Tim3 from '../../../img/tim3.png';
+import Tim4 from '../../../img/tim4.png';
 import Hirsch from '../../../img/hirsch.png';
 import Hirsch2 from '../../../img/hirsch2.png';
 import Hirsch3 from '../../../img/hirsch3.png';
 import Eric from '../../../img/eric.png';
 import Eric2 from '../../../img/eric2.png';
+import Eric3 from '../../../img/eric3.png';
 import WillK from '../../../img/willK.png';
 import WillK2 from '../../../img/willK2.png';
 import Jess from '../../../img/jess.png';
+import Jess2 from '../../../img/jess2.png';
+import Jess3 from '../../../img/jess3.png';
+import Jess4 from '../../../img/jess4.png';
+import Jess5 from '../../../img/jess5.png';
+import Jess6 from '../../../img/jess6.png';
+import Jess7 from '../../../img/jess7.png';
+import Jess8 from '../../../img/jess8.png';
 import Sam from '../../../img/sam.png';
 import Sam2 from '../../../img/sam2.png';
 import Katie from '../../../img/katie.png';
@@ -29,22 +43,31 @@ import Katie3 from '../../../img/katie3.png';
 import Katie4 from '../../../img/katie4.png';
 import Katelyn from '../../../img/katelyn.png';
 import Katelyn2 from '../../../img/katelyn2.png';
+import Katelyn3 from '../../../img/katelyn3.png';
 import Mandy from '../../../img/mandy.png';
 import KatieR from '../../../img/katieR.png';
+import KatieR2 from '../../../img/katieR2.png';
 import Ainsley from '../../../img/ainsley.png';
 import Ainsley2 from '../../../img/ainsley2.png';
 import Ainsley3 from '../../../img/ainsley3.jpg';
+import Ainsley4 from '../../../img/ainsley4.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kristen from '../../../img/kristen.png';
+import Kristen2 from '../../../img/kristen2.png';
+import Kristen3 from '../../../img/kristen3.png';
 import Cal from '../../../img/cal.png';
 import Cal2 from '../../../img/cal2.png';
 import Sus from '../../../img/sus.png';
 import Sus2 from '../../../img/sus2.png';
 import Sus3 from '../../../img/sus3.png';
+import Sus4 from '../../../img/sus4.png';
 import Lizz from '../../../img/lizz.png';
 import Deana from '../../../img/deana.png';
 import Ashley from '../../../img/ashley.png';
+import Ashley2 from '../../../img/ashley2.png';
+import Nikki from '../../../img/nikki.png';
+import Nikki2 from '../../../img/nikki2.png';
 
 import styles from './weddingParty.scss'
 
@@ -59,7 +82,7 @@ class WeddingParty extends React.Component {
           key: 0,
           name: 'Willie Waters',
           title: 'Best Man',
-          images: [Willie, Willie2, Willie3, Willie4, Willie5],
+          images: [Willie, Willie2, Willie3, Willie4, Willie5, Willie6, Willie7],
           picture: Willie,
           description: "Willie is Jamie's older brother and best man and was always someone Jamie looked up to and continues to impress now that he is an incredible father to two amazing kids (see 'Ring Boy' and 'Flower Girlie'). Willie is the best competitor you will ever meet and has extended a lobster roll eating contest at Eventide to any takers."
         },
@@ -67,6 +90,7 @@ class WeddingParty extends React.Component {
           key: 1,
           name: 'Will Duryea',
           title: 'Groomsman',
+          images: [WillD, WillD2, WillD3, WillD4],
           picture: WillD,
           description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing. Will has very much become a second brother to Jamie since he started dating and then married Jess."
         },
@@ -74,7 +98,7 @@ class WeddingParty extends React.Component {
           key: 2,
           name: 'Tim McLoughlin',
           title: 'Groomsman',
-          images: [Tim, Tim2, Tim3],
+          images: [Tim, Tim2, Tim3, Tim4],
           picture: Tim,
           description: "Tim is Jamie's friend from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. The first time he stayed over he became trapped in the basement because he was scared of 'Sparky' the ferocious dog upstairs. Be sure to ask Tim about this picture and/or his airplane story."
         },
@@ -90,7 +114,7 @@ class WeddingParty extends React.Component {
           key: 4,
           name: 'Eric Amoroso',
           title: 'Groomsman',
-          images: [Eric, Eric2],
+          images: [Eric, Eric2, Eric3],
           picture: Eric,
           description: "Eric is Jamie's friend from Brooks and roommate in the South End when Jamie moved back to Boston. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
         },
@@ -122,6 +146,7 @@ class WeddingParty extends React.Component {
           key: 8,
           name: 'Jess Duryea',
           title: 'Bridesmaid',
+          images: [Jess, Jess2, Jess3, Jess4, Jess5, Jess6, Jess7, Jess8],
           picture: Jess,
           description: "Jess is Jamie's younger sister and had the honor of being present for Kara and Jamie's first 'date' at Cape Ann Brewery. Since then, Kara and Jess have become close friends, between trips to Naples, Acadia, and Montreal, and countless lazy Sundays in Boston. With countless adventures to come, Jess is pretty much the best sister-in-law Kara can imagine."
         },
@@ -137,6 +162,7 @@ class WeddingParty extends React.Component {
           key: 10,
           name: 'Ashley Aubuchon',
           title: 'Bridesmaid',
+          images: [Ashley, Ashley2],
           picture: Ashley,
           description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. After a long five years apart, they reunited in the Boston area. Ashley and Jamie share an interest in using logic to poke fun of Kara."
         },
@@ -144,7 +170,7 @@ class WeddingParty extends React.Component {
           key: 11,
           name: 'Katelyn Wallman',
           title: 'Bridesmaid',
-          images: [Katelyn, Katelyn2],
+          images: [Katelyn, Katelyn2, Katelyn3],
           picture: Katelyn,
           description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
         },
@@ -152,6 +178,7 @@ class WeddingParty extends React.Component {
           key: 12,
           name: 'Mandy Eldridge',
           title: 'Bridesmaid',
+          images: [Mandy],
           picture: Mandy,
           description: "Mandy was Kara’s first friend when she moved to Pepperell in third grade and the two quickly became inseparable, often found in matching outfits, completing each other’s sentences, and getting used to being called by the other's name. A true testament to their friendship, Mandy has a unique ability to understand Kara's speed-talking. "
         },
@@ -159,6 +186,7 @@ class WeddingParty extends React.Component {
           key: 13,
           name: 'Deana Wojcik',
           title: 'Bridesmaid',
+          images: [Deana],
           picture: Deana,
           description: "Deana is Kara's oldest friend, starting in kindgergarten when she had to ask permission for Kara to go to the bathroom because Kara was too shy to ask for herself. Kara moved in third grade but found Deana again in their seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
         },
@@ -166,6 +194,7 @@ class WeddingParty extends React.Component {
           key: 14,
           name: 'Lizz Chiarelli',
           title: 'Bridesmaid',
+          images: [Lizz],
           picture: Lizz,
           description: "Lizz and Kara met in seventh grade at Parker and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing everyone around them to join in the sing a long."
         },
@@ -181,6 +210,7 @@ class WeddingParty extends React.Component {
           key: 16,
           name: "Kristen D'Angelo",
           title: 'Bridesmaid',
+          images: [Kristen, Kristen2, Kristen3],
           picture: Kristen,
           description: "Kristen and Kara met at Colby sophomore year, lived together senior year, and had the chance to travel together in Australia and Italy. In addition to her knack for having the best theme/costume party outfits, Kristen is one of the kindest people you'll ever meet and Kara feels so grateful that Kristen is finally back in Boston!"
         },
@@ -188,6 +218,7 @@ class WeddingParty extends React.Component {
           key: 17,
           name: "Katie Donnelly",
           title: 'Bridesmaid',
+          images: [KatieR, KatieR2],
           picture: KatieR,
           description: "Katie and Kara became friends sophomore year when Kara decided that Katie needed girl time during her trips to visit her now husband CJ at Colby. They grew closer during their semester abroad together in Australia and as neighbors during Kara's brief stint in Washington, DC, where she benefitted from Katie's skill in uniting people on party boats/buses."
         },
@@ -195,7 +226,7 @@ class WeddingParty extends React.Component {
           key: 18,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
-          images: [Ainsley, Ainsley2, Ainsley3],
+          images: [Ainsley, Ainsley2, Ainsley3, Ainsley4],
           picture: Ainsley,
           description: "Ainsley is Jamie's and Kara's niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
         },
@@ -211,9 +242,17 @@ class WeddingParty extends React.Component {
           key: 20,
           name: "Susanna Waters",
           title: 'Officiant',
-          images: [Sus, Sus2, Sus3],
+          images: [Sus, Sus2, Sus3, Sus4],
           picture: Sus,
           description: "Sus is Jamie's Sister in Law and one of the most thoughtful and impressive women you will ever meet. Jamie and Kara immediately agreed upon Sus being the perfect choice to marry them. Sus will likely be leading (and winning) a game of 'bite the bag' at the after party."
+        },
+        {
+          key: 21,
+          name: "Nikki Tyler",
+          title: 'Bridesmaid',
+          images: [Nikki, Nikki2],
+          picture: Nikki,
+          description: ""
         },
       ]
     };
