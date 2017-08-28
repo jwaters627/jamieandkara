@@ -25,6 +25,7 @@ import Hirsch3 from '../../../img/hirsch3.png';
 import Eric from '../../../img/eric.png';
 import Eric2 from '../../../img/eric2.png';
 import Eric3 from '../../../img/eric3.png';
+import Eric4 from '../../../img/eric4.png';
 import WillK from '../../../img/willK.png';
 import WillK2 from '../../../img/willK2.png';
 import WillK3 from '../../../img/willK3.png';
@@ -48,10 +49,13 @@ import Katelyn3 from '../../../img/katelyn3.png';
 import Mandy from '../../../img/mandy.png';
 import KatieR from '../../../img/katieR.png';
 import KatieR2 from '../../../img/katieR2.png';
+import KatieR3 from '../../../img/katieR3.png';
+import KatieR4 from '../../../img/katieR4.png';
 import Ainsley from '../../../img/ainsley.png';
 import Ainsley2 from '../../../img/ainsley2.png';
 import Ainsley3 from '../../../img/ainsley3.jpg';
 import Ainsley4 from '../../../img/ainsley4.png';
+import Ainsley5 from '../../../img/ainsley5.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kristen from '../../../img/kristen.png';
@@ -64,7 +68,13 @@ import Sus2 from '../../../img/sus2.png';
 import Sus3 from '../../../img/sus3.png';
 import Sus4 from '../../../img/sus4.png';
 import Lizz from '../../../img/lizz.png';
+import Lizz2 from '../../../img/lizz2.png';
+import Lizz3 from '../../../img/lizz3.png';
+import Lizz4 from '../../../img/lizz4.png';
 import Deana from '../../../img/deana.png';
+import Deana2 from '../../../img/deana2.png';
+import Deana3 from '../../../img/deana3.png';
+import Deana4 from '../../../img/deana4.png';
 import Ashley from '../../../img/ashley.png';
 import Ashley2 from '../../../img/ashley2.png';
 import Nikki from '../../../img/nikki.png';
@@ -115,7 +125,7 @@ class WeddingParty extends React.Component {
           key: 4,
           name: 'Eric Amoroso',
           title: 'Groomsman',
-          images: [Eric, Eric2, Eric3],
+          images: [Eric, Eric2, Eric3, Eric4],
           picture: Eric,
           description: "Eric is Jamie's friend from Brooks and roommate in the South End when Jamie moved back to Boston. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
         },
@@ -187,7 +197,7 @@ class WeddingParty extends React.Component {
           key: 13,
           name: 'Deana Wojcik',
           title: 'Bridesmaid',
-          images: [Deana],
+          images: [Deana, Deana2, Deana3, Deana4],
           picture: Deana,
           description: "Deana is Kara's oldest friend, starting in kindgergarten when she had to ask permission for Kara to go to the bathroom because Kara was too shy to ask for herself. Kara moved in third grade but found Deana again in their seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
         },
@@ -195,7 +205,7 @@ class WeddingParty extends React.Component {
           key: 14,
           name: 'Lizz Chiarelli',
           title: 'Bridesmaid',
-          images: [Lizz],
+          images: [Lizz, Lizz2, Lizz3, Lizz4],
           picture: Lizz,
           description: "Lizz and Kara met in seventh grade at Parker and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing everyone around them to join in the sing a long."
         },
@@ -219,7 +229,7 @@ class WeddingParty extends React.Component {
           key: 17,
           name: "Katie Donnelly",
           title: 'Bridesmaid',
-          images: [KatieR, KatieR2],
+          images: [KatieR, KatieR2, KatieR3, KatieR4],
           picture: KatieR,
           description: "Katie and Kara became friends sophomore year when Kara decided that Katie needed girl time during her trips to visit her now husband CJ at Colby. They grew closer during their semester abroad together in Australia and as neighbors during Kara's brief stint in Washington, DC, where she benefitted from Katie's skill in uniting people on party boats/buses."
         },
@@ -227,7 +237,7 @@ class WeddingParty extends React.Component {
           key: 18,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
-          images: [Ainsley, Ainsley2, Ainsley3, Ainsley4],
+          images: [Ainsley, Ainsley2, Ainsley3, Ainsley4, Ainsley5],
           picture: Ainsley,
           description: "Ainsley is Jamie's and Kara's niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
         },
