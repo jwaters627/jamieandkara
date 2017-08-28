@@ -38445,7 +38445,7 @@ var _weddingParty = __webpack_require__(640);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(748);
+var _aboutUs = __webpack_require__(749);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -71164,139 +71164,143 @@ var _katieR7 = __webpack_require__(712);
 
 var _katieR8 = _interopRequireDefault(_katieR7);
 
-var _ainsley = __webpack_require__(713);
+var _katieR9 = __webpack_require__(713);
+
+var _katieR10 = _interopRequireDefault(_katieR9);
+
+var _ainsley = __webpack_require__(714);
 
 var _ainsley2 = _interopRequireDefault(_ainsley);
 
-var _ainsley3 = __webpack_require__(714);
+var _ainsley3 = __webpack_require__(715);
 
 var _ainsley4 = _interopRequireDefault(_ainsley3);
 
-var _ainsley5 = __webpack_require__(715);
+var _ainsley5 = __webpack_require__(716);
 
 var _ainsley6 = _interopRequireDefault(_ainsley5);
 
-var _ainsley7 = __webpack_require__(716);
+var _ainsley7 = __webpack_require__(717);
 
 var _ainsley8 = _interopRequireDefault(_ainsley7);
 
-var _ainsley9 = __webpack_require__(717);
+var _ainsley9 = __webpack_require__(718);
 
 var _ainsley10 = _interopRequireDefault(_ainsley9);
 
-var _ainsley11 = __webpack_require__(718);
+var _ainsley11 = __webpack_require__(719);
 
 var _ainsley12 = _interopRequireDefault(_ainsley11);
 
-var _ainsley13 = __webpack_require__(719);
+var _ainsley13 = __webpack_require__(720);
 
 var _ainsley14 = _interopRequireDefault(_ainsley13);
 
-var _ainsley15 = __webpack_require__(720);
+var _ainsley15 = __webpack_require__(721);
 
 var _ainsley16 = _interopRequireDefault(_ainsley15);
 
-var _kunkel = __webpack_require__(721);
+var _kunkel = __webpack_require__(722);
 
 var _kunkel2 = _interopRequireDefault(_kunkel);
 
-var _kunkel3 = __webpack_require__(722);
+var _kunkel3 = __webpack_require__(723);
 
 var _kunkel4 = _interopRequireDefault(_kunkel3);
 
-var _kunkel5 = __webpack_require__(723);
+var _kunkel5 = __webpack_require__(724);
 
 var _kunkel6 = _interopRequireDefault(_kunkel5);
 
-var _kristen = __webpack_require__(724);
+var _kristen = __webpack_require__(725);
 
 var _kristen2 = _interopRequireDefault(_kristen);
 
-var _kristen3 = __webpack_require__(725);
+var _kristen3 = __webpack_require__(726);
 
 var _kristen4 = _interopRequireDefault(_kristen3);
 
-var _kristen5 = __webpack_require__(726);
+var _kristen5 = __webpack_require__(727);
 
 var _kristen6 = _interopRequireDefault(_kristen5);
 
-var _cal = __webpack_require__(727);
+var _cal = __webpack_require__(728);
 
 var _cal2 = _interopRequireDefault(_cal);
 
-var _cal3 = __webpack_require__(728);
+var _cal3 = __webpack_require__(729);
 
 var _cal4 = _interopRequireDefault(_cal3);
 
-var _sus = __webpack_require__(729);
+var _sus = __webpack_require__(730);
 
 var _sus2 = _interopRequireDefault(_sus);
 
-var _sus3 = __webpack_require__(730);
+var _sus3 = __webpack_require__(731);
 
 var _sus4 = _interopRequireDefault(_sus3);
 
-var _sus5 = __webpack_require__(731);
+var _sus5 = __webpack_require__(732);
 
 var _sus6 = _interopRequireDefault(_sus5);
 
-var _sus7 = __webpack_require__(732);
+var _sus7 = __webpack_require__(733);
 
 var _sus8 = _interopRequireDefault(_sus7);
 
-var _lizz = __webpack_require__(733);
+var _lizz = __webpack_require__(734);
 
 var _lizz2 = _interopRequireDefault(_lizz);
 
-var _lizz3 = __webpack_require__(734);
+var _lizz3 = __webpack_require__(735);
 
 var _lizz4 = _interopRequireDefault(_lizz3);
 
-var _lizz5 = __webpack_require__(735);
+var _lizz5 = __webpack_require__(736);
 
 var _lizz6 = _interopRequireDefault(_lizz5);
 
-var _lizz7 = __webpack_require__(736);
+var _lizz7 = __webpack_require__(737);
 
 var _lizz8 = _interopRequireDefault(_lizz7);
 
-var _deana = __webpack_require__(737);
+var _deana = __webpack_require__(738);
 
 var _deana2 = _interopRequireDefault(_deana);
 
-var _deana3 = __webpack_require__(738);
+var _deana3 = __webpack_require__(739);
 
 var _deana4 = _interopRequireDefault(_deana3);
 
-var _deana5 = __webpack_require__(739);
+var _deana5 = __webpack_require__(740);
 
 var _deana6 = _interopRequireDefault(_deana5);
 
-var _deana7 = __webpack_require__(740);
+var _deana7 = __webpack_require__(741);
 
 var _deana8 = _interopRequireDefault(_deana7);
 
-var _ashley = __webpack_require__(741);
+var _ashley = __webpack_require__(742);
 
 var _ashley2 = _interopRequireDefault(_ashley);
 
-var _ashley3 = __webpack_require__(742);
+var _ashley3 = __webpack_require__(743);
 
 var _ashley4 = _interopRequireDefault(_ashley3);
 
-var _ashley5 = __webpack_require__(743);
+var _ashley5 = __webpack_require__(744);
 
 var _ashley6 = _interopRequireDefault(_ashley5);
 
-var _nikki = __webpack_require__(744);
+var _nikki = __webpack_require__(745);
 
 var _nikki2 = _interopRequireDefault(_nikki);
 
-var _nikki3 = __webpack_require__(745);
+var _nikki3 = __webpack_require__(746);
 
 var _nikki4 = _interopRequireDefault(_nikki3);
 
-var _weddingParty = __webpack_require__(746);
+var _weddingParty = __webpack_require__(747);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -71493,7 +71497,7 @@ var WeddingParty = function (_React$Component) {
         key: 17,
         name: "Katie Donnelly",
         title: 'Bridesmaid',
-        images: [_katieR2.default, _katieR4.default, _katieR6.default, _katieR8.default],
+        images: [_katieR2.default, _katieR4.default, _katieR6.default, _katieR8.default, _katieR10.default],
         picture: _katieR2.default,
         description: "Katie and Kara became friends sophomore year when Kara decided that Katie needed girl time during her trips to visit her now husband CJ at Colby. They grew closer during their semester abroad together in Australia and as neighbors during Kara's brief stint in Washington, DC, where she benefitted from Katie's skill in uniting people on party boats/buses."
       }, {
@@ -72144,208 +72148,214 @@ module.exports = __webpack_require__.p + "dist/img/katieR4.png";
 /* 713 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley.png";
+module.exports = __webpack_require__.p + "dist/img/katieR5.png";
 
 /***/ }),
 /* 714 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley.png";
 
 /***/ }),
 /* 715 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
+module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
 
 /***/ }),
 /* 716 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
 
 /***/ }),
 /* 717 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley5.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
 
 /***/ }),
 /* 718 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley6.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley5.png";
 
 /***/ }),
 /* 719 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley7.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley6.png";
 
 /***/ }),
 /* 720 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley8.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley7.png";
 
 /***/ }),
 /* 721 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley8.png";
 
 /***/ }),
 /* 722 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
 
 /***/ }),
 /* 723 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel3.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
 
 /***/ }),
 /* 724 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel3.png";
 
 /***/ }),
 /* 725 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen2.png";
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
 
 /***/ }),
 /* 726 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen3.png";
+module.exports = __webpack_require__.p + "dist/img/kristen2.png";
 
 /***/ }),
 /* 727 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal.png";
+module.exports = __webpack_require__.p + "dist/img/kristen3.png";
 
 /***/ }),
 /* 728 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal2.png";
+module.exports = __webpack_require__.p + "dist/img/cal.png";
 
 /***/ }),
 /* 729 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus.png";
+module.exports = __webpack_require__.p + "dist/img/cal2.png";
 
 /***/ }),
 /* 730 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus2.png";
+module.exports = __webpack_require__.p + "dist/img/sus.png";
 
 /***/ }),
 /* 731 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus3.png";
+module.exports = __webpack_require__.p + "dist/img/sus2.png";
 
 /***/ }),
 /* 732 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus4.png";
+module.exports = __webpack_require__.p + "dist/img/sus3.png";
 
 /***/ }),
 /* 733 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz.png";
+module.exports = __webpack_require__.p + "dist/img/sus4.png";
 
 /***/ }),
 /* 734 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz2.png";
+module.exports = __webpack_require__.p + "dist/img/lizz.png";
 
 /***/ }),
 /* 735 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz3.png";
+module.exports = __webpack_require__.p + "dist/img/lizz2.png";
 
 /***/ }),
 /* 736 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz4.png";
+module.exports = __webpack_require__.p + "dist/img/lizz3.png";
 
 /***/ }),
 /* 737 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana.png";
+module.exports = __webpack_require__.p + "dist/img/lizz4.png";
 
 /***/ }),
 /* 738 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana2.png";
+module.exports = __webpack_require__.p + "dist/img/deana.png";
 
 /***/ }),
 /* 739 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana3.png";
+module.exports = __webpack_require__.p + "dist/img/deana2.png";
 
 /***/ }),
 /* 740 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana4.png";
+module.exports = __webpack_require__.p + "dist/img/deana3.png";
 
 /***/ }),
 /* 741 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley.png";
+module.exports = __webpack_require__.p + "dist/img/deana4.png";
 
 /***/ }),
 /* 742 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley2.png";
+module.exports = __webpack_require__.p + "dist/img/ashley.png";
 
 /***/ }),
 /* 743 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley3.png";
+module.exports = __webpack_require__.p + "dist/img/ashley2.png";
 
 /***/ }),
 /* 744 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki.png";
+module.exports = __webpack_require__.p + "dist/img/ashley3.png";
 
 /***/ }),
 /* 745 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+module.exports = __webpack_require__.p + "dist/img/nikki.png";
 
 /***/ }),
 /* 746 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+
+/***/ }),
+/* 747 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(747);
+var content = __webpack_require__(748);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72370,7 +72380,7 @@ if(false) {
 }
 
 /***/ }),
-/* 747 */
+/* 748 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);
@@ -72384,7 +72394,7 @@ exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyConta
 
 
 /***/ }),
-/* 748 */
+/* 749 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72418,7 +72428,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _aboutUs = __webpack_require__(749);
+var _aboutUs = __webpack_require__(750);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -72518,13 +72528,13 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 749 */
+/* 750 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(750);
+var content = __webpack_require__(751);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72549,7 +72559,7 @@ if(false) {
 }
 
 /***/ }),
-/* 750 */
+/* 751 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);

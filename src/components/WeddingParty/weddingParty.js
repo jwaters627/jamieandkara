@@ -69,6 +69,7 @@ import KatieR from '../../../img/katieR.png';
 import KatieR2 from '../../../img/katieR2.png';
 import KatieR3 from '../../../img/katieR3.png';
 import KatieR4 from '../../../img/katieR4.png';
+import KatieR5 from '../../../img/katieR5.png';
 import Ainsley from '../../../img/ainsley.png';
 import Ainsley2 from '../../../img/ainsley2.png';
 import Ainsley3 from '../../../img/ainsley3.jpg';
@@ -252,7 +253,7 @@ class WeddingParty extends React.Component {
           key: 17,
           name: "Katie Donnelly",
           title: 'Bridesmaid',
-          images: [KatieR, KatieR2, KatieR3, KatieR4],
+          images: [KatieR, KatieR2, KatieR3, KatieR4, KatieR5],
           picture: KatieR,
           description: "Katie and Kara became friends sophomore year when Kara decided that Katie needed girl time during her trips to visit her now husband CJ at Colby. They grew closer during their semester abroad together in Australia and as neighbors during Kara's brief stint in Washington, DC, where she benefitted from Katie's skill in uniting people on party boats/buses."
         },
