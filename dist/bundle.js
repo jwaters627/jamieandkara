@@ -38445,7 +38445,7 @@ var _weddingParty = __webpack_require__(639);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
-var _aboutUs = __webpack_require__(724);
+var _aboutUs = __webpack_require__(732);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -71062,139 +71062,171 @@ var _katelyn5 = __webpack_require__(688);
 
 var _katelyn6 = _interopRequireDefault(_katelyn5);
 
-var _mandy = __webpack_require__(689);
+var _katelyn7 = __webpack_require__(689);
+
+var _katelyn8 = _interopRequireDefault(_katelyn7);
+
+var _mandy = __webpack_require__(690);
 
 var _mandy2 = _interopRequireDefault(_mandy);
 
-var _katieR = __webpack_require__(690);
+var _mandy3 = __webpack_require__(691);
+
+var _mandy4 = _interopRequireDefault(_mandy3);
+
+var _mandy5 = __webpack_require__(692);
+
+var _mandy6 = _interopRequireDefault(_mandy5);
+
+var _mandy7 = __webpack_require__(693);
+
+var _mandy8 = _interopRequireDefault(_mandy7);
+
+var _mandy9 = __webpack_require__(694);
+
+var _mandy10 = _interopRequireDefault(_mandy9);
+
+var _mandy11 = __webpack_require__(695);
+
+var _mandy12 = _interopRequireDefault(_mandy11);
+
+var _katieR = __webpack_require__(696);
 
 var _katieR2 = _interopRequireDefault(_katieR);
 
-var _katieR3 = __webpack_require__(691);
+var _katieR3 = __webpack_require__(697);
 
 var _katieR4 = _interopRequireDefault(_katieR3);
 
-var _katieR5 = __webpack_require__(692);
+var _katieR5 = __webpack_require__(698);
 
 var _katieR6 = _interopRequireDefault(_katieR5);
 
-var _katieR7 = __webpack_require__(693);
+var _katieR7 = __webpack_require__(699);
 
 var _katieR8 = _interopRequireDefault(_katieR7);
 
-var _ainsley = __webpack_require__(694);
+var _ainsley = __webpack_require__(700);
 
 var _ainsley2 = _interopRequireDefault(_ainsley);
 
-var _ainsley3 = __webpack_require__(695);
+var _ainsley3 = __webpack_require__(701);
 
 var _ainsley4 = _interopRequireDefault(_ainsley3);
 
-var _ainsley5 = __webpack_require__(696);
+var _ainsley5 = __webpack_require__(702);
 
 var _ainsley6 = _interopRequireDefault(_ainsley5);
 
-var _ainsley7 = __webpack_require__(697);
+var _ainsley7 = __webpack_require__(703);
 
 var _ainsley8 = _interopRequireDefault(_ainsley7);
 
-var _ainsley9 = __webpack_require__(698);
+var _ainsley9 = __webpack_require__(704);
 
 var _ainsley10 = _interopRequireDefault(_ainsley9);
 
-var _kunkel = __webpack_require__(699);
+var _kunkel = __webpack_require__(705);
 
 var _kunkel2 = _interopRequireDefault(_kunkel);
 
-var _kunkel3 = __webpack_require__(700);
+var _kunkel3 = __webpack_require__(706);
 
 var _kunkel4 = _interopRequireDefault(_kunkel3);
 
-var _kristen = __webpack_require__(701);
+var _kunkel5 = __webpack_require__(707);
+
+var _kunkel6 = _interopRequireDefault(_kunkel5);
+
+var _kristen = __webpack_require__(708);
 
 var _kristen2 = _interopRequireDefault(_kristen);
 
-var _kristen3 = __webpack_require__(702);
+var _kristen3 = __webpack_require__(709);
 
 var _kristen4 = _interopRequireDefault(_kristen3);
 
-var _kristen5 = __webpack_require__(703);
+var _kristen5 = __webpack_require__(710);
 
 var _kristen6 = _interopRequireDefault(_kristen5);
 
-var _cal = __webpack_require__(704);
+var _cal = __webpack_require__(711);
 
 var _cal2 = _interopRequireDefault(_cal);
 
-var _cal3 = __webpack_require__(705);
+var _cal3 = __webpack_require__(712);
 
 var _cal4 = _interopRequireDefault(_cal3);
 
-var _sus = __webpack_require__(706);
+var _sus = __webpack_require__(713);
 
 var _sus2 = _interopRequireDefault(_sus);
 
-var _sus3 = __webpack_require__(707);
+var _sus3 = __webpack_require__(714);
 
 var _sus4 = _interopRequireDefault(_sus3);
 
-var _sus5 = __webpack_require__(708);
+var _sus5 = __webpack_require__(715);
 
 var _sus6 = _interopRequireDefault(_sus5);
 
-var _sus7 = __webpack_require__(709);
+var _sus7 = __webpack_require__(716);
 
 var _sus8 = _interopRequireDefault(_sus7);
 
-var _lizz = __webpack_require__(710);
+var _lizz = __webpack_require__(717);
 
 var _lizz2 = _interopRequireDefault(_lizz);
 
-var _lizz3 = __webpack_require__(711);
+var _lizz3 = __webpack_require__(718);
 
 var _lizz4 = _interopRequireDefault(_lizz3);
 
-var _lizz5 = __webpack_require__(712);
+var _lizz5 = __webpack_require__(719);
 
 var _lizz6 = _interopRequireDefault(_lizz5);
 
-var _lizz7 = __webpack_require__(713);
+var _lizz7 = __webpack_require__(720);
 
 var _lizz8 = _interopRequireDefault(_lizz7);
 
-var _deana = __webpack_require__(714);
+var _deana = __webpack_require__(721);
 
 var _deana2 = _interopRequireDefault(_deana);
 
-var _deana3 = __webpack_require__(715);
+var _deana3 = __webpack_require__(722);
 
 var _deana4 = _interopRequireDefault(_deana3);
 
-var _deana5 = __webpack_require__(716);
+var _deana5 = __webpack_require__(723);
 
 var _deana6 = _interopRequireDefault(_deana5);
 
-var _deana7 = __webpack_require__(717);
+var _deana7 = __webpack_require__(724);
 
 var _deana8 = _interopRequireDefault(_deana7);
 
-var _ashley = __webpack_require__(718);
+var _ashley = __webpack_require__(725);
 
 var _ashley2 = _interopRequireDefault(_ashley);
 
-var _ashley3 = __webpack_require__(719);
+var _ashley3 = __webpack_require__(726);
 
 var _ashley4 = _interopRequireDefault(_ashley3);
 
-var _nikki = __webpack_require__(720);
+var _ashley5 = __webpack_require__(727);
+
+var _ashley6 = _interopRequireDefault(_ashley5);
+
+var _nikki = __webpack_require__(728);
 
 var _nikki2 = _interopRequireDefault(_nikki);
 
-var _nikki3 = __webpack_require__(721);
+var _nikki3 = __webpack_require__(729);
 
 var _nikki4 = _interopRequireDefault(_nikki3);
 
-var _weddingParty = __webpack_require__(722);
+var _weddingParty = __webpack_require__(730);
 
 var _weddingParty2 = _interopRequireDefault(_weddingParty);
 
@@ -71342,21 +71374,21 @@ var WeddingParty = function (_React$Component) {
         key: 10,
         name: 'Ashley Aubuchon',
         title: 'Bridesmaid',
-        images: [_ashley2.default, _ashley4.default],
+        images: [_ashley2.default, _ashley4.default, _ashley6.default],
         picture: _ashley2.default,
         description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. After a long five years apart, they reunited in the Boston area. Ashley and Jamie share an interest in using logic to poke fun of Kara."
       }, {
         key: 11,
         name: 'Katelyn Wallman',
         title: 'Bridesmaid',
-        images: [_katelyn2.default, _katelyn4.default, _katelyn6.default],
+        images: [_katelyn2.default, _katelyn4.default, _katelyn6.default, _katelyn8.default],
         picture: _katelyn2.default,
         description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
       }, {
         key: 12,
         name: 'Mandy Eldridge',
         title: 'Bridesmaid',
-        images: [_mandy2.default],
+        images: [_mandy2.default, _mandy4.default, _mandy6.default, _mandy8.default, _mandy10.default, _mandy12.default],
         picture: _mandy2.default,
         description: "Mandy was Kara’s first friend when she moved to Pepperell in third grade and the two quickly became inseparable, often found in matching outfits, completing each other’s sentences, and getting used to being called by the other's name. A true testament to their friendship, Mandy has a unique ability to understand Kara's speed-talking. "
       }, {
@@ -71377,7 +71409,7 @@ var WeddingParty = function (_React$Component) {
         key: 15,
         name: 'Sarah Waterman',
         title: 'Bridesmaid',
-        images: [_kunkel2.default, _kunkel4.default],
+        images: [_kunkel2.default, _kunkel4.default, _kunkel6.default],
         picture: _kunkel2.default,
         description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
       }, {
@@ -71904,208 +71936,256 @@ module.exports = __webpack_require__.p + "dist/img/katelyn3.png";
 /* 689 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/mandy.png";
+module.exports = __webpack_require__.p + "dist/img/katelyn4.png";
 
 /***/ }),
 /* 690 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR.png";
+module.exports = __webpack_require__.p + "dist/img/mandy.png";
 
 /***/ }),
 /* 691 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR2.png";
+module.exports = __webpack_require__.p + "dist/img/mandy2.png";
 
 /***/ }),
 /* 692 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR3.png";
+module.exports = __webpack_require__.p + "dist/img/mandy3.png";
 
 /***/ }),
 /* 693 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/katieR4.png";
+module.exports = __webpack_require__.p + "dist/img/mandy4.png";
 
 /***/ }),
 /* 694 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley.png";
+module.exports = __webpack_require__.p + "dist/img/mandy5.png";
 
 /***/ }),
 /* 695 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
+module.exports = __webpack_require__.p + "dist/img/mandy6.png";
 
 /***/ }),
 /* 696 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
+module.exports = __webpack_require__.p + "dist/img/katieR.png";
 
 /***/ }),
 /* 697 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
+module.exports = __webpack_require__.p + "dist/img/katieR2.png";
 
 /***/ }),
 /* 698 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ainsley5.png";
+module.exports = __webpack_require__.p + "dist/img/katieR3.png";
 
 /***/ }),
 /* 699 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel.png";
+module.exports = __webpack_require__.p + "dist/img/katieR4.png";
 
 /***/ }),
 /* 700 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley.png";
 
 /***/ }),
 /* 701 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley2.png";
 
 /***/ }),
 /* 702 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen2.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley3.jpg";
 
 /***/ }),
 /* 703 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/kristen3.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley4.png";
 
 /***/ }),
 /* 704 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal.png";
+module.exports = __webpack_require__.p + "dist/img/ainsley5.png";
 
 /***/ }),
 /* 705 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/cal2.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel.png";
 
 /***/ }),
 /* 706 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel2.png";
 
 /***/ }),
 /* 707 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus2.png";
+module.exports = __webpack_require__.p + "dist/img/kunkel3.png";
 
 /***/ }),
 /* 708 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus3.png";
+module.exports = __webpack_require__.p + "dist/img/kristen.png";
 
 /***/ }),
 /* 709 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/sus4.png";
+module.exports = __webpack_require__.p + "dist/img/kristen2.png";
 
 /***/ }),
 /* 710 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz.png";
+module.exports = __webpack_require__.p + "dist/img/kristen3.png";
 
 /***/ }),
 /* 711 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz2.png";
+module.exports = __webpack_require__.p + "dist/img/cal.png";
 
 /***/ }),
 /* 712 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz3.png";
+module.exports = __webpack_require__.p + "dist/img/cal2.png";
 
 /***/ }),
 /* 713 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/lizz4.png";
+module.exports = __webpack_require__.p + "dist/img/sus.png";
 
 /***/ }),
 /* 714 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana.png";
+module.exports = __webpack_require__.p + "dist/img/sus2.png";
 
 /***/ }),
 /* 715 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana2.png";
+module.exports = __webpack_require__.p + "dist/img/sus3.png";
 
 /***/ }),
 /* 716 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana3.png";
+module.exports = __webpack_require__.p + "dist/img/sus4.png";
 
 /***/ }),
 /* 717 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/deana4.png";
+module.exports = __webpack_require__.p + "dist/img/lizz.png";
 
 /***/ }),
 /* 718 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley.png";
+module.exports = __webpack_require__.p + "dist/img/lizz2.png";
 
 /***/ }),
 /* 719 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/ashley2.png";
+module.exports = __webpack_require__.p + "dist/img/lizz3.png";
 
 /***/ }),
 /* 720 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki.png";
+module.exports = __webpack_require__.p + "dist/img/lizz4.png";
 
 /***/ }),
 /* 721 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+module.exports = __webpack_require__.p + "dist/img/deana.png";
 
 /***/ }),
 /* 722 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "dist/img/deana2.png";
+
+/***/ }),
+/* 723 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/deana3.png";
+
+/***/ }),
+/* 724 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/deana4.png";
+
+/***/ }),
+/* 725 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/ashley.png";
+
+/***/ }),
+/* 726 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/ashley2.png";
+
+/***/ }),
+/* 727 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/ashley3.png";
+
+/***/ }),
+/* 728 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/nikki.png";
+
+/***/ }),
+/* 729 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dist/img/nikki2.png";
+
+/***/ }),
+/* 730 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(723);
+var content = __webpack_require__(731);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72130,7 +72210,7 @@ if(false) {
 }
 
 /***/ }),
-/* 723 */
+/* 731 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);
@@ -72144,7 +72224,7 @@ exports.push([module.i, ".partyContainer {\n  margin-top: 16px; }\n  .partyConta
 
 
 /***/ }),
-/* 724 */
+/* 732 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72178,7 +72258,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _aboutUs = __webpack_require__(725);
+var _aboutUs = __webpack_require__(733);
 
 var _aboutUs2 = _interopRequireDefault(_aboutUs);
 
@@ -72278,13 +72358,13 @@ var AboutUs = function (_React$Component) {
 exports.default = AboutUs;
 
 /***/ }),
-/* 725 */
+/* 733 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(726);
+var content = __webpack_require__(734);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -72309,7 +72389,7 @@ if(false) {
 }
 
 /***/ }),
-/* 726 */
+/* 734 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(28)(undefined);

@@ -46,7 +46,13 @@ import Katie4 from '../../../img/katie4.png';
 import Katelyn from '../../../img/katelyn.png';
 import Katelyn2 from '../../../img/katelyn2.png';
 import Katelyn3 from '../../../img/katelyn3.png';
+import Katelyn4 from '../../../img/katelyn4.png';
 import Mandy from '../../../img/mandy.png';
+import Mandy2 from '../../../img/mandy2.png';
+import Mandy3 from '../../../img/mandy3.png';
+import Mandy4 from '../../../img/mandy4.png';
+import Mandy5 from '../../../img/mandy5.png';
+import Mandy6 from '../../../img/mandy6.png';
 import KatieR from '../../../img/katieR.png';
 import KatieR2 from '../../../img/katieR2.png';
 import KatieR3 from '../../../img/katieR3.png';
@@ -58,6 +64,7 @@ import Ainsley4 from '../../../img/ainsley4.png';
 import Ainsley5 from '../../../img/ainsley5.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
+import Kunkel3 from '../../../img/kunkel3.png';
 import Kristen from '../../../img/kristen.png';
 import Kristen2 from '../../../img/kristen2.png';
 import Kristen3 from '../../../img/kristen3.png';
@@ -77,6 +84,7 @@ import Deana3 from '../../../img/deana3.png';
 import Deana4 from '../../../img/deana4.png';
 import Ashley from '../../../img/ashley.png';
 import Ashley2 from '../../../img/ashley2.png';
+import Ashley3 from '../../../img/ashley3.png';
 import Nikki from '../../../img/nikki.png';
 import Nikki2 from '../../../img/nikki2.png';
 
@@ -173,7 +181,7 @@ class WeddingParty extends React.Component {
           key: 10,
           name: 'Ashley Aubuchon',
           title: 'Bridesmaid',
-          images: [Ashley, Ashley2],
+          images: [Ashley, Ashley2, Ashley3],
           picture: Ashley,
           description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. After a long five years apart, they reunited in the Boston area. Ashley and Jamie share an interest in using logic to poke fun of Kara."
         },
@@ -181,7 +189,7 @@ class WeddingParty extends React.Component {
           key: 11,
           name: 'Katelyn Wallman',
           title: 'Bridesmaid',
-          images: [Katelyn, Katelyn2, Katelyn3],
+          images: [Katelyn, Katelyn2, Katelyn3, Katelyn4],
           picture: Katelyn,
           description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
         },
@@ -189,7 +197,7 @@ class WeddingParty extends React.Component {
           key: 12,
           name: 'Mandy Eldridge',
           title: 'Bridesmaid',
-          images: [Mandy],
+          images: [Mandy, Mandy2, Mandy3, Mandy4, Mandy5, Mandy6],
           picture: Mandy,
           description: "Mandy was Kara’s first friend when she moved to Pepperell in third grade and the two quickly became inseparable, often found in matching outfits, completing each other’s sentences, and getting used to being called by the other's name. A true testament to their friendship, Mandy has a unique ability to understand Kara's speed-talking. "
         },
@@ -213,7 +221,7 @@ class WeddingParty extends React.Component {
           key: 15,
           name: 'Sarah Waterman',
           title: 'Bridesmaid',
-          images: [Kunkel, Kunkel2],
+          images: [Kunkel, Kunkel2, Kunkel3],
           picture: Kunkel,
           description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
         },
