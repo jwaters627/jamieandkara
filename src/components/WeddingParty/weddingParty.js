@@ -253,7 +253,7 @@ class WeddingParty extends React.Component {
           title: 'Bridesmaid',
           images: [Nikki, Nikki2],
           picture: Nikki,
-          description: ""
+          description: "Nikki is Kara's younger cousin, and, from the ages of 5-10, Kara pretended she was Nikki's second mother (Nikki even gave her Mother's Day gifts for a few years). Now Nikki is the kind of friend that having a glass of wine with can easily turn into a 4 am conversation. Fun fact: Nikki makes a mean Moscow Mule."
         },
       ]
     };

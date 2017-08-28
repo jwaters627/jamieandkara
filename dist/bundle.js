@@ -71381,7 +71381,7 @@ var WeddingParty = function (_React$Component) {
         title: 'Bridesmaid',
         images: [_nikki2.default, _nikki4.default],
         picture: _nikki2.default,
-        description: ""
+        description: "Nikki is Kara's younger cousin, and, from the ages of 5-10, Kara pretended she was Nikki's second mother (Nikki even gave her Mother's Day gifts for a few years). Now Nikki is the kind of friend that having a glass of wine with can easily turn into a 4 am conversation. Fun fact: Nikki makes a mean Moscow Mule."
       }]
     };
     return _this;
