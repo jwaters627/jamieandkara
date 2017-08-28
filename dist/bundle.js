@@ -71363,8 +71363,8 @@ var WeddingParty = function (_React$Component) {
         key: 13,
         name: 'Deana Wojcik',
         title: 'Bridesmaid',
-        images: [_deana2.default, _deana4.default, _deana6.default, _deana8.default],
-        picture: _deana2.default,
+        images: [_deana6.default, _deana4.default, _deana2.default, _deana8.default],
+        picture: _deana6.default,
         description: "Deana is Kara's oldest friend, starting in kindgergarten when she had to ask permission for Kara to go to the bathroom because Kara was too shy to ask for herself. Kara moved in third grade but found Deana again in their seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
       }, {
         key: 14,
