@@ -31,7 +31,7 @@ class SlideShow extends React.Component {
   render() {
     return(
       <div className='carousel'>
-        <Carousel width='100%' swiping={true} autoplay={true} autoplayInterval={4000} dragging={true} easing="easeInOutLinear" wrapAround={true}>
+        <Carousel width='100%' swiping={true} autoplay={true} autoplayInterval={6000} dragging={true} easing="easeInOutLinear" wrapAround={true}>
             {this.props.image.map(this.renderImages, this)}
         </Carousel>
       </div>

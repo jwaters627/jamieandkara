@@ -10,25 +10,35 @@ import Willie6 from '../../../img/willie6.png';
 import Willie7 from '../../../img/willie7.png';
 import WillD from '../../../img/willD.png';
 import WillD2 from '../../../img/willD2.png';
-import WillD3 from '../../../img/willD3.png';
 import WillD4 from '../../../img/willD4.png';
+import WillD5 from '../../../img/willD5.png';
+import WillD6 from '../../../img/willD6.png';
 import Ryan from '../../../img/ryan.png';
 import Ryan2 from '../../../img/ryan2.png';
 import Ryan3 from '../../../img/ryan3.png';
+import Ryan4 from '../../../img/ryan4.png';
+import Ryan5 from '../../../img/ryan5.png';
 import Tim from '../../../img/tim.png';
 import Tim2 from '../../../img/tim2.png';
 import Tim3 from '../../../img/tim3.png';
 import Tim4 from '../../../img/tim4.png';
+import Tim5 from '../../../img/tim5.png';
+import Tim6 from '../../../img/tim6.png';
 import Hirsch from '../../../img/hirsch.png';
 import Hirsch2 from '../../../img/hirsch2.png';
 import Hirsch3 from '../../../img/hirsch3.png';
+import Hirsch4 from '../../../img/hirsch4.png';
+import Hirsch5 from '../../../img/hirsch5.png';
 import Eric from '../../../img/eric.png';
 import Eric2 from '../../../img/eric2.png';
 import Eric3 from '../../../img/eric3.png';
 import Eric4 from '../../../img/eric4.png';
+import Eric5 from '../../../img/eric5.png';
 import WillK from '../../../img/willK.png';
 import WillK2 from '../../../img/willK2.png';
 import WillK3 from '../../../img/willK3.png';
+import WillK4 from '../../../img/willK4.png';
+import WillK5 from '../../../img/willK5.png';
 import Jess from '../../../img/jess.png';
 import Jess2 from '../../../img/jess2.png';
 import Jess3 from '../../../img/jess3.png';
@@ -39,6 +49,8 @@ import Jess7 from '../../../img/jess7.png';
 import Jess8 from '../../../img/jess8.png';
 import Sam from '../../../img/sam.png';
 import Sam2 from '../../../img/sam2.png';
+import Sam3 from '../../../img/sam3.png';
+import Sam4 from '../../../img/sam4.png';
 import Katie from '../../../img/katie.png';
 import Katie2 from '../../../img/katie2.png';
 import Katie3 from '../../../img/katie3.png';
@@ -62,6 +74,9 @@ import Ainsley2 from '../../../img/ainsley2.png';
 import Ainsley3 from '../../../img/ainsley3.jpg';
 import Ainsley4 from '../../../img/ainsley4.png';
 import Ainsley5 from '../../../img/ainsley5.png';
+import Ainsley6 from '../../../img/ainsley6.png';
+import Ainsley7 from '../../../img/ainsley7.png';
+import Ainsley8 from '../../../img/ainsley8.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kunkel3 from '../../../img/kunkel3.png';
@@ -109,7 +124,7 @@ class WeddingParty extends React.Component {
           key: 1,
           name: 'Will Duryea',
           title: 'Groomsman',
-          images: [WillD, WillD2, WillD3, WillD4],
+          images: [WillD, WillD2, WillD6, WillD4, WillD5],
           picture: WillD,
           description: "Will is Jamie's brother in law and the two of them can often be found wearing matching clothing. Will has very much become a second brother to Jamie since he started dating and then married Jess."
         },
@@ -117,7 +132,7 @@ class WeddingParty extends React.Component {
           key: 2,
           name: 'Tim McLoughlin',
           title: 'Groomsman',
-          images: [Tim, Tim2, Tim3, Tim4],
+          images: [Tim, Tim2, Tim3, Tim4, Tim5, Tim6],
           picture: Tim,
           description: "Tim is Jamie's friend from Brooks. Tim is from North Carolina and essentially lived at the Waters' house during high school. The first time he stayed over he became trapped in the basement because he was scared of 'Sparky' the ferocious dog upstairs. Be sure to ask Tim about this picture and/or his airplane story."
         },
@@ -125,7 +140,7 @@ class WeddingParty extends React.Component {
           key: 3,
           name: 'Ryan Armstrong',
           title: 'Groomsman',
-          images: [Ryan, Ryan2, Ryan3],
+          images: [Ryan, Ryan2, Ryan3, Ryan4, Ryan5],
           picture: Ryan,
           description: "Ryan is Jamie's oldest friend from Pike and Brooks and the two of them had many 'snow days' playing Lord of the Rings video games and jamming out to Good Charlotte. If you ask Ryan about Jamie as a kid he is guaranteed to laugh until he cries as he talks about Jamie as a fat kid. "
         },
@@ -133,7 +148,7 @@ class WeddingParty extends React.Component {
           key: 4,
           name: 'Eric Amoroso',
           title: 'Groomsman',
-          images: [Eric, Eric2, Eric3, Eric4],
+          images: [Eric, Eric2, Eric3, Eric4, Eric5],
           picture: Eric,
           description: "Eric is Jamie's friend from Brooks and roommate in the South End when Jamie moved back to Boston. Eric also responds to 'Roso' or 'Ronzio' and aside from Jamie and Kara, Eric will probably know the most people at the wedding."
         },
@@ -141,7 +156,7 @@ class WeddingParty extends React.Component {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
-          images: [Sam, Sam2],
+          images: [Sam, Sam2, Sam3, Sam4],
           picture: Sam,
           description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },
@@ -149,7 +164,7 @@ class WeddingParty extends React.Component {
           key: 6,
           name: 'Matt Hirsch',
           title: 'Groomsman',
-          images: [Hirsch, Hirsch2, Hirsch3],
+          images: [Hirsch, Hirsch2, Hirsch3, Hirsch4, Hirsch5],
           picture: Hirsch,
           description: "Matt (more commonly known as Gary) is Jamie's friend and roommate from Colby. Gary has lived in Jackson Hole and Park City since college, which made for some amazing pit stops on Jamie's road trips to and from California."
         },
@@ -157,7 +172,7 @@ class WeddingParty extends React.Component {
           key: 7,
           name: 'Will Kinder',
           title: 'Groomsman',
-          images: [WillK, WillK2, WillK3],
+          images: [WillK, WillK2, WillK3, WillK4, WillK5],
           picture: WillK,
           description: "Will is Jamie's friend/roommate/soccer co-captain from Colby. Will and Jamie have road tripped west together twice: once when Will moved to Montana after college and a second time when Jamie moved to San Francisco."
         },
@@ -245,7 +260,7 @@ class WeddingParty extends React.Component {
           key: 18,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
-          images: [Ainsley, Ainsley2, Ainsley3, Ainsley4, Ainsley5],
+          images: [Ainsley, Ainsley2, Ainsley8, Ainsley3, Ainsley4, Ainsley5, Ainsley6, Ainsley7],
           picture: Ainsley,
           description: "Ainsley is Jamie's and Kara's niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
         },

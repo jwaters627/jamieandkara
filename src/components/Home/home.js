@@ -11,6 +11,7 @@ import LongLake from '../../../img/longLake.png';
 import KellysWedding from '../../../img/kellysWedding.png';
 import KellyWeddingBeach from '../../../img/kellyWeddingBeach.png';
 import SamAndMeg from '../../../img/samAndMeg.png';
+import CadillacSunset from '../../../img/cadillacSunset.png';
 import Acoaxet from '../../../img/acoaxet.png';
 import BeeHive from '../../../img/beeHive.png';
 import Boat from '../../../img/boat.png';
@@ -24,7 +25,7 @@ class Main extends React.Component {
     super(props);
 	this.state = {
 		days: '',
-		image: [longLakeSunset, jacksonHole, FloridaSunset, LongLake, KellysWedding, KellyWeddingBeach, SamAndMeg, Florida, Acoaxet, BeeHive, Boat, Kayak ]
+		image: [longLakeSunset, jacksonHole, FloridaSunset, CadillacSunset, LongLake, KellysWedding, KellyWeddingBeach, SamAndMeg, Florida, Acoaxet, BeeHive, Boat, Kayak ]
 	};    
   }
 
