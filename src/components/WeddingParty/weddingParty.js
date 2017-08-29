@@ -257,8 +257,8 @@ class WeddingParty extends React.Component {
           key: 15,
           name: 'Sarah Waterman',
           title: 'Bridesmaid',
-          images: [Kunkel, Kunkel2, Kunkel3, Kunkel4, Kunkel5, Kunkel6],
-          picture: Kunkel,
+          images: [Kunkel6, Kunkel2, Kunkel3, Kunkel4, Kunkel5, Kunkel],
+          picture: Kunkel6,
           description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
         },
         {

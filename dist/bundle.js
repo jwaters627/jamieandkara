@@ -71563,8 +71563,8 @@ var WeddingParty = function (_React$Component) {
         key: 15,
         name: 'Sarah Waterman',
         title: 'Bridesmaid',
-        images: [_kunkel2.default, _kunkel4.default, _kunkel6.default, _kunkel8.default, _kunkel10.default, _kunkel12.default],
-        picture: _kunkel2.default,
+        images: [_kunkel12.default, _kunkel4.default, _kunkel6.default, _kunkel8.default, _kunkel10.default, _kunkel2.default],
+        picture: _kunkel12.default,
         description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
       }, {
         key: 16,
