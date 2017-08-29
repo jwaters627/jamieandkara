@@ -51,14 +51,20 @@ import Sam from '../../../img/sam.png';
 import Sam2 from '../../../img/sam2.png';
 import Sam3 from '../../../img/sam3.png';
 import Sam4 from '../../../img/sam4.png';
+import Sam5 from '../../../img/sam5.png';
 import Katie from '../../../img/katie.png';
 import Katie2 from '../../../img/katie2.png';
 import Katie3 from '../../../img/katie3.png';
 import Katie4 from '../../../img/katie4.png';
+import Katie5 from '../../../img/katie5.png';
+import Katie6 from '../../../img/katie6.png';
 import Katelyn from '../../../img/katelyn.png';
 import Katelyn2 from '../../../img/katelyn2.png';
 import Katelyn3 from '../../../img/katelyn3.png';
 import Katelyn4 from '../../../img/katelyn4.png';
+import Katelyn5 from '../../../img/katelyn5.png';
+import Katelyn6 from '../../../img/katelyn6.png';
+import Katelyn7 from '../../../img/katelyn7.png';
 import Mandy from '../../../img/mandy.png';
 import Mandy2 from '../../../img/mandy2.png';
 import Mandy3 from '../../../img/mandy3.png';
@@ -81,9 +87,16 @@ import Ainsley8 from '../../../img/ainsley8.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kunkel3 from '../../../img/kunkel3.png';
+import Kunkel4 from '../../../img/kunkel4.png';
+import Kunkel5 from '../../../img/kunkel5.png';
+import Kunkel6 from '../../../img/kunkel6.png';
 import Kristen from '../../../img/kristen.png';
 import Kristen2 from '../../../img/kristen2.png';
 import Kristen3 from '../../../img/kristen3.png';
+import Kristen4 from '../../../img/kristen4.png';
+import Kristen5 from '../../../img/kristen5.png';
+import Kristen6 from '../../../img/kristen6.png';
+import Kristen7 from '../../../img/kristen7.png';
 import Cal from '../../../img/cal.png';
 import Cal2 from '../../../img/cal2.png';
 import Sus from '../../../img/sus.png';
@@ -94,13 +107,20 @@ import Lizz from '../../../img/lizz.png';
 import Lizz2 from '../../../img/lizz2.png';
 import Lizz3 from '../../../img/lizz3.png';
 import Lizz4 from '../../../img/lizz4.png';
+import Lizz5 from '../../../img/lizz5.png';
+import Lizz6 from '../../../img/lizz6.png';
 import Deana from '../../../img/deana.png';
 import Deana2 from '../../../img/deana2.png';
 import Deana3 from '../../../img/deana3.png';
 import Deana4 from '../../../img/deana4.png';
+import Deana5 from '../../../img/deana5.png';
 import Ashley from '../../../img/ashley.png';
 import Ashley2 from '../../../img/ashley2.png';
 import Ashley3 from '../../../img/ashley3.png';
+import Ashley4 from '../../../img/ashley4.png';
+import Ashley5 from '../../../img/ashley5.png';
+import Ashley6 from '../../../img/ashley6.png';
+import Ashley7 from '../../../img/ashley7.png';
 import Nikki from '../../../img/nikki.png';
 import Nikki2 from '../../../img/nikki2.png';
 
@@ -157,7 +177,7 @@ class WeddingParty extends React.Component {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
-          images: [Sam, Sam2, Sam3, Sam4],
+          images: [Sam, Sam2, Sam5, Sam3, Sam4],
           picture: Sam,
           description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },
@@ -189,7 +209,7 @@ class WeddingParty extends React.Component {
           key: 9,
           name: 'Katie Dalton',
           title: 'Maid of Honor',
-          images: [Katie, Katie2, Katie3, Katie4],
+          images: [Katie, Katie2, Katie3, Katie4, Katie5, Katie6],
           picture: Katie,
           description: "Katie is Kara's younger sister and counter-part in many years of imaginary games. Katie is also the most bad-ass athlete you'll probably ever meet; despite being two years younger, Katie attempted to coach Kara in soccer (unfortunately, she didn't have much luck) and had a distinct advantage in any wrestling match."
         },
@@ -197,7 +217,7 @@ class WeddingParty extends React.Component {
           key: 10,
           name: 'Ashley Aubuchon',
           title: 'Bridesmaid',
-          images: [Ashley, Ashley2, Ashley3],
+          images: [Ashley, Ashley2, Ashley3, Ashley4, Ashley5, Ashley6, Ashley7],
           picture: Ashley,
           description: "Ashley and Kara became friends in middle school and by high school were such good friends that Kara went through a serious mourning period when Ashley graduated. After a long five years apart, they reunited in the Boston area. Ashley and Jamie share an interest in using logic to poke fun of Kara."
         },
@@ -205,7 +225,7 @@ class WeddingParty extends React.Component {
           key: 11,
           name: 'Katelyn Wallman',
           title: 'Bridesmaid',
-          images: [Katelyn, Katelyn2, Katelyn3, Katelyn4],
+          images: [Katelyn, Katelyn2, Katelyn3, Katelyn4, Katelyn5, Katelyn6, Katelyn7],
           picture: Katelyn,
           description: "Katelyn and Kara shared a box of crayons in first grade and have been best friends ever since. They've been long distance friends since third grade but luckily had a couple of too-short years as neighbors in Boston post-college before Katelyn became a west coaster. Fun fact: Katelyn lives just a few blocks from where Jamie lived in SF!"
         },
@@ -221,7 +241,7 @@ class WeddingParty extends React.Component {
           key: 13,
           name: 'Deana Wojcik',
           title: 'Bridesmaid',
-          images: [Deana3, Deana2, Deana, Deana4],
+          images: [Deana3, Deana2, Deana, Deana4, Deana5],
           picture: Deana3,
           description: "Deana is Kara's oldest friend, starting in kindgergarten when she had to ask permission for Kara to go to the bathroom because Kara was too shy to ask for herself. Kara moved in third grade but found Deana again in their seventh grade advisory at Parker. Ask Deana about her business, the Detroit Mushroom Factory!"
         },
@@ -229,7 +249,7 @@ class WeddingParty extends React.Component {
           key: 14,
           name: 'Lizz Chiarelli',
           title: 'Bridesmaid',
-          images: [Lizz, Lizz2, Lizz3, Lizz4],
+          images: [Lizz, Lizz2, Lizz3, Lizz4, Lizz5, Lizz6],
           picture: Lizz,
           description: "Lizz and Kara met in seventh grade at Parker and spent endless hours watching Wedding Story on TLC and planning their future weddings. Lizz and Kara will likely be begging the band to play Vanessa Carlton's White Houses and forcing everyone around them to join in the sing a long."
         },
@@ -237,7 +257,7 @@ class WeddingParty extends React.Component {
           key: 15,
           name: 'Sarah Waterman',
           title: 'Bridesmaid',
-          images: [Kunkel, Kunkel2, Kunkel3],
+          images: [Kunkel, Kunkel2, Kunkel3, Kunkel4, Kunkel5, Kunkel6],
           picture: Kunkel,
           description: "Sarah, more commonly known to Kara as Kunkel or Kunky, and Kara became friends sophomore year at Colby and lived together senior year. There was no one better to live with than Sarah, so luckily they got to spend one more year as roommates in Boston, throwing dinner parties with frozen pizza and two buck chuck."
         },
@@ -245,7 +265,7 @@ class WeddingParty extends React.Component {
           key: 16,
           name: "Kristen D'Angelo",
           title: 'Bridesmaid',
-          images: [Kristen, Kristen2, Kristen3],
+          images: [Kristen, Kristen2, Kristen3, Kristen4, Kristen5, Kristen6, Kristen7],
           picture: Kristen,
           description: "Kristen and Kara met at Colby sophomore year, lived together senior year, and had the chance to travel together in Australia and Italy. In addition to her knack for having the best theme/costume party outfits, Kristen is one of the kindest people you'll ever meet and Kara feels so grateful that Kristen is finally back in Boston!"
         },
