@@ -1,15 +1,19 @@
 .aboutUsContainer{
 	text-align: center;
 	font-family: 'Economica';
+	background-color: #F5F4F0;
+	width: 84%;
+	margin-top: 16px;
+	margin-left: 8%;
 
-	h1{
-			font-size: 42px;
-		}
+
+	.oceanGateway{
+		text-decoration: underline;
+		margin-bottom: 30px;
+		font-size: 42px;
+	}
 
 	.mainContainer{
-		width: 84%;
-		margin-top: 16px;
-		background-color: #F5F4F0;
 		display: inline-block;
 		position: relative;
 
@@ -21,7 +25,7 @@
 			width: 49%;
 			position: absolute;
 			top: 0;
-			left: 0.5%;
+			left: 1%;
 			bottom: 0;
 			margin: auto;
 		}

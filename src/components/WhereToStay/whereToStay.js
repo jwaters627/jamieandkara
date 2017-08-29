@@ -15,7 +15,7 @@ class WhereToStay extends React.Component {
         website: 'http://www.theregency.com/',
         image: 'https://streetsofsalem.files.wordpress.com/2012/01/armory-portland-regency.jpg',
         distance: '0.5 Miles',
-        blockInfo: 'This is where we will be staying.  There is a room block for $220 a night.  It may be possible to get a room cheaper through the website depending when you book, so that is worth looking into.'
+        blockInfo: 'This is where we will be staying.  Room prices will vary depending on when you book.'
       },
       {
         key: 1,
@@ -24,7 +24,7 @@ class WhereToStay extends React.Component {
         website: 'http://hamptoninn3.hilton.com/en/hotels/maine/hampton-inn-portland-downtown-waterfront-PWMDTHX/index.html',
         image: 'http://hamptoninn3.hilton.com/resources/media/hp/PWMDTHX/en_US/img/shared/full_page_image_gallery/main/HX_extnight2_2_425x303_FitToBoxSmallDimension_Center.jpg',
         distance: '0.2 Miles',
-        blockInfo: 'There is a room block and there is a two night minimum at a price of $289 total for the two nights.'
+        blockInfo: 'There is a room block and there is a two night minimum at a price of $289 a night.  The group code is DWW'
       },
       {
         key: 2,
@@ -33,7 +33,7 @@ class WhereToStay extends React.Component {
         website: 'http://www.marriott.com/hotels/travel/pwmdt-residence-inn-portland-downtown-waterfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2',
         image: 'http://www.waterfrontconcerts.com/assets/LedgeMarriot2009-07-28_043_copy_3-1.jpg',
         distance: '0.1 Mile',
-        blockInfo: 'There is a room block for rooms at $230 a night. '
+        blockInfo: 'There is a room block for rooms at $230 a night.'
       },
       
       ]

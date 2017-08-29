@@ -128,6 +128,7 @@ import Ashley6 from '../../../img/ashley6.png';
 import Ashley7 from '../../../img/ashley7.png';
 import Nikki from '../../../img/nikki.png';
 import Nikki2 from '../../../img/nikki2.png';
+import Nikki3 from '../../../img/nikki3.png';
 
 import styles from './weddingParty.scss'
 
@@ -326,7 +327,7 @@ class WeddingParty extends React.Component {
           key: 21,
           name: "Nikki Tyler",
           title: 'Bridesmaid',
-          images: [Nikki, Nikki2],
+          images: [Nikki, Nikki2, Nikki3],
           picture: Nikki,
           description: "Nikki is Kara's younger cousin, and, from the ages of 5-10, Kara pretended she was Nikki's second mother (Nikki even gave her Mother's Day gifts for a few years). Now Nikki is the kind of friend that having a glass of wine with can easily turn into a 4 am conversation. Fun fact: Nikki makes a mean Moscow Mule."
         },
