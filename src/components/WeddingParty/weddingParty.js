@@ -1,5 +1,7 @@
 import React from 'react';
 import Person from '../Person/person';
+import RightArrow from 'react-material-icons/icons/hardware/keyboard-arrow-right';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import Willie from '../../../img/willie.png';
 import Willie2 from '../../../img/willie2.png';
@@ -130,6 +132,22 @@ import Nikki2 from '../../../img/nikki2.png';
 import styles from './weddingParty.scss'
 
 class WeddingParty extends React.Component {
+
+  static childContextTypes =
+    {
+        muiTheme: React.PropTypes.object
+    }
+
+    getChildContext()
+    {
+        return {
+            muiTheme: getMuiTheme({
+                palette:{
+                   
+                }
+            })
+        }
+    }
 
   constructor(props) {
     super(props);
@@ -339,7 +357,10 @@ class WeddingParty extends React.Component {
             <div className='personDescriptionContainer'>
               <p className='personDescription'>{person.description}</p>
             </div>
-            <p className='more'>MORE</p>
+            <div className='more'>
+              <p className='moreText'>MORE</p>
+              <RightArrow style={{'display': 'inline-block', 'float': 'right'}} />
+            </div>
           </div>
         </div>)
     }
