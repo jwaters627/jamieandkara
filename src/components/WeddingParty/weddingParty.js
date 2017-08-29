@@ -180,8 +180,8 @@ class WeddingParty extends React.Component {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
-          images: [Sam4, Sam2, Sam5, Sam3, Sam],
-          picture: Sam4,
+          images: [Sam5, Sam2, Sam, Sam3, Sam4],
+          picture: Sam5,
           description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },
         {
