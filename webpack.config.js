@@ -4,6 +4,17 @@ var webpack = require('webpack');
 module.exports = {
 	entry: './src/entry.js',
 	output: {path: __dirname, filename: './dist/bundle.js'},
+  plugins: [
+    new webpack.DefinePlugin({
+      // A common mistake is not stringifying the "production" string.
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    })
+  ],
 	module: {
 		loaders: [
 		{
