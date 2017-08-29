@@ -84,6 +84,8 @@ import Ainsley5 from '../../../img/ainsley5.png';
 import Ainsley6 from '../../../img/ainsley6.png';
 import Ainsley7 from '../../../img/ainsley7.png';
 import Ainsley8 from '../../../img/ainsley8.png';
+import Ainsley9 from '../../../img/ainsley9.png';
+import Ainsley10 from '../../../img/ainsley10.png';
 import Kunkel from '../../../img/kunkel.png';
 import Kunkel2 from '../../../img/kunkel2.png';
 import Kunkel3 from '../../../img/kunkel3.png';
@@ -99,6 +101,7 @@ import Kristen6 from '../../../img/kristen6.png';
 import Kristen7 from '../../../img/kristen7.png';
 import Cal from '../../../img/cal.png';
 import Cal2 from '../../../img/cal2.png';
+import Cal3 from '../../../img/cal3.png';
 import Sus from '../../../img/sus.png';
 import Sus2 from '../../../img/sus2.png';
 import Sus3 from '../../../img/sus3.png';
@@ -177,8 +180,8 @@ class WeddingParty extends React.Component {
           key: 5,
           name: 'Sam Jones',
           title: 'Groomsman',
-          images: [Sam, Sam2, Sam5, Sam3, Sam4],
-          picture: Sam,
+          images: [Sam4, Sam2, Sam5, Sam3, Sam],
+          picture: Sam4,
           description: "Sam is Jamie's freshman year roommate from Colby and despite each initially thinking the other was weird (Jamie was too quiet and Sam was too loud), Sam became Jamie's first friend in college. Sam is one of the most outgoing and entertaining people you will ever meet and has plenty of college stories to share."
         },
         {
@@ -281,7 +284,7 @@ class WeddingParty extends React.Component {
           key: 18,
           name: "Ainsley Waters",
           title: 'Flower Girlie',
-          images: [Ainsley, Ainsley2, Ainsley8, Ainsley3, Ainsley4, Ainsley5, Ainsley6, Ainsley7],
+          images: [Ainsley, Ainsley2, Ainsley8, Ainsley3, Ainsley4, Ainsley5, Ainsley10, Ainsley6, Ainsley7, Ainsley9],
           picture: Ainsley,
           description: "Ainsley is Jamie's and Kara's niece and the daughter of Willie and Sus. Ainsley has loved Kara from the moment they met and she is super excited to be the 'Flower Girlie'."
         },
@@ -289,7 +292,7 @@ class WeddingParty extends React.Component {
           key: 19,
           name: "Cal Waters",
           title: 'Ring Boy',
-          images: [Cal, Cal2],
+          images: [Cal, Cal2, Cal3],
           picture: Cal,
           description: "Cal is Jamie's and Kara's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see, he is an absolute party animal."
         },
@@ -345,7 +348,9 @@ class WeddingParty extends React.Component {
     }
 
     close = (e) =>{
-      this.setState({person: false})
+      if(e.target.className == 'fullContainer' || e.target.tagName == 'path' || e.target.tagName =='svg'){
+        this.setState({person: false})
+      }
     }
 
   render() {

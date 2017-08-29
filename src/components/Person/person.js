@@ -29,15 +29,13 @@ class WeddingParty extends React.Component {
     };
     }
 
-    componentWillMount = () =>{
-      console.log(this.props.person)
-    }
-
   render() {
     return(
-      <div className='fullContainer'>
+      <div className='fullContainer' onClick={this.props.close}>
         <div className="personContainerFull">
-          <Cancel style={{'float':'right', 'width':'34px', 'height':'34px', 'cursor':'pointer'}} onClick={this.props.close}/>
+          <div className='cancel'>
+            <Cancel style={{'float':'right', 'width':'44px', 'height':'44px', 'cursor':'pointer'}} onClick={this.props.close}/>  
+          </div>
           <h2 className='personNameFull'>{this.props.person.name}</h2>
           <SlideShow image={this.props.person.images} />
           <p className='personDescriptionFull'>{this.props.person.description}</p>
