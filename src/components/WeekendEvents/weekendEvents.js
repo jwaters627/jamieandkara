@@ -33,7 +33,7 @@ class WeekendEvents extends React.Component {
           <p>Farewell Brunch TBD (Come and go as you please)</p>
           <br/>
           <br/>
-          <p>Although we love your little ones, our wedding weekend events are adults only - thanks for understanding!</p>
+          <p>** Although we love your little ones, our wedding weekend events are adults only - thanks for understanding! **</p>
         </div>
       </div>
       )

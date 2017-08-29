@@ -29,6 +29,8 @@
 			width: 58%;
 			display: inline-block;
 			float: right;
+			position: relative;
+			height: 100%;
 
 			.nameAndTitleContainer{
 				display: inline-block;
@@ -50,7 +52,13 @@
 					line-height: 24px;
 					font-family: 'Economica';
 				}
+
+
 			}
+
+			.more{
+					display: none;
+				}
 
 			.personDescriptionContainer{
 				display: inline-block;
@@ -100,6 +108,8 @@
 			display: inline-block;
 			float: right;
 			text-align: center;
+			position: relative;
+			height: 100%;
 
 			.nameAndTitleContainer{
 				display: inline-block;
@@ -118,7 +128,16 @@
 					margin-top: 2px;
 					margin-bottom: 4px;
 				}
+
+				
 			}
+
+			.more{
+					display: block;
+					position: absolute;
+					bottom: 0px;
+					right: 4px;
+				}
 
 			.personDescriptionContainer{
 				display: inline-block;

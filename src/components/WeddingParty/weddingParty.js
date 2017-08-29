@@ -339,6 +339,7 @@ class WeddingParty extends React.Component {
             <div className='personDescriptionContainer'>
               <p className='personDescription'>{person.description}</p>
             </div>
+            <p className='more'>MORE</p>
           </div>
         </div>)
     }
