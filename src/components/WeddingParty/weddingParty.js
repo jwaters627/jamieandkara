@@ -104,6 +104,9 @@ import Kristen7 from '../../../img/kristen7.png';
 import Cal from '../../../img/cal.png';
 import Cal2 from '../../../img/cal2.png';
 import Cal3 from '../../../img/cal3.png';
+import Cal4 from '../../../img/cal4.png';
+import Cal5 from '../../../img/cal5.png';
+import Cal6 from '../../../img/cal6.png';
 import Sus from '../../../img/sus.png';
 import Sus2 from '../../../img/sus2.png';
 import Sus3 from '../../../img/sus3.png';
@@ -311,7 +314,7 @@ class WeddingParty extends React.Component {
           key: 19,
           name: "Cal Waters",
           title: 'Ring Boy',
-          images: [Cal, Cal2, Cal3],
+          images: [Cal, Cal2, Cal3, Cal4, Cal5, Cal6],
           picture: Cal,
           description: "Cal is Jamie's and Kara's nephew and the son of Willie and Sus and, as his sister has named it, he will be the 'Ring Boy'. As you can clearly see, he is an absolute party animal."
         },
