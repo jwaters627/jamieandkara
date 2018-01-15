@@ -49,6 +49,7 @@ class Main extends React.Component {
 				<h2>May 19, 2018</h2>
 				<SlideShow image={this.state.image}/>
 				<h2 className='countdown'>{this.state.days} days until the wedding!</h2>
+				<a href='https://www.instagram.com/explore/tags/welcometowatersville/' className='countdown'>#WELCOMETOWATERSVILLE</a>
 			</div>	
 		)
 	}

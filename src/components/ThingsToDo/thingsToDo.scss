@@ -1,6 +1,10 @@
 
-.eventsContainer{
+.thingsToDoContainer{
 	text-align: center;
+	 width: 80%;
+	margin-left: 10%;
+	background-color: #F5F4F0;
+	padding-bottom: 30px;
 
 	h1{
 		font-family: 'Economica';
@@ -108,11 +112,14 @@
 }
 
 @media (max-width: 600px) {
-	.eventsContainer{
-	.restaurantContainer{
-		width: 98%;
-		margin-left: 1%;
-	}
+	.thingsToDoContainer{
+		width: 100%;
+		margin-left: 0;
+
+		.restaurantContainer{
+			width: 98%;
+			margin-left: 1%;
+		}
 }
 
 

@@ -57,7 +57,7 @@ class ThingsToDo extends React.Component {
       {
         key: 5,
         name: 'Scales',
-        image: 'http://static1.squarespace.com/static/54986a05e4b08b1b04486713/54986ed2e4b0d669a5b96c8a/57c2e96a15d5db588da13349/1472738356886/Scales+%7C+Portland%2C+Maine+%7C+The+Stopover+blog+%7C+MeaghanMurray.com',
+        image: 'https://downeast.com/wp-content/uploads/2016/08/LR_DiningInterior_084.png',
         address: '68 Commercial St, Portland, ME 04101',
         linkToMap: 'https://www.google.com/maps/place/Scales/@43.6568238,-70.2497059,15z/data=!4m2!3m1!1s0x0:0x99114a7f9f34cc67?sa=X&sqi=2&ved=0ahUKEwicrvSJ5p_VAhVLMz4KHfGACZ4Q_BIIfzAK',
         description:"Locally sourced fresh seafood with wine and craft cocktails. Jamie's sister Jess says the fish and chips are awesome!",
@@ -303,7 +303,7 @@ class ThingsToDo extends React.Component {
           }
     )
     return(
-      <div className="eventsContainer">
+      <div className="thingsToDoContainer">
         <h1 className='names'>Things to do in Portland</h1>
         <div className='subNav'>
           <p className={eatClass} onClick={this.setSectionEat}>Eat</p>
