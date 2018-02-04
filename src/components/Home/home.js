@@ -34,7 +34,7 @@ class Main extends React.Component {
   }
 
   componentWillMount =() =>{
-  	let date = new Date("May 19, 2018").getTime();
+  	let date = new Date("May 20, 2018").getTime();
   	let now = new Date().getTime();
   	let distance = date - now;
   	let days = Math.floor(distance / (1000 * 60 *60 * 24));

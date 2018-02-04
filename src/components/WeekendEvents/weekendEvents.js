@@ -21,9 +21,10 @@ class WeekendEvents extends React.Component {
         <div className='day'>
           <h4 className='dayHeading'>Friday</h4>
           <p>Rehearsal and Rehearsal Dinner</p>
-          <p>By Invitation Only</p>
+          <p>By Invitation Only (please RSVP!)</p>
           <br/>
           <p>Welcome Drinks at Ri Ra</p>
+          <p>All are welcome (No RSVP necessary)</p>
           <p>8:30</p>
         </div>
         <div className='day'>
@@ -37,6 +38,7 @@ class WeekendEvents extends React.Component {
           <h4 className='dayHeading'>Sunday</h4>
           <p>Farewell Brunch at the Portland Regency Hotel in the Armory Lounge.</p>
           <p>Come whenever works for you and grab some food and coffee on your way out. All are welcome.</p>
+          <p>Please RSVP</p>
           <p>9:00AM - 12:00PM</p>
           <br/>
           <br/>
