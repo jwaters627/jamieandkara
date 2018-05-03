@@ -15,8 +15,8 @@ class WeekendEvents extends React.Component {
         <h1 className='names'>Weekend Events</h1>
         <div className='day'>
           <h4 className='dayHeading'>Thursday</h4>
-          <p>Informal gathering for anybody coming to Portland early. Possibly a BYOB harbor cruise.</p>
-          <p>Check back for details.</p>
+          <p>If you're in town on Thursday, we will be gathering at the Portland Lobster Company (<a href="https://www.google.com/maps/place/180+Commercial+St,+Portland,+ME+04101/@43.6556233,-70.2549714,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb29c3fae39214b:0x64f57ec7aeff42a8!8m2!3d43.6556194!4d-70.2527774">180 Commercial Street</a>) at 6:00 for dinner. This is a very casual, order-at-the-counter restaurant with outdoor waterfront seating and live music. Bring something warm!</p>
+            <p> Then we'll head to the upstairs bar at Boone's Fish House (<a href="https://www.google.com/maps/place/86+Commercial+St,+Portland,+ME+04101/@43.6567599,-70.252344,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb29c3f648f3bf7:0xe03187ca2b595ebf!8m2!3d43.656756!4d-70.25015">86 Commercial Street</a>) around 7:30 for drinks!</p>
         </div>
         <div className='day'>
           <h4 className='dayHeading'>Friday</h4>
