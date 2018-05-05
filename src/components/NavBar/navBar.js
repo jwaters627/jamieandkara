@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import styles from './navBar.scss';
 import Drawer from '../Drawer/drawer';
 import {NavLink} from 'react-router-dom';
@@ -8,22 +8,6 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 class NavBar extends React.Component {
 
-
-    static childContextTypes =
-    {
-        muiTheme: React.PropTypes.object
-    }
-
-    getChildContext()
-    {
-        return {
-            muiTheme: getMuiTheme({
-                palette:{
-                   
-                }
-            })
-        }
-    }
 
   constructor(props) {
     super(props);

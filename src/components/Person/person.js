@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SlideShow from '../SlideShow/slideShow';
 import styles from './person.scss';
 import Cancel from 'react-material-icons/icons/navigation/cancel';
@@ -7,21 +8,6 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 class WeddingParty extends React.Component {
 
- static childContextTypes =
-    {
-        muiTheme: React.PropTypes.object
-    }
-
-    getChildContext()
-    {
-        return {
-            muiTheme: getMuiTheme({
-                palette:{
-                   
-                }
-            })
-        }
-    }
   constructor(props) {
     super(props);
     this.state = {
